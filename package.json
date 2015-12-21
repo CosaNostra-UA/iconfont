@@ -1,0 +1,19 @@
+{
+  "name": "library-iconfont",
+  "description": "Universal library to generate icon fonts across all our's projects",
+  "version": "0.1.0",
+  "homepage": "http://www.filmon.com/",
+  "author": "Marina Tsymbal <marina.tsymbal@filmon.com>",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@git.111pix.com:7999/fw/library-iconfont.git"
+  },
+  "bugs": {
+    "url": "http://pm.filmon.com:8080/browse/FILMONCOM"
+  },
+  "license": "WTFPL",
+  "main": "index.js",
+  "engines": {
+    "node": ">=0.12.0"
+  }
+}
