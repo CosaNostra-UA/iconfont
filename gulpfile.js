@@ -51,3 +51,10 @@ gulp.task('default', ['task-list']);
 
 // Build world
 gulp.task('build', ['scripts', 'html']);
+
+
+
+
+var iconfont = require('gulp-iconfont');
+
+gulp.task('iconfont', require('filmonIconGenerator'));
