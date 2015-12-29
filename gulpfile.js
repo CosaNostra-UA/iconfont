@@ -53,8 +53,4 @@ gulp.task('default', ['task-list']);
 gulp.task('build', ['scripts', 'html']);
 
 
-
-
-var iconfont = require('gulp-iconfont');
-
-gulp.task('iconfont', require('filmonIconGenerator'));
+gulp.task('iconfont', require('./src/js/filmonIconGenerator.js'));

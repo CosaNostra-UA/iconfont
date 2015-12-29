@@ -3,13 +3,37 @@
  */
 
 var gulp = require('gulp');
+var iconfont = require('gulp-iconfont');
+var fs = require('fs');
+
+var i = 1000;
+require('string.fromcodepoint');
+
+function getFileName(file){
+    return file.replace(/^.*[\\\/]/, '');
+}
 
 module.exports =  function(){
-    return gulp.src(['icons-library/*.svg'])
+    var content = JSON.parse(fs.readFileSync('src/inputData.json', 'utf8'));
+
+    var src = content.map(function (file) {
+        return 'icons-library/' + file.name + '.svg';
+    });
+
+    return gulp.src(src)
         .pipe(iconfont({
             fontName: 'myfont', // required
-            appendUnicode: true, // recommended option
-            formats: ['ttf', 'eot', 'woff', 'svg']
+            formats: ['ttf', 'eot', 'woff', 'svg'],
+            metadataProvider: function (file, cb) {
+                setImmediate( function() {
+                    cb.call(null, null, {
+                        path: file,
+                        name: getFileName(file),
+                        unicode: [String.fromCodePoint(i++)],
+                        renamed: false
+                    });
+                });
+            }
         }))
         .on('glyphs', function(glyphs, options) {
             // CSS templating, e.g.
