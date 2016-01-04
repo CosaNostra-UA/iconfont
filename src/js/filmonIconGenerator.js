@@ -5,18 +5,9 @@
 var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
 var fs = require('fs');
-var data = require('../inputData.json');
+var path = require('path');
 require('string.fromcodepoint');
 var src = [];
-
-function getFileProperties(data, file){
-    file = file.replace(/^.*[\\\/]/, '');
-    for (var key in data){
-        if(key === file){
-            return data[key];
-        }
-    }
-}
 
 function getUnicode(unicode){
     return unicode.map(function(code) {
@@ -24,7 +15,7 @@ function getUnicode(unicode){
     }).join('');
 }
 
-module.exports = function (fontName){
+module.exports = function (fontName, data){
     for (var key in data){
         src.push('icons-library/' + key);
     }
@@ -33,12 +24,12 @@ module.exports = function (fontName){
         .pipe(iconfont({
             fontName: fontName, // required
             formats: ['ttf', 'eot', 'woff', 'svg'],
-            metadataProvider: function (file, cb) {
-                var f = getFileProperties(data, file);
+            metadataProvider: function (filepath, cb) {
+                var f = data[path.basename(filepath)];
 
                 setImmediate( function() {
                     cb.call(null, null, {
-                        path: file,
+                        path: filepath,
                         name: f.name,
                         unicode: [getUnicode(f.unicode)],
                         renamed: false

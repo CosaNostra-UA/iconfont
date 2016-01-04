@@ -1,6 +1,7 @@
 var gulp = require('gulp');
 var args = require('yargs').argv;
 var iconfont = require('./src/js/filmonIconGenerator.js');
+var inputData = require('./src/inputData.json');
 var fontName = args.env || 'filmon-iconfont';
 require('gulp-stats')(gulp);
 require('gulp-task-list')(gulp);
@@ -56,5 +57,5 @@ gulp.task('build', ['scripts', 'html']);
 
 // Generate font
 gulp.task('iconfont', function(){
-    iconfont(fontName);
+    iconfont(fontName, inputData);
 });
