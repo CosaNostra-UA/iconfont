@@ -1,14 +1,14 @@
-[
-    {
-      "unicode":"uEA07",
-      "name": "alarm"
-    },
-    {
-      "unicode":"uEA09",
-      "name": "lab"
-    },
-    {
-      "unicode":"u20AC",
-      "name":"tree"
-    }
-]
+{
+  "alarm.svg": {
+    "unicode" : [ "uEA07", "uEA08" ],
+    "name" : "ico-alarm"
+  },
+  "tree.svg": {
+    "unicode" : [ "u20AC", "uEA11" ],
+    "name" : "ico-tree"
+  },
+  "lab.svg": {
+    "unicode" : [ "u20AC" ],
+    "name" : "ico-lab"
+  }
+}

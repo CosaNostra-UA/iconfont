@@ -5,30 +5,29 @@
 var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
 var fs = require('fs');
-var args = require('yargs').argv;
+var data = require('../inputData.json');
 require('string.fromcodepoint');
+var src = [];
 
 function getFileProperties(data, file){
-    var fileName = file.replace(/^.*[\\\/]/, '');
-
-    return data.find(function(el){
-        if( el.name + '.svg' === fileName ){
-            return el;
+    file = file.replace(/^.*[\\\/]/, '');
+    for (var key in data){
+        if(key === file){
+            return data[key];
         }
-    });
+    }
 }
 
 function getUnicode(unicode){
-   return String.fromCodePoint(parseInt(unicode.substr(1), 16));
+    return unicode.map(function(code) {
+        return String.fromCodePoint(parseInt(code.substr(1), 16));
+    }).join('');
 }
 
-module.exports =  function(){
-    var fontName = args.env || 'myfont';
-    var data = JSON.parse(fs.readFileSync('src/inputData.json', 'utf8'));
-
-    var src = data.map(function (file) {
-        return 'icons-library/' + file.name + '.svg';
-    });
+module.exports = function (fontName){
+    for (var key in data){
+        src.push('icons-library/' + key);
+    }
 
     return gulp.src(src)
         .pipe(iconfont({
