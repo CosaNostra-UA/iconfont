@@ -1,7 +1,10 @@
-var gulp = require('gulp');
-var args = require('yargs').argv;
-var iconfont = require('./src/js/filmonIconGenerator.js');
-var inputData = require('./src/inputData.json');
+var gulp            = require('gulp');
+var args            = require('yargs').argv;
+var iconfont        = require('./src/js/filmonIconGenerator.js');
+var inputData       = require('./src/inputData.json');
+
+
+
 var fontName = args.env || 'filmon-iconfont';
 require('gulp-stats')(gulp);
 require('gulp-task-list')(gulp);
@@ -19,7 +22,7 @@ gulp.task('serve', ['scripts', 'html'] ,
     function() {
         browserSync.init({
            server : "public/",
-           open: true,
+           open: true
         });
 
         gulp.watch(["src/*.html"], ['watch:html']);

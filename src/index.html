@@ -23,27 +23,47 @@
                 url('fonts/myfont.svg') format('svg');
             }
 
-            .icon-alarm {
+            p { margin-left: calc(50% - 0.5em);
+                margin-top: calc(50% - 0.5em);
+                font-size: 24px;}
+
+            .icons-list {
                 font-family: myfont;
-                content: '&#xEA01';
+                display: table;
+                width: 40%;
+                background: #fff;
+                position: relative;
+                overflow: hidden;
+                box-shadow: 0 0 12px 4px rgba(150,150,150,0.3);
+                margin: 0 auto;
+                padding: 20px;
+                table-layout: fixed;
+                box-sizing: border-box;
             }
+
+            .icon {
+                width: 62px;
+                height: 62px;
+                border: 5px solid transparent;
+                box-shadow: inset 0 0 0 .1875em #ffbb4d;
+                border-radius: .3125em;
+                display: inline-block;
+                cursor: pointer;
+            }
+
         </style>
-
-
-
     </head><!-- / head -->
     <body>
-        <h1 style="font-family: myfont;">abcqwertyuiop[]asdfghjkl;'zxcvbnm,./
-
-
-        <br/>
-            &#xEA01;
-            &#xEA02;
-            &#xEA03;
-            &#xEA04;
-            &#xEA05;
-        </h1>
-    <div class="icon-alarm" >&nbsp;</div>
-
+        <div class="icons-list">
+            <div class="icon" data-id="1">
+                <p>&#x20AC;</p>
+            </div>
+            <div class="icon" data-id="2">
+                <p>&#x03C7;</p>
+            </div>
+            <div class="icon" data-id="3">
+                <p>&#x1D2A;</p>
+            </div>
+        </div>
     </body><!-- / body -->
 </html><!-- / html -->
