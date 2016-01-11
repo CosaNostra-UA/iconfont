@@ -4,7 +4,7 @@
 
 var gulp = require('gulp');
 var iconfont = require('gulp-iconfont');
-var fs = require('fs');
+/*var fs = require('fs');*/
 var path = require('path');
 require('string.fromcodepoint');
 var src = [];

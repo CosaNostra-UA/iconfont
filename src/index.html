@@ -27,7 +27,7 @@
                 margin-top: calc(50% - 0.5em);
                 font-size: 24px;}
 
-            .icons-list {
+            .field {
                 font-family: myfont;
                 display: table;
                 width: 60%;
@@ -82,21 +82,56 @@
                 cursor: pointer;
             }
 
+            #font-field {
+                display: none;
+            }
+
+            input {
+                border: 1px solid #cccccc;
+                border-radius: .3125em;
+                background: #ffffff !important;
+                outline: none;
+                width: 100px;
+                font-size: 14px;
+                margin: 3px;
+            }
+
+            .code {
+                margin-left: 20px;
+            }
+
+            form {
+                display: table;
+            }
+
+            form div {
+                display: inline-block;
+                padding: 5px;
+            }
+
         </style>
     </head><!-- / head -->
     <body>
         <div class="bar-btn">
             <span class="button" id="selection">Selection</span>
             <span class="button" id="font">Generate Font</span>
+            <span class="button" id="download" style="display: none">Download</span>
         </div>
-        <div class="icons-list">
-            <div class="icon" data-id="1">
+        <div class="field" id="font-field">
+            <fotm>
+                <label>Font name:</label>
+                <input type="text" name="name-font" value="filmon-icon-font" style="width: 150px">
+            </fotm>
+            <form id="form"></form>
+        </div>
+        <div class="field" id="icons-field">
+            <div class="icon" data-name="phone" data-code="u20AC" data-namefile="lab.svg">
                 <p>&#x20AC;</p>
             </div>
-            <div class="icon" data-id="2">
+            <div class="icon" data-name="lab" data-code="u03C7" data-namefile="tree.svg">
                 <p>&#x03C7;</p>
             </div>
-            <div class="icon" data-id="3">
+            <div class="icon" data-name="tree" data-code="u1D2A" data-namefile="alarm.svg">
                 <p>&#x1D2A;</p>
             </div>
             <div class="icon" data-id="1">
