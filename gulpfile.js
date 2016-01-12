@@ -18,7 +18,7 @@ var concat          = require('gulp-concat');
 
 
 /// Browser-Sync task for development.
-gulp.task('serve', ['scripts', 'html'] ,
+gulp.task('serve', ['build'] ,
     function() {
         browserSync.init({
            server : "public/",
