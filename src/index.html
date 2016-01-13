@@ -85,6 +85,12 @@
                 display: none;
             }
 
+            #download {
+                position: relative;
+                float: right;
+                top: -10px;
+            }
+
             .code {
                 margin-left: 19px;
             }
@@ -121,13 +127,13 @@
         <div class="bar-btn">
             <span class="button" id="selection">Selection</span>
             <span class="button" id="font">Generate Font</span>
-            <span class="button" id="download" style="display: none">Download</span>
         </div>
 
         <div class="field" id="font-field">
-            <fotm>
+            <br>
                 <label>Font name:</label>
                 <input type="text" name="name-font" value="filmon-icon-font" style="width: 150px">
+                <span class="button" id="download">Save</span>
             </fotm>
             <form id="form"></form>
         </div>

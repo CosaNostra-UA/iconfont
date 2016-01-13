@@ -1,25 +1,31 @@
 #!/usr/bin/node
 'use strict';
 
-var express = require('express');
-var app = express();
+var express    = require('express');
+var bodyParser = require('body-parser');
+var app        = express();
 
-var gulp = require('gulp');
-var generator = require('src/js/filmonIconGenerator.js');
+var gulp       = require('gulp');
+var zip        = require('gulp-zip');
+var generator  = require('./js/filmonIconGenerator.js');
 
 
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.json());
 
 app.post('/generate-font', function(req, res) {
+    var fontName = req.body.fontName;
 
-    generator(req.params.fontName, req.params.inputData)
-        .pipe(gulp.dest(uniqueDirPath))
-        .done( function() {
+    generator(fontName, req.body.inputData)
+        .pipe(zip(fontName + '.zip'))
+        .pipe(gulp.dest('public/fonts/'))
+        .on('end', function() {
+            res.sendStatus(204);
+        });
+      /*  .pipe(gulp.dest(uniqueDirPath)) */
 
-
-        res.send(204);
-    });
     // 1. generate unique dirname
-    // 2. generate font using request.params.inputData // not sure about this
+    // 2. generate font using request.body.inputData
     // 3. zip it
     // 4.
 

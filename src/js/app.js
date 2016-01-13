@@ -2,7 +2,6 @@
 
 
 var $  = require('jquery');
-var fs = require('browserify-fs');
 
 $('document').ready(function() {
     var $selection = $('#selection');
@@ -51,6 +50,7 @@ $('document').ready(function() {
 
     $download.click(function() {
         $download.addClass('selected');
+        var fontName = $('input[name="name-font"]').val();
         var content = {};
 
         $('.cell').each(function(index, elem) {
@@ -60,12 +60,17 @@ $('document').ready(function() {
             content[key] = {"unicode": [code], "name": name};
         });
 
-        //var fontName = $('input[name="name-font"]').val();
-
-        fs.writeFile('inputData.json', JSON.stringify(content), function() {
-            fs.readFile('../inputData.json', 'utf-8', function(err, data) {
-                console.log(err, data);
-            });
+        $.ajax({
+            url: '/generate-font',
+            type: 'post',
+            dataType: 'json',
+            data: {
+                fontName: fontName,
+                inputData: content
+            },
+            success: function (data){
+                console.log(data);
+            }
         });
     });
 });

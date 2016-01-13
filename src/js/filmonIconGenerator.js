@@ -2,10 +2,9 @@
  * Created by m_tsymbal on 12/28/15.
  */
 
-var gulp = require('gulp');
+var gulp     = require('gulp');
 var iconfont = require('gulp-iconfont');
-/*var fs = require('fs');*/
-var path = require('path');
+var path     = require('path');
 require('string.fromcodepoint');
 var src = [];
 
@@ -40,6 +39,6 @@ module.exports = function (fontName, data){
         .on('glyphs', function(glyphs, options) {
             // CSS templating, e.g.
             console.log(glyphs, options);
-        })
-        .pipe(gulp.dest('public/fonts/'));
+        });
+        //.pipe(gulp.dest('public/fonts/'));
 };
