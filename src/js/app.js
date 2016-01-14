@@ -25,7 +25,6 @@ $('document').ready(function() {
         $selection.addClass('selected');
         $font.removeClass('selected');
         $iconsField.show();
-        $download.hide();
         $('#font-field').hide();
     });
 
@@ -34,7 +33,7 @@ $('document').ready(function() {
         $selection.removeClass('selected');
         $iconsField.hide();
         $fontField.show();
-        $download.show().removeClass('selected');
+        $download.removeClass('selected');
         $form.empty();
 
         $('div.selected').each(function(){
@@ -68,8 +67,11 @@ $('document').ready(function() {
                 fontName: fontName,
                 inputData: content
             },
-            success: function (data){
-                console.log(data);
+            success: function(data, status, xhr) {
+                window.location.href = xhr.getResponseHeader('Location') + '/' + fontName + '.zip';
+            },
+            error: function (xhr, ajaxOptions, thrownError) {
+                console.log('Response Error: ' + xhr.status + ' ' + thrownError);
             }
         });
     });
