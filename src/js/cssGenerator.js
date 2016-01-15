@@ -4,10 +4,8 @@
 'use strict';
 var fs = require('fs');
 var path = require('path');
-var Stream = require('readable-stream');//stream').Duplex;
+var Stream = require('readable-stream');
 var gutil = require('gulp-util');
-
-//var PLUGIN_NAME = 'cssGenerator';
 
 function css(fontName, inputData) {
     console.log(inputData);
@@ -39,7 +37,7 @@ function css(fontName, inputData) {
         var icon = (inputData[key].name).substr(0, 5) === 'icon-' ? '.' : '.icon-';
         content = content + icon + inputData[key].name +
             ':before { \n' +
-            'content: "\\' + (inputData[key].unicode).forEach(function(e){console.log(e.substr(1)); return e.substr(1) + ';'}) + '"; } \n';
+            'content: "\\' + (inputData[key].unicode).forEach(function(e){return e.substr(1) + ';'}) + '"; } \n';
     }
     return content;
 }
@@ -49,7 +47,15 @@ module.exports  = function (options) {
 
     options = options || {};
     options.clone = options.clone || false;
-//throw new gutil.PluginError('svgicons2svgfont', 'Missing options.fontName');
+
+    if( !options.fontName ){
+        throw new gutil.PluginError('cssGenerator', 'Missing options.fontName');
+    }
+
+    if( !options.inputData ){
+        throw new gutil.PluginError('cssGenerator', 'Missing options.inputData');
+    }
+
     stream._transform = function (file, unused, done) {
         var currentStream;
         var newFile;
@@ -80,19 +86,15 @@ module.exports  = function (options) {
         }
 
         file.path = gutil.replaceExtension(file.path, '.css');
-
-        // Buffers
+        
         if(file.isBuffer()) {
             try {
                 file.contents = new Buffer(css(options.fontName, options.inputData));
             } catch(err) {
-                stream.emit('error', new gutil.PluginError(PLUGIN_NAME, err, {
+                stream.emit('error', new gutil.PluginError('cssGenerator', err, {
                     showStack: true
                 }));
             }
-            // Streams
-        } else {
-            //file.contents = file.contents.pipe(new BufferStreams());
         }
 
         stream.push(file);

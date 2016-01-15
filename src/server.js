@@ -17,15 +17,10 @@ app.post('/generate-font', function(req, res) {
     var fontName = req.body.fontName;
     var destdir = 'fonts/' + fontName;
 
-    css({clone: true, fontName: fontName, inputData: req.body.inputData})
-       // .pipe(generator(fontName, req.body.inputData))
-   /* generator(fontName, req.body.inputData)
-        .pipe(css({clone: true, fontName: fontName, inputData: req.body.inputData}))*/
+    generator(fontName, req.body.inputData)
+        .pipe(css({clone: true, fontName: fontName, inputData: req.body.inputData}))
         .pipe(zip(fontName + '.zip'))
-        .pipe(gulp.dest('public/' + destdir))/*;
-
-    css({clone: true, fontName: fontName, inputData: req.body.inputData})
-        .pipe(gulp.dest('public/' + destdir + '/dir'))*/
+        .pipe(gulp.dest('public/' + destdir))
         .on('error', function(err) {
             console.log(err);
             res.sendStatus(500);
