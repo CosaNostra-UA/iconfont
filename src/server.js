@@ -15,10 +15,11 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/generate-font', function(req, res) {
     var fontName = req.body.fontName;
+    var inputData = req.body.inputData;
     var destdir = 'fonts/' + fontName;
 
-    generator(fontName, req.body.inputData)
-        .pipe(css({clone: true, fontName: fontName, inputData: req.body.inputData}))
+    generator(fontName, inputData)
+        .pipe(css({fontName: fontName, inputData: inputData}))
         .pipe(zip(fontName + '.zip'))
         .pipe(gulp.dest('public/' + destdir))
         .on('error', function(err) {

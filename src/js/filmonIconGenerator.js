@@ -10,7 +10,7 @@ var src = [];
 
 function getUnicode(unicode){
     return unicode.map(function(code) {
-        return String.fromCodePoint(parseInt(code.substr(1), 16));
+        return String.fromCodePoint(parseInt(code, 16));
     }).join('');
 }
 

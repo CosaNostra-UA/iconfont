@@ -51,13 +51,25 @@ $('document').ready(function() {
         $download.addClass('selected');
         var fontName = $('input[name="name-font"]').val();
         var content = {};
+        var correctData = false;
 
         $('.cell').each(function(index, elem) {
             var key = $(elem).children('input[name="name-file"]').val();
             var name = $(elem).children('input[name="name-icon"]').val();
-            var code = $(elem).children('input[name="code-icon"]').val();
-            content[key] = {"unicode": [code], "name": name};
+            var code = $(elem).children('input[name="code-icon"]').val().split(',');
+            var unicode = typeof code === 'string' ? [code] : code;
+            unicode.map(function(code){
+                if( code.search(/[^a-f0-9\s]/i) !== -1 ){
+                    alert('Please, enter unicode in hex');
+                    correctData = true;
+                }
+            });
+            content[key] = {"unicode": unicode, "name": name};
         });
+
+        if(correctData){
+            return;
+        }
 
         $.ajax({
             url: '/generate-font',
@@ -71,7 +83,7 @@ $('document').ready(function() {
                 window.location.href = xhr.getResponseHeader('Location') + '/' + fontName + '.zip';
             },
             error: function (xhr, ajaxOptions, thrownError) {
-                console.log('Response Error: ' + xhr.status + ' ' + thrownError);
+                alert('Response Error: ' + xhr.status + ' ' + thrownError);
             }
         });
     });
