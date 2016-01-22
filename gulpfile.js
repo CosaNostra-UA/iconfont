@@ -2,6 +2,8 @@ var gulp            = require('gulp');
 var args            = require('yargs').argv;
 var iconfont        = require('./src/js/filmonIconGenerator.js');
 var inputData       = require('./src/inputData.json');
+var tmplData        = require('./src/tmplData.json');
+var jade            = require('gulp-jade');
 
 
 
@@ -61,4 +63,14 @@ gulp.task('build', ['scripts', 'html']);
 // Generate font
 gulp.task('iconfont', function(){
     iconfont(fontName, inputData);
+});
+
+// Generate html for icons
+gulp.task('iconsHtml', function() {
+  gulp.src('./src/tmpl.jade')
+    .pipe(jade({
+      locals: tmplData,
+      pretty: true
+    }))
+    .pipe(gulp.dest('./src/'))
 });

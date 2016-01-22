@@ -1,0 +1,14 @@
+{
+  "alarm.svg": {
+    "unicode" : [ "1D2A" ],
+    "name" : "ico-alarm"
+  },
+  "tree.svg": {
+    "unicode" : [ "03C7" ],
+    "name" : "ico-tree"
+  },
+  "lab.svg": {
+    "unicode" : [ "20AC" ],
+    "name" : "ico-lab"
+  }
+}
