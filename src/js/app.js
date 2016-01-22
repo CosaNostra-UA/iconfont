@@ -51,7 +51,7 @@ $('document').ready(function() {
         $download.addClass('selected');
         var fontName = $('input[name="name-font"]').val();
         var content = {};
-        var correctData = false;
+        var inCorrectData = false;
 
         $('.cell').each(function(index, elem) {
             var key = $(elem).children('input[name="name-file"]').val();
@@ -61,13 +61,13 @@ $('document').ready(function() {
             unicode.map(function(code){
                 if( code.search(/[^a-f0-9\s]/i) !== -1 ){
                     alert('Please, enter unicode in hex');
-                    correctData = true;
+                    inCorrectData = true;
                 }
             });
             content[key] = {"unicode": unicode, "name": name};
         });
 
-        if(correctData){
+        if(inCorrectData){
             return;
         }
 
