@@ -11,9 +11,9 @@ npm install
 
 ## Usage
 
-###Through gulp task
+### Through gulp task
 
-Change data in inputData.json to what you need.
+Change data from inputData.json since you need.
 
 To running with default font name ('filmon-iconfont')
 
@@ -25,4 +25,12 @@ To running with the given font name
 
 ```
 gulp iconfont --env <fontName>
+```
+
+### To change set of source icons into index.html
+
+```
+// first, change src/baseData.json since you need
+gulp generateHtml
+gulp html
 ```

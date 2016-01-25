@@ -1,0 +1,30 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no")
+        title FilmOn Icon Library
+        meta(name="description", content="TODO")
+        meta(name="keywords", content="TODO")
+        <!-- favicon icons -->
+        link(href="http://static.filmon.com/theme/img/favicon_2.ico", rel="icon", type="image/x-icon")
+        link(href="http://static.filmon.com/theme/img/favicon_2.ico", rel="shortcut icon", type="image/vnd.microsoft.icon")
+        script(src="js/app.js")
+        style
+            include style.css
+    body
+        div.bar-btn
+            span.button#selection Selection
+            span.button#font Generate Font
+        div.field#font-field
+            br
+            label Font name:
+            input(type="text", name="name-font", value="filmon-icon-font", style="width: 150px")
+            span.button#download Save
+            form#form
+        div.field#icons-field
+            - for (var k in locals)
+                - var code = (locals[k].unicode).map(function(e){ return e; }).join(',');
+                div.icon(data-name="#{locals[k].name}")&attributes({'data-code': code, 'data-namefile': k})
+                    p &#x#{locals[k].unicode[0]};

@@ -1,9 +1,14 @@
 var gulp            = require('gulp');
 var args            = require('yargs').argv;
-var iconfont        = require('./src/js/filmonIconGenerator.js');
-var inputData       = require('./src/inputData.json');
-var tmplData        = require('./src/tmplData.json');
 var jade            = require('gulp-jade');
+var rename          = require('gulp-rename');
+
+
+
+var iconfont        = require('./src/js/filmonIconGenerator.js');
+var basefont        = require('./src/js/fontGenerator.js');
+var inputData       = require('./src/inputData.json');
+var baseData        = require('./src/baseData.json');
 
 
 
@@ -65,12 +70,19 @@ gulp.task('iconfont', function(){
     iconfont(fontName, inputData);
 });
 
-// Generate html for icons
-gulp.task('iconsHtml', function() {
-  gulp.src('./src/tmpl.jade')
+// Generate baseFont
+gulp.task('basefont', function(){
+    basefont('basefont', baseData)
+        .pipe(gulp.dest('public/fonts/'));
+});
+
+// Generate HTML
+gulp.task('generateHtml', ['basefont'], function() {
+  gulp.src('./src/html.jade')
     .pipe(jade({
-      locals: tmplData,
+      locals: baseData,
       pretty: true
     }))
+    .pipe(rename('index.html'))
     .pipe(gulp.dest('./src/'))
 });
