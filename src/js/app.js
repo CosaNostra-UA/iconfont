@@ -56,15 +56,12 @@ $('document').ready(function() {
         $('.cell').each(function(index, elem) {
             var key = $(elem).children('input[name="name-file"]').val();
             var name = $(elem).children('input[name="name-icon"]').val();
-            var code = $(elem).children('input[name="code-icon"]').val().split(',');
-            var unicode = typeof code === 'string' ? [code] : code;
-            unicode.map(function(code){
-                if( code.search(/[^a-f0-9\s]/i) !== -1 ){
-                    alert('Please, enter unicode in hex');
-                    inCorrectData = true;
-                }
-            });
-            content[key] = {"unicode": unicode, "name": name};
+            var unicode = $(elem).children('input[name="code-icon"]').val();
+            if( unicode.search(/[^a-f0-9\s]/i) !== -1 ){
+                alert('Please, enter unicode in hex');
+                inCorrectData = true;
+            }
+            content[key] = {"unicode": [unicode], "name": name};
         });
 
         if(inCorrectData){

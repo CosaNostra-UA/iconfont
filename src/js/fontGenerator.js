@@ -8,10 +8,8 @@ var path     = require('path');
 require('string.fromcodepoint');
 var src = [];
 
-function getUnicode(unicode){
-    return unicode.map(function(code) {
-        return String.fromCodePoint(parseInt(code, 16));
-    }).join('');
+function getUnicode(unicode) {
+    return String.fromCodePoint(parseInt(unicode, 16));
 }
 
 module.exports = function (fontName, data){

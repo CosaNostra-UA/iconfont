@@ -37,9 +37,7 @@ function cssFileContent(fontName, inputData) {
         content = content + icon + inputData[key].name +
             ':before { \n' +
             'content: "' +
-            (inputData[key].unicode).map(function(char) {
-                return '\\' + char.toString().replace(/\s+/g,'') + ';';
-            }).join('') + '"  \n } \n';
+            '\\' + (inputData[key].unicode).toString().replace(/\s+/g,'') + ';"  \n } \n';
     }
     return content;
 }
