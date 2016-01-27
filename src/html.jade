@@ -25,6 +25,5 @@ html(lang="en")
             form#form
         div.field#icons-field
             - for (var k in locals)
-                - var code = (locals[k].unicode).map(function(e){ return e; }).join(',');
-                div.icon(data-name="#{locals[k].name}")&attributes({'data-code': code, 'data-namefile': k})
-                    p &#x#{locals[k].unicode[0]};
+                div.icon(data-name="#{locals[k].name}")&attributes({'data-code': locals[k].unicode, 'data-namefile': k})
+                    p &#x#{locals[k].unicode};

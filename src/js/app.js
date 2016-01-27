@@ -61,7 +61,7 @@ $('document').ready(function() {
                 alert('Please, enter unicode in hex');
                 inCorrectData = true;
             }
-            content[key] = {"unicode": [unicode], "name": name};
+            content[key] = {"unicode": unicode, "name": name};
         });
 
         if(inCorrectData){

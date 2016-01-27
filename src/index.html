@@ -84,6 +84,7 @@ p { margin-left: calc(50% - 0.5em);
 }
 
 #download {
+    font: 16px Arial,sans-serif;
     position: relative;
     float: right;
     top: -10px;
@@ -98,6 +99,10 @@ p { margin-left: calc(50% - 0.5em);
     font-size: 17px;
     margin: 0;
     cursor: pointer;
+}
+
+label {
+    font: 16px Arial,sans-serif;
 }
 
 input {
@@ -124,12 +129,12 @@ form div {
     <div class="bar-btn"><span id="selection" class="button">Selection</span><span id="font" class="button">Generate Font</span></div>
     <div id="font-field" class="field"><br>
       <label>Font name:</label>
-      <input type="text" name="name-font" value="filmon-icon-font" style="width: 150px"><span id="download" class="button">Save</span>
+      <input type="text" name="name-font" value="filmon-iconfont" style="width: 150px"><span id="download" class="button">Save</span>
       <form id="form"></form>
     </div>
     <div id="icons-field" class="field">
-      <div data-name="ico-alarm" class="icon" data-code="1D2A,03C9" data-namefile="alarm.svg">
-        <p>&#x1D2A;</p>
+      <div data-name="ico-alarm" class="icon" data-code="0065" data-namefile="alarm.svg">
+        <p>&#x0065;</p>
       </div>
       <div data-name="ico-tree" class="icon" data-code="03C7" data-namefile="tree.svg">
         <p>&#x03C7;</p>
