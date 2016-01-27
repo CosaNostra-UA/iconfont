@@ -67,6 +67,11 @@ p { margin-left: calc(50% - 0.5em);
     cursor: pointer;
 }
 
+.button-selected {
+    background-color: #fff;
+    border-color: #ffbb4d;
+}
+
 #font-field {
     display: none;
 }

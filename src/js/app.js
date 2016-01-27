@@ -22,18 +22,18 @@ $('document').ready(function() {
     });
 
     $selection.click(function() {
-        $selection.addClass('selected');
-        $font.removeClass('selected');
+        $selection.addClass('button-selected');
+        $font.removeClass('button-selected');
         $iconsField.show();
         $('#font-field').hide();
     });
 
     $font.click(function() {
-        $font.addClass('selected');
-        $selection.removeClass('selected');
+        $font.addClass('button-selected');
+        $selection.removeClass('button-selected');
         $iconsField.hide();
         $fontField.show();
-        $download.removeClass('selected');
+        $download.removeClass('button-selected');
         $form.empty();
 
         $('div.selected').each(function(){
@@ -48,7 +48,7 @@ $('document').ready(function() {
     });
 
     $download.click(function() {
-        $download.addClass('selected');
+        $download.addClass('button-selected');
         var fontName = $('input[name="name-font"]').val();
         var content = {};
         var inCorrectData = false;
