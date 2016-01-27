@@ -85,6 +85,7 @@ p { margin-left: calc(50% - 0.5em);
 }
 
 .remove {
+    font: 18px Arial,sans-serif;
     display: inline;
     font-size: 17px;
     margin: 0;
