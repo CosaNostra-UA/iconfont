@@ -86,3 +86,10 @@ gulp.task('generateHtml', ['basefont'], function() {
     .pipe(rename('index.html'))
     .pipe(gulp.dest('./src/'))
 });
+
+
+// Generate baseData.json from the contents of icons-library/
+var baseFileGenerator = require('./src/js/basedataGenerator.js');
+gulp.task('basedata', function(){
+    baseFileGenerator();
+});

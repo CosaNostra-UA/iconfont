@@ -1,14 +1,34 @@
 {
-  "alarm.svg": {
+  "windows.svg": {
     "unicode" : "0065",
-    "name" : "ico-alarm"
+    "name" : "windows"
   },
-  "tree.svg": {
+  "uniE60A.svg": {
     "unicode" : "03C7",
-    "name" : "ico-tree"
+    "name" : "uni"
   },
-  "lab.svg": {
+  "login2.svg": {
     "unicode" : "20AC",
-    "name" : "ico-lab"
+    "name" : "login"
+  },
+  "apple.svg": {
+    "unicode" : "0061",
+    "name" : "apple"
+  },
+  "android.svg": {
+    "unicode" : "0062",
+    "name" : "android"
+  },
+  "ding.svg": {
+    "unicode" : "0063",
+    "name" : "ding"
+  },
+  "lab-small.svg": {
+    "unicode" : "0064",
+    "name" : "lab-small"
+  },
+  "video-camera-6-icon.svg": {
+    "unicode" : "0067",
+    "name" : "video"
   }
 }

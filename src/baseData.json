@@ -1,14 +1,1114 @@
 {
-  "alarm.svg": {
-    "unicode" : "0065",
-    "name" : "ico-alarm"
-  },
-  "tree.svg": {
-    "unicode" : "03C7",
-    "name" : "ico-tree"
-  },
-  "lab.svg": {
-    "unicode" : "20AC",
-    "name" : "ico-lab"
-  }
+	"3d-view-icon.svg": {
+		"unicode": "EA01",
+		"name": "3d-view-icon"
+	},
+	"Battlecamcontour.svg": {
+		"unicode": "EA02",
+		"name": "Battlecamcontour"
+	},
+	"IE.svg": {
+		"unicode": "EA03",
+		"name": "IE"
+	},
+	"accessibility.svg": {
+		"unicode": "EA04",
+		"name": "accessibility"
+	},
+	"android.svg": {
+		"unicode": "EA05",
+		"name": "android"
+	},
+	"angry.svg": {
+		"unicode": "EA06",
+		"name": "angry"
+	},
+	"antenna.svg": {
+		"unicode": "EA07",
+		"name": "antenna"
+	},
+	"apple.svg": {
+		"unicode": "EA08",
+		"name": "apple"
+	},
+	"archive.svg": {
+		"unicode": "EA09",
+		"name": "archive"
+	},
+	"archive4.svg": {
+		"unicode": "EA0A",
+		"name": "archive4"
+	},
+	"arrow-bottom-bold.svg": {
+		"unicode": "EA0B",
+		"name": "arrow-bottom-bold"
+	},
+	"arrow-down.svg": {
+		"unicode": "EA0C",
+		"name": "arrow-down"
+	},
+	"arrow-left.svg": {
+		"unicode": "EA0D",
+		"name": "arrow-left"
+	},
+	"arrow-move.svg": {
+		"unicode": "EA0E",
+		"name": "arrow-move"
+	},
+	"arrow-right.svg": {
+		"unicode": "EA0F",
+		"name": "arrow-right"
+	},
+	"arrow-top-bold.svg": {
+		"unicode": "EA10",
+		"name": "arrow-top-bold"
+	},
+	"arrow-up.svg": {
+		"unicode": "EA11",
+		"name": "arrow-up"
+	},
+	"attachment.svg": {
+		"unicode": "EA12",
+		"name": "attachment"
+	},
+	"award-23-icon.svg": {
+		"unicode": "EA13",
+		"name": "award-23-icon"
+	},
+	"back.svg": {
+		"unicode": "EA14",
+		"name": "back"
+	},
+	"backward.svg": {
+		"unicode": "EA15",
+		"name": "backward"
+	},
+	"bc_HD1.svg": {
+		"unicode": "EA16",
+		"name": "bc_HD1"
+	},
+	"bc_HD_broadcast2.svg": {
+		"unicode": "EA17",
+		"name": "bc_HD_broadcast2"
+	},
+	"bc_antispam.svg": {
+		"unicode": "EA18",
+		"name": "bc_antispam"
+	},
+	"bc_follow.svg": {
+		"unicode": "EA19",
+		"name": "bc_follow"
+	},
+	"bc_lock.svg": {
+		"unicode": "EA1A",
+		"name": "bc_lock"
+	},
+	"bc_room_style.svg": {
+		"unicode": "EA1B",
+		"name": "bc_room_style"
+	},
+	"blocked.svg": {
+		"unicode": "EA1C",
+		"name": "blocked"
+	},
+	"bullhorn.svg": {
+		"unicode": "EA1D",
+		"name": "bullhorn"
+	},
+	"calculate.svg": {
+		"unicode": "EA1E",
+		"name": "calculate"
+	},
+	"camera-blocked1.svg": {
+		"unicode": "EA1F",
+		"name": "camera-blocked1"
+	},
+	"camera3.svg": {
+		"unicode": "EA20",
+		"name": "camera3"
+	},
+	"cart-fill.svg": {
+		"unicode": "EA21",
+		"name": "cart-fill"
+	},
+	"cart.svg": {
+		"unicode": "EA22",
+		"name": "cart"
+	},
+	"chat.svg": {
+		"unicode": "EA23",
+		"name": "chat"
+	},
+	"chrome.svg": {
+		"unicode": "EA24",
+		"name": "chrome"
+	},
+	"circle-fill.svg": {
+		"unicode": "EA25",
+		"name": "circle-fill"
+	},
+	"coin-2-icon.svg": {
+		"unicode": "EA26",
+		"name": "coin-2-icon"
+	},
+	"coin.svg": {
+		"unicode": "EA27",
+		"name": "coin"
+	},
+	"comment.svg": {
+		"unicode": "EA28",
+		"name": "comment"
+	},
+	"cool.svg": {
+		"unicode": "EA29",
+		"name": "cool"
+	},
+	"credit-card-11-icon.svg": {
+		"unicode": "EA2A",
+		"name": "credit-card-11-icon"
+	},
+	"credit.svg": {
+		"unicode": "EA2B",
+		"name": "credit"
+	},
+	"cut-4-icon.svg": {
+		"unicode": "EA2C",
+		"name": "cut-4-icon"
+	},
+	"cut-5.svg": {
+		"unicode": "EA2D",
+		"name": "cut-5"
+	},
+	"debit.svg": {
+		"unicode": "EA2E",
+		"name": "debit"
+	},
+	"ding.svg": {
+		"unicode": "EA2F",
+		"name": "ding"
+	},
+	"docs.svg": {
+		"unicode": "EA30",
+		"name": "docs"
+	},
+	"dollar.svg": {
+		"unicode": "EA31",
+		"name": "dollar"
+	},
+	"double-arrow-left.svg": {
+		"unicode": "EA32",
+		"name": "double-arrow-left"
+	},
+	"double-arrow-right.svg": {
+		"unicode": "EA33",
+		"name": "double-arrow-right"
+	},
+	"download.svg": {
+		"unicode": "EA34",
+		"name": "download"
+	},
+	"eTVlogo_Sept2014_black.svg": {
+		"unicode": "EA35",
+		"name": "eTVlogo_Sept2014_black"
+	},
+	"eject.svg": {
+		"unicode": "EA36",
+		"name": "eject"
+	},
+	"email-8-icon.svg": {
+		"unicode": "EA37",
+		"name": "email-8-icon"
+	},
+	"email-icon.svg": {
+		"unicode": "EA38",
+		"name": "email-icon"
+	},
+	"enter.svg": {
+		"unicode": "EA39",
+		"name": "enter"
+	},
+	"equalizer.svg": {
+		"unicode": "EA3A",
+		"name": "equalizer"
+	},
+	"evil.svg": {
+		"unicode": "EA3B",
+		"name": "evil"
+	},
+	"exit.svg": {
+		"unicode": "EA3C",
+		"name": "exit"
+	},
+	"export.svg": {
+		"unicode": "EA3D",
+		"name": "export"
+	},
+	"export2.svg": {
+		"unicode": "EA3E",
+		"name": "export2"
+	},
+	"eye-7-icon.svg": {
+		"unicode": "EA3F",
+		"name": "eye-7-icon"
+	},
+	"eye-blocked.svg": {
+		"unicode": "EA40",
+		"name": "eye-blocked"
+	},
+	"eye.svg": {
+		"unicode": "EA41",
+		"name": "eye"
+	},
+	"facebook.svg": {
+		"unicode": "EA42",
+		"name": "facebook"
+	},
+	"facebook2.svg": {
+		"unicode": "EA43",
+		"name": "facebook2"
+	},
+	"film.svg": {
+		"unicode": "EA44",
+		"name": "film"
+	},
+	"filmon_social.svg": {
+		"unicode": "EA45",
+		"name": "filmon_social"
+	},
+	"find-users1.svg": {
+		"unicode": "EA46",
+		"name": "find-users1"
+	},
+	"finder.svg": {
+		"unicode": "EA47",
+		"name": "finder"
+	},
+	"firefox.svg": {
+		"unicode": "EA48",
+		"name": "firefox"
+	},
+	"first.svg": {
+		"unicode": "EA49",
+		"name": "first"
+	},
+	"flag.svg": {
+		"unicode": "EA4A",
+		"name": "flag"
+	},
+	"flag2.svg": {
+		"unicode": "EA4B",
+		"name": "flag2"
+	},
+	"flame.svg": {
+		"unicode": "EA4C",
+		"name": "flame"
+	},
+	"folder.svg": {
+		"unicode": "EA4D",
+		"name": "folder"
+	},
+	"forward.svg": {
+		"unicode": "EA4E",
+		"name": "forward"
+	},
+	"gauge.svg": {
+		"unicode": "EA4F",
+		"name": "gauge"
+	},
+	"gear-2.svg": {
+		"unicode": "EA50",
+		"name": "gear-2"
+	},
+	"gear.svg": {
+		"unicode": "EA51",
+		"name": "gear"
+	},
+	"google-plus.svg": {
+		"unicode": "EA52",
+		"name": "google-plus"
+	},
+	"googleplus.svg": {
+		"unicode": "EA53",
+		"name": "googleplus"
+	},
+	"googleplus2.svg": {
+		"unicode": "EA54",
+		"name": "googleplus2"
+	},
+	"grid.svg": {
+		"unicode": "EA55",
+		"name": "grid"
+	},
+	"heart.svg": {
+		"unicode": "EA56",
+		"name": "heart"
+	},
+	"heart2.svg": {
+		"unicode": "EA57",
+		"name": "heart2"
+	},
+	"home.svg": {
+		"unicode": "EA58",
+		"name": "home"
+	},
+	"icon_8249.svg": {
+		"unicode": "EA59",
+		"name": "icon_8249"
+	},
+	"id-card-13-icon.svg": {
+		"unicode": "EA5A",
+		"name": "id-card-13-icon"
+	},
+	"info.svg": {
+		"unicode": "EA5B",
+		"name": "info"
+	},
+	"lab-small.svg": {
+		"unicode": "EA5C",
+		"name": "lab-small"
+	},
+	"last.svg": {
+		"unicode": "EA5D",
+		"name": "last"
+	},
+	"layout.svg": {
+		"unicode": "EA5E",
+		"name": "layout"
+	},
+	"lifebuoy.svg": {
+		"unicode": "EA5F",
+		"name": "lifebuoy"
+	},
+	"light-bulb.svg": {
+		"unicode": "EA60",
+		"name": "light-bulb"
+	},
+	"link.svg": {
+		"unicode": "EA61",
+		"name": "link"
+	},
+	"list.svg": {
+		"unicode": "EA62",
+		"name": "list"
+	},
+	"list2.svg": {
+		"unicode": "EA63",
+		"name": "list2"
+	},
+	"list3.svg": {
+		"unicode": "EA64",
+		"name": "list3"
+	},
+	"lock-11-icon.svg": {
+		"unicode": "EA65",
+		"name": "lock-11-icon"
+	},
+	"lock.svg": {
+		"unicode": "EA66",
+		"name": "lock"
+	},
+	"lock3.svg": {
+		"unicode": "EA67",
+		"name": "lock3"
+	},
+	"login2.svg": {
+		"unicode": "EA68",
+		"name": "login2"
+	},
+	"loop.svg": {
+		"unicode": "EA69",
+		"name": "loop"
+	},
+	"mail.svg": {
+		"unicode": "EA6A",
+		"name": "mail"
+	},
+	"map-location.svg": {
+		"unicode": "EA6B",
+		"name": "map-location"
+	},
+	"megaphone.svg": {
+		"unicode": "EA6C",
+		"name": "megaphone"
+	},
+	"menu.svg": {
+		"unicode": "EA6D",
+		"name": "menu"
+	},
+	"microphone.svg": {
+		"unicode": "EA6E",
+		"name": "microphone"
+	},
+	"mobile.svg": {
+		"unicode": "EA6F",
+		"name": "mobile"
+	},
+	"mobile2.svg": {
+		"unicode": "EA70",
+		"name": "mobile2"
+	},
+	"music.svg": {
+		"unicode": "EA71",
+		"name": "music"
+	},
+	"new.svg": {
+		"unicode": "EA72",
+		"name": "new"
+	},
+	"newtab.svg": {
+		"unicode": "EA73",
+		"name": "newtab"
+	},
+	"next.svg": {
+		"unicode": "EA74",
+		"name": "next"
+	},
+	"not-avail.svg": {
+		"unicode": "EA75",
+		"name": "not-avail"
+	},
+	"opera.svg": {
+		"unicode": "EA76",
+		"name": "opera"
+	},
+	"paperplane.svg": {
+		"unicode": "EA77",
+		"name": "paperplane"
+	},
+	"pause.svg": {
+		"unicode": "EA78",
+		"name": "pause"
+	},
+	"picture-attachment-icon.svg": {
+		"unicode": "EA79",
+		"name": "picture-attachment-icon"
+	},
+	"picture-edit-icon.svg": {
+		"unicode": "EA7A",
+		"name": "picture-edit-icon"
+	},
+	"picture-remove-icon.svg": {
+		"unicode": "EA7B",
+		"name": "picture-remove-icon"
+	},
+	"picture.svg": {
+		"unicode": "EA7C",
+		"name": "picture"
+	},
+	"pictures.svg": {
+		"unicode": "EA7D",
+		"name": "pictures"
+	},
+	"play.svg": {
+		"unicode": "EA7E",
+		"name": "play"
+	},
+	"popup.svg": {
+		"unicode": "EA7F",
+		"name": "popup"
+	},
+	"previous.svg": {
+		"unicode": "EA80",
+		"name": "previous"
+	},
+	"question.svg": {
+		"unicode": "EA81",
+		"name": "question"
+	},
+	"reload.svg": {
+		"unicode": "EA82",
+		"name": "reload"
+	},
+	"remove.svg": {
+		"unicode": "EA83",
+		"name": "remove"
+	},
+	"remove2.svg": {
+		"unicode": "EA84",
+		"name": "remove2"
+	},
+	"reply.svg": {
+		"unicode": "EA85",
+		"name": "reply"
+	},
+	"rocket.svg": {
+		"unicode": "EA86",
+		"name": "rocket"
+	},
+	"safari.svg": {
+		"unicode": "EA87",
+		"name": "safari"
+	},
+	"screen.svg": {
+		"unicode": "EA88",
+		"name": "screen"
+	},
+	"settings.svg": {
+		"unicode": "EA89",
+		"name": "settings"
+	},
+	"share.svg": {
+		"unicode": "EA8A",
+		"name": "share"
+	},
+	"shuffle.svg": {
+		"unicode": "EA8B",
+		"name": "shuffle"
+	},
+	"stack.svg": {
+		"unicode": "EA8C",
+		"name": "stack"
+	},
+	"star.svg": {
+		"unicode": "EA8D",
+		"name": "star"
+	},
+	"stats.svg": {
+		"unicode": "EA8E",
+		"name": "stats"
+	},
+	"stop.svg": {
+		"unicode": "EA8F",
+		"name": "stop"
+	},
+	"table.svg": {
+		"unicode": "EA90",
+		"name": "table"
+	},
+	"tablet.svg": {
+		"unicode": "EA91",
+		"name": "tablet"
+	},
+	"tags-3-icon.svg": {
+		"unicode": "EA92",
+		"name": "tags-3-icon"
+	},
+	"th-list.svg": {
+		"unicode": "EA93",
+		"name": "th-list"
+	},
+	"th.svg": {
+		"unicode": "EA94",
+		"name": "th"
+	},
+	"thumb-3-icon.svg": {
+		"unicode": "EA95",
+		"name": "thumb-3-icon"
+	},
+	"thumb-3-icon2.svg": {
+		"unicode": "EA96",
+		"name": "thumb-3-icon2"
+	},
+	"thumb-icon.svg": {
+		"unicode": "EA97",
+		"name": "thumb-icon"
+	},
+	"thumb-icon2.svg": {
+		"unicode": "EA98",
+		"name": "thumb-icon2"
+	},
+	"tools.svg": {
+		"unicode": "EA99",
+		"name": "tools"
+	},
+	"trash.svg": {
+		"unicode": "EA9A",
+		"name": "trash"
+	},
+	"tux.svg": {
+		"unicode": "EA9B",
+		"name": "tux"
+	},
+	"tv.svg": {
+		"unicode": "EA9C",
+		"name": "tv"
+	},
+	"twitter.svg": {
+		"unicode": "EA9D",
+		"name": "twitter"
+	},
+	"twitter2.svg": {
+		"unicode": "EA9E",
+		"name": "twitter2"
+	},
+	"uni22.svg": {
+		"unicode": "EA9F",
+		"name": "uni22"
+	},
+	"uni23.svg": {
+		"unicode": "EAA0",
+		"name": "uni23"
+	},
+	"uni24.svg": {
+		"unicode": "EAA1",
+		"name": "uni24"
+	},
+	"uni25.svg": {
+		"unicode": "EAA2",
+		"name": "uni25"
+	},
+	"uni26.svg": {
+		"unicode": "EAA3",
+		"name": "uni26"
+	},
+	"uni27.svg": {
+		"unicode": "EAA4",
+		"name": "uni27"
+	},
+	"uni28.svg": {
+		"unicode": "EAA5",
+		"name": "uni28"
+	},
+	"uni29.svg": {
+		"unicode": "EAA6",
+		"name": "uni29"
+	},
+	"uni2B.svg": {
+		"unicode": "EAA7",
+		"name": "uni2B"
+	},
+	"uni2D.svg": {
+		"unicode": "EAA8",
+		"name": "uni2D"
+	},
+	"uni2F.svg": {
+		"unicode": "EAA9",
+		"name": "uni2F"
+	},
+	"uni32.svg": {
+		"unicode": "EAAA",
+		"name": "uni32"
+	},
+	"uni33.svg": {
+		"unicode": "EAAB",
+		"name": "uni33"
+	},
+	"uni34.svg": {
+		"unicode": "EAAC",
+		"name": "uni34"
+	},
+	"uni35.svg": {
+		"unicode": "EAAD",
+		"name": "uni35"
+	},
+	"uni37.svg": {
+		"unicode": "EAAE",
+		"name": "uni37"
+	},
+	"uni39.svg": {
+		"unicode": "EAAF",
+		"name": "uni39"
+	},
+	"uni3A.svg": {
+		"unicode": "EAB0",
+		"name": "uni3A"
+	},
+	"uni3B.svg": {
+		"unicode": "EAB1",
+		"name": "uni3B"
+	},
+	"uni3D.svg": {
+		"unicode": "EAB2",
+		"name": "uni3D"
+	},
+	"uni3F.svg": {
+		"unicode": "EAB3",
+		"name": "uni3F"
+	},
+	"uni42.svg": {
+		"unicode": "EAB4",
+		"name": "uni42"
+	},
+	"uni43.svg": {
+		"unicode": "EAB5",
+		"name": "uni43"
+	},
+	"uni46.svg": {
+		"unicode": "EAB6",
+		"name": "uni46"
+	},
+	"uni48.svg": {
+		"unicode": "EAB7",
+		"name": "uni48"
+	},
+	"uni4A.svg": {
+		"unicode": "EAB8",
+		"name": "uni4A"
+	},
+	"uni4B.svg": {
+		"unicode": "EAB9",
+		"name": "uni4B"
+	},
+	"uni4C.svg": {
+		"unicode": "EABA",
+		"name": "uni4C"
+	},
+	"uni4D.svg": {
+		"unicode": "EABB",
+		"name": "uni4D"
+	},
+	"uni4E.svg": {
+		"unicode": "EABC",
+		"name": "uni4E"
+	},
+	"uni4F.svg": {
+		"unicode": "EABD",
+		"name": "uni4F"
+	},
+	"uni50.svg": {
+		"unicode": "EABE",
+		"name": "uni50"
+	},
+	"uni53.svg": {
+		"unicode": "EABF",
+		"name": "uni53"
+	},
+	"uni56.svg": {
+		"unicode": "EAC0",
+		"name": "uni56"
+	},
+	"uni58.svg": {
+		"unicode": "EAC1",
+		"name": "uni58"
+	},
+	"uni5C.svg": {
+		"unicode": "EAC2",
+		"name": "uni5C"
+	},
+	"uni5D.svg": {
+		"unicode": "EAC3",
+		"name": "uni5D"
+	},
+	"uni5E.svg": {
+		"unicode": "EAC4",
+		"name": "uni5E"
+	},
+	"uni5F.svg": {
+		"unicode": "EAC5",
+		"name": "uni5F"
+	},
+	"uni60.svg": {
+		"unicode": "EAC6",
+		"name": "uni60"
+	},
+	"uni61.svg": {
+		"unicode": "EAC7",
+		"name": "uni61"
+	},
+	"uni62.svg": {
+		"unicode": "EAC8",
+		"name": "uni62"
+	},
+	"uni64.svg": {
+		"unicode": "EAC9",
+		"name": "uni64"
+	},
+	"uni65.svg": {
+		"unicode": "EACA",
+		"name": "uni65"
+	},
+	"uni66.svg": {
+		"unicode": "EACB",
+		"name": "uni66"
+	},
+	"uni68.svg": {
+		"unicode": "EACC",
+		"name": "uni68"
+	},
+	"uni69.svg": {
+		"unicode": "EACD",
+		"name": "uni69"
+	},
+	"uni6B.svg": {
+		"unicode": "EACE",
+		"name": "uni6B"
+	},
+	"uni6C.svg": {
+		"unicode": "EACF",
+		"name": "uni6C"
+	},
+	"uni70.svg": {
+		"unicode": "EAD0",
+		"name": "uni70"
+	},
+	"uni71.svg": {
+		"unicode": "EAD1",
+		"name": "uni71"
+	},
+	"uni72.svg": {
+		"unicode": "EAD2",
+		"name": "uni72"
+	},
+	"uni73.svg": {
+		"unicode": "EAD3",
+		"name": "uni73"
+	},
+	"uni74.svg": {
+		"unicode": "EAD4",
+		"name": "uni74"
+	},
+	"uni75.svg": {
+		"unicode": "EAD5",
+		"name": "uni75"
+	},
+	"uni79.svg": {
+		"unicode": "EAD6",
+		"name": "uni79"
+	},
+	"uni7C.svg": {
+		"unicode": "EAD7",
+		"name": "uni7C"
+	},
+	"uni7D.svg": {
+		"unicode": "EAD8",
+		"name": "uni7D"
+	},
+	"uni7E.svg": {
+		"unicode": "EAD9",
+		"name": "uni7E"
+	},
+	"uniE001.svg": {
+		"unicode": "EADA",
+		"name": "uniE001"
+	},
+	"uniE002.svg": {
+		"unicode": "EADB",
+		"name": "uniE002"
+	},
+	"uniE003.svg": {
+		"unicode": "EADC",
+		"name": "uniE003"
+	},
+	"uniE006.svg": {
+		"unicode": "EADD",
+		"name": "uniE006"
+	},
+	"uniE009.svg": {
+		"unicode": "EADE",
+		"name": "uniE009"
+	},
+	"uniE601.svg": {
+		"unicode": "EADF",
+		"name": "uniE601"
+	},
+	"uniE602.svg": {
+		"unicode": "EAE0",
+		"name": "uniE602"
+	},
+	"uniE603.svg": {
+		"unicode": "EAE1",
+		"name": "uniE603"
+	},
+	"uniE609.svg": {
+		"unicode": "EAE2",
+		"name": "uniE609"
+	},
+	"uniE60A.svg": {
+		"unicode": "EAE3",
+		"name": "uniE60A"
+	},
+	"uniE60B.svg": {
+		"unicode": "EAE4",
+		"name": "uniE60B"
+	},
+	"uniE60C.svg": {
+		"unicode": "EAE5",
+		"name": "uniE60C"
+	},
+	"uniE60F.svg": {
+		"unicode": "EAE6",
+		"name": "uniE60F"
+	},
+	"uniE610.svg": {
+		"unicode": "EAE7",
+		"name": "uniE610"
+	},
+	"uniE611.svg": {
+		"unicode": "EAE8",
+		"name": "uniE611"
+	},
+	"uniE612.svg": {
+		"unicode": "EAE9",
+		"name": "uniE612"
+	},
+	"uniE613.svg": {
+		"unicode": "EAEA",
+		"name": "uniE613"
+	},
+	"uniE615.svg": {
+		"unicode": "EAEB",
+		"name": "uniE615"
+	},
+	"uniE616.svg": {
+		"unicode": "EAEC",
+		"name": "uniE616"
+	},
+	"uniE617.svg": {
+		"unicode": "EAED",
+		"name": "uniE617"
+	},
+	"uniE618.svg": {
+		"unicode": "EAEE",
+		"name": "uniE618"
+	},
+	"uniE61A.svg": {
+		"unicode": "EAEF",
+		"name": "uniE61A"
+	},
+	"uniE61B.svg": {
+		"unicode": "EAF0",
+		"name": "uniE61B"
+	},
+	"uniE61C.svg": {
+		"unicode": "EAF1",
+		"name": "uniE61C"
+	},
+	"uniE61D.svg": {
+		"unicode": "EAF2",
+		"name": "uniE61D"
+	},
+	"uniF011.svg": {
+		"unicode": "EAF3",
+		"name": "uniF011"
+	},
+	"uniF100.svg": {
+		"unicode": "EAF4",
+		"name": "uniF100"
+	},
+	"uniF101.svg": {
+		"unicode": "EAF5",
+		"name": "uniF101"
+	},
+	"uniF114.svg": {
+		"unicode": "EAF6",
+		"name": "uniF114"
+	},
+	"uniF115.svg": {
+		"unicode": "EAF7",
+		"name": "uniF115"
+	},
+	"uniF12E.svg": {
+		"unicode": "EAF8",
+		"name": "uniF12E"
+	},
+	"unlocked.svg": {
+		"unicode": "EAF9",
+		"name": "unlocked"
+	},
+	"upload.svg": {
+		"unicode": "EAFA",
+		"name": "upload"
+	},
+	"user-11-icon.svg": {
+		"unicode": "EAFB",
+		"name": "user-11-icon"
+	},
+	"user-12.svg": {
+		"unicode": "EAFC",
+		"name": "user-12"
+	},
+	"user-13-icon.svg": {
+		"unicode": "EAFD",
+		"name": "user-13-icon"
+	},
+	"user-14-icon.svg": {
+		"unicode": "EAFE",
+		"name": "user-14-icon"
+	},
+	"user-2-icon.svg": {
+		"unicode": "EAFF",
+		"name": "user-2-icon"
+	},
+	"user-8.svg": {
+		"unicode": "EB00",
+		"name": "user-8"
+	},
+	"user-icon.svg": {
+		"unicode": "EB01",
+		"name": "user-icon"
+	},
+	"user-iconmonstr-user-10-icon.svg": {
+		"unicode": "EB02",
+		"name": "user-iconmonstr-user-10-icon"
+	},
+	"user.svg": {
+		"unicode": "EB03",
+		"name": "user"
+	},
+	"user_hp.svg": {
+		"unicode": "EB04",
+		"name": "user_hp"
+	},
+	"vcard.svg": {
+		"unicode": "EB05",
+		"name": "vcard"
+	},
+	"video-4-icon.svg": {
+		"unicode": "EB06",
+		"name": "video-4-icon"
+	},
+	"video-camera-6-icon.svg": {
+		"unicode": "EB07",
+		"name": "video-camera-6-icon"
+	},
+	"video.svg": {
+		"unicode": "EB08",
+		"name": "video"
+	},
+	"volume-high.svg": {
+		"unicode": "EB09",
+		"name": "volume-high"
+	},
+	"volume-low.svg": {
+		"unicode": "EB0A",
+		"name": "volume-low"
+	},
+	"volume-medium.svg": {
+		"unicode": "EB0B",
+		"name": "volume-medium"
+	},
+	"volume-mute.svg": {
+		"unicode": "EB0C",
+		"name": "volume-mute"
+	},
+	"volume-mute2.svg": {
+		"unicode": "EB0D",
+		"name": "volume-mute2"
+	},
+	"warning.svg": {
+		"unicode": "EB0E",
+		"name": "warning"
+	},
+	"webcam-3-icon.svg": {
+		"unicode": "EB0F",
+		"name": "webcam-3-icon"
+	},
+	"windows.svg": {
+		"unicode": "EB10",
+		"name": "windows"
+	},
+	"windows8.svg": {
+		"unicode": "EB11",
+		"name": "windows8"
+	},
+	"wrench-6-icon.svg": {
+		"unicode": "EB12",
+		"name": "wrench-6-icon"
+	},
+	"youtube.svg": {
+		"unicode": "EB13",
+		"name": "youtube"
+	},
+	"youtube2.svg": {
+		"unicode": "EB14",
+		"name": "youtube2"
+	},
+	"zoom-in.svg": {
+		"unicode": "EB15",
+		"name": "zoom-in"
+	},
+	"zoom-out.svg": {
+		"unicode": "EB16",
+		"name": "zoom-out"
+	}
 }
