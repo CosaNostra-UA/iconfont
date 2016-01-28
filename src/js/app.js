@@ -26,6 +26,13 @@ $('document').ready(function() {
         $font.removeClass('button-selected');
         $iconsField.show();
         $('#font-field').hide();
+
+        $('div.cell').each(function(){
+            var current = $(this).children('input[name="name-file"]').val();
+            var searchElem = $('div[data-namefile="' + current + '"]');
+            searchElem.data('name', $(this).children('input[name="name-icon"]').val());
+            searchElem.data('code', $(this).children('input[name="code-icon"]').val());
+        });
     });
 
     $font.click(function() {
