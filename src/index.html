@@ -20,9 +20,11 @@
     url('fonts/basefont.svg') format('svg');
 }
 
-p { margin-left: calc(50% - 0.5em);
-    margin-top: calc(50% - 0.5em);
-    font-size: 24px;}
+p {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 14px;
+}
 
 .field {
     font-family: basefont;
@@ -93,7 +95,7 @@ p { margin-left: calc(50% - 0.5em);
 }
 
 .code {
-    margin-left: 19px;
+    margin-left: 24px;
 }
 
 .remove {
@@ -102,6 +104,14 @@ p { margin-left: calc(50% - 0.5em);
     font-size: 17px;
     margin: 0;
     cursor: pointer;
+}
+
+.cell span {
+    width: 16px;
+    box-sizing: content-box;
+    display: inline-block;
+    text-align: center;
+    padding-right: 5px;
 }
 
 label {
