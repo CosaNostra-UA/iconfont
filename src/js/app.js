@@ -21,6 +21,13 @@ $('document').ready(function() {
         $(event.target).parent().remove();
     });
 
+    $iconsField.selectable({
+        filter: 'div',
+        selected: function( event, ui ) {
+            $(ui.selected).toggleClass('selected');
+        }
+    });
+
     $selection.click(function() {
         $selection.addClass('button-selected');
         $font.removeClass('button-selected');
