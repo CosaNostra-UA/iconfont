@@ -31,10 +31,9 @@ p {
     font-family: basefont;
     display: table;
     width: 60%;
-    background: #f1f1f1;
+    background: #ebebeb;
     position: relative;
-    overflow: hidden;
-    box-shadow: 0 0 12px 4px rgba(150,150,150,0.3);
+    box-shadow: 0 0 12px 4px rgba(139, 139, 139, 0.3);
     margin: 70px auto;
     padding: 20px;
     table-layout: fixed;
@@ -44,7 +43,7 @@ p {
 .icon, div.selected.ui-selecting {
     width: 62px;
     height: 62px;
-    background-color: #ddd;
+    background-color: #d9d9d9;
     margin: 5px;
     border-radius: .3125em;
     display: inline-block;
@@ -52,7 +51,7 @@ p {
 }
 
 .icon:hover {
-    box-shadow: inset 0 0 0 .1875em rgba(195, 191, 191, 0.98);
+    box-shadow: inset 0 0 0 .1875em rgba(185, 181, 181, 0.98);
 }
 
 .selected, .selected:hover, div.ui-selecting {
@@ -60,22 +59,30 @@ p {
     box-shadow: inset 0 0 0 .1875em #ffbb4d;
 }
 
-.bar-btn {
-    display: block;
+.head {
     width: 100%;
-    background: #f1f1f1;
     position: fixed;
     z-index: 111;
     top: 0;
+    right: 0;
+}
+
+.bar-btn {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    background: #efefef;
     padding: 20px;
     text-align: center;
+    box-sizing: border-box;
 }
 
 .button {
     font: 16px Arial,sans-serif;
     border-radius: .3125em;
+    background-color: #e1e1e1;
     padding: 10px;
-    border: 2px solid rgba(195, 191, 191, 0.98);
+    border: 2px solid rgba(185, 181, 181, 0.98);
     margin-left: 5px;
     cursor: pointer;
 }
@@ -140,7 +147,9 @@ form div {
     </style>
   </head>
   <body>
-    <div class="bar-btn"><span id="selection" class="button">Selection</span><span id="font" class="button">Generate Font</span></div>
+    <header class="head">
+      <div class="bar-btn"><span id="selection" class="button">Selection</span><span id="font" class="button">Generate Font</span></div>
+    </header>
     <div id="font-field" class="field"><br>
       <label>Font name:</label>
       <input type="text" name="name-font" value="filmon-iconfont" style="width: 150px"><span id="download" class="button">Save</span>
