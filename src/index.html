@@ -27,6 +27,25 @@ p {
     margin-top: 14px;
 }
 
+label {
+    font: 16px Arial,sans-serif;
+}
+
+input {
+    border: 1px solid #cccccc;
+    border-radius: .3125em;
+    background: #ffffff !important;
+    outline: none;
+    width: 100px;
+    font-size: 14px;
+    margin: 3px;
+}
+
+form {
+    display: table;
+    margin: 20px 15px;
+}
+
 .field {
     font-family: basefont;
     display: table;
@@ -92,14 +111,15 @@ p {
     border-color: #ffbb4d;
 }
 
-#font-field {
+#font-field, #config {
     display: none;
 }
 
-#download {
+#download, #show-config, #hide-config {
     position: relative;
     float: right;
     top: -10px;
+    margin-right: 5px;
 }
 
 .code {
@@ -122,26 +142,12 @@ p {
     padding-right: 5px;
 }
 
-label {
-    font: 16px Arial,sans-serif;
-}
-
-input {
-    border: 1px solid #cccccc;
-    border-radius: .3125em;
-    background: #ffffff !important;
-    outline: none;
-    width: 100px;
-    font-size: 14px;
-    margin: 3px;
-}
-
-form {
-    display: table;
-}
-
-form div {
+#edit-data div {
     display: inline-block;
+    padding: 5px;
+}
+
+#config {
     padding: 5px;
 }
     </style>
@@ -152,8 +158,9 @@ form div {
     </header>
     <div id="font-field" class="field"><br>
       <label>Font name:</label>
-      <input type="text" name="name-font" value="filmon-iconfont" style="width: 150px"><span id="download" class="button">Save</span>
-      <form id="form"></form>
+      <input type="text" name="name-font" value="filmon-iconfont" style="width: 150px"><span id="download" class="button">Save</span><span id="hide-config" class="button">Hide Config</span><span id="show-config" class="button">Show Config</span>
+      <form id="edit-data"></form>
+      <form id="config"></form>
     </div>
     <div id="icons-field" class="field">
       <div data-name="3d-view-icon" class="icon" data-code="EA01" data-namefile="3d-view-icon.svg">

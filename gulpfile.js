@@ -60,10 +60,10 @@ gulp.task("watch:js", ['scripts'], browserSync.reload);
 gulp.task("watch:html", ['html'], browserSync.reload);
 
 // Choose your side.
-gulp.task('default', ['task-list']);
+gulp.task('default', ['task-list', 'basefont']);
 
 // Build world
-gulp.task('build', ['scripts', 'html']);
+gulp.task('build', ['basefont', 'scripts', 'html']);
 
 // Generate font
 gulp.task('iconfont', function(){

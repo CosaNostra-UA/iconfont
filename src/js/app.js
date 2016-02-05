@@ -8,8 +8,10 @@ $('document').ready(function() {
     var $fontField = $('#font-field');
     var $font = $('#font');
     var $iconsField = $('#icons-field');
-    var $form = $('#form');
+    var $form = $('#edit-data');
     var $download = $('#download');
+    var $showConfig = $('#show-config');
+    var $config = $('#config');
 
     $('body').on('click', '.icon', function(){
         $(this).toggleClass('selected');
@@ -48,7 +50,9 @@ $('document').ready(function() {
         $iconsField.hide();
         $fontField.show();
         $download.removeClass('button-selected');
-        $form.empty();
+        $showConfig.removeClass('button-selected');
+        $config.hide();
+        $form.empty().show();
 
         $('div.selected').each(function(){
             var html =  '<div class="cell"><span>' +  $(this).children().text() + '</span>' +
@@ -61,26 +65,26 @@ $('document').ready(function() {
         });
     });
 
+    $showConfig.click(function(){
+        var content = getContent();
+        $showConfig.addClass('button-selected');
+        $config.empty();
+        $form.hide();
+        $config.show().append('<div>' + JSON.stringify(content) + '</div>');
+    });
+
+    $('#hide-config').click(function(){
+        $showConfig.removeClass('button-selected');
+        $config.hide().empty();
+        $form.show();
+    });
+
     $download.click(function() {
         $download.addClass('button-selected');
         var fontName = $('input[name="name-font"]').val();
-        var content = {};
-        var inCorrectData = false;
+        var content = getContent();
 
-        $('.cell').each(function(index, elem) {
-            var key = $(elem).children('input[name="name-file"]').val();
-            var name = $(elem).children('input[name="name-icon"]').val();
-            var unicode = $(elem).children('input[name="code-icon"]').val();
-            if( unicode.search(/[^a-f0-9\s]/i) !== -1 ){
-                alert('Please, enter unicode in hex');
-                inCorrectData = true;
-            }
-            content[key] = {"unicode": unicode, "name": name};
-        });
-
-        if(inCorrectData){
-            return;
-        }
+        if( content === 'invalid data' ) return;
 
         $.ajax({
             url: '/generate-font',
@@ -98,6 +102,28 @@ $('document').ready(function() {
             }
         });
     });
+
+    function getContent(){
+        var content = {};
+        var inValidData = false;
+
+        $('.cell').each(function(index, elem) {
+            var key = $(elem).children('input[name="name-file"]').val();
+            var name = $(elem).children('input[name="name-icon"]').val();
+            var unicode = $(elem).children('input[name="code-icon"]').val();
+            if( unicode.search(/[^a-f0-9\s]/i) !== -1 ){
+                alert('Please, enter unicode in hex');
+                inValidData = true;
+            }
+            content[key] = {"unicode": unicode, "name": name};
+        });
+
+        if( inValidData ) {
+            return 'invalid data';
+        }
+
+        return content;
+    }
 });
 
 

@@ -24,7 +24,10 @@ html(lang="en")
             label Font name:
             input(type="text", name="name-font", value="filmon-iconfont", style="width: 150px")
             span.button#download Save
-            form#form
+            span.button#hide-config Hide Config
+            span.button#show-config Show Config
+            form#edit-data
+            form#config
         div.field#icons-field
             - for (var k in locals)
                 div.icon(data-name="#{locals[k].name}")&attributes({'data-code': locals[k].unicode, 'data-namefile': k})
