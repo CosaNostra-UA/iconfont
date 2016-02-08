@@ -111,11 +111,11 @@ form {
     border-color: #ffbb4d;
 }
 
-#font-field, #config {
+#font-field {
     display: none;
 }
 
-#download, #show-config, #hide-config {
+#download, #show-config {
     position: relative;
     float: right;
     top: -10px;
@@ -146,10 +146,6 @@ form {
     display: inline-block;
     padding: 5px;
 }
-
-#config {
-    padding: 5px;
-}
     </style>
   </head>
   <body>
@@ -158,9 +154,8 @@ form {
     </header>
     <div id="font-field" class="field"><br>
       <label>Font name:</label>
-      <input type="text" name="name-font" value="filmon-iconfont" style="width: 150px"><span id="download" class="button">Save</span><span id="hide-config" class="button">Hide Config</span><span id="show-config" class="button">Show Config</span>
+      <input type="text" name="name-font" value="filmon-iconfont" style="width: 150px"><span id="download" class="button">Save</span><span id="show-config" class="button">Show Config</span>
       <form id="edit-data"></form>
-      <form id="config"></form>
     </div>
     <div id="icons-field" class="field">
       <div data-name="3d-view-icon" class="icon" data-code="EA01" data-namefile="3d-view-icon.svg">

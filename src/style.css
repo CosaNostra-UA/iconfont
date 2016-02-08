@@ -98,11 +98,11 @@ form {
     border-color: #ffbb4d;
 }
 
-#font-field, #config {
+#font-field {
     display: none;
 }
 
-#download, #show-config, #hide-config {
+#download, #show-config {
     position: relative;
     float: right;
     top: -10px;
@@ -131,9 +131,5 @@ form {
 
 #edit-data div {
     display: inline-block;
-    padding: 5px;
-}
-
-#config {
     padding: 5px;
 }

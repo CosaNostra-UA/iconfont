@@ -10,8 +10,6 @@ $('document').ready(function() {
     var $iconsField = $('#icons-field');
     var $form = $('#edit-data');
     var $download = $('#download');
-    var $showConfig = $('#show-config');
-    var $config = $('#config');
 
     $('body').on('click', '.icon', function(){
         $(this).toggleClass('selected');
@@ -50,9 +48,7 @@ $('document').ready(function() {
         $iconsField.hide();
         $fontField.show();
         $download.removeClass('button-selected');
-        $showConfig.removeClass('button-selected');
-        $config.hide();
-        $form.empty().show();
+        $form.empty();
 
         $('div.selected').each(function(){
             var html =  '<div class="cell"><span>' +  $(this).children().text() + '</span>' +
@@ -65,18 +61,10 @@ $('document').ready(function() {
         });
     });
 
-    $showConfig.click(function(){
+    $('#show-config').click(function(){
         var content = getContent();
-        $showConfig.addClass('button-selected');
-        $config.empty();
-        $form.hide();
-        $config.show().append('<div>' + JSON.stringify(content) + '</div>');
-    });
-
-    $('#hide-config').click(function(){
-        $showConfig.removeClass('button-selected');
-        $config.hide().empty();
-        $form.show();
+        var showConfig = window.open("data:text/html", "_blank");
+        showConfig.document.write('<div>' + JSON.stringify(content) + '</div>');
     });
 
     $download.click(function() {
