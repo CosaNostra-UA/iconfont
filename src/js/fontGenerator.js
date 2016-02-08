@@ -5,7 +5,6 @@
 var gulp     = require('gulp');
 var iconfont = require('gulp-iconfont');
 var path     = require('path');
-var srcIcons = require('../config.json').srcIcons;
 require('string.fromcodepoint');
 var src = [];
 
@@ -15,7 +14,7 @@ function getUnicode(unicode) {
 
 module.exports = function (fontName, data){
     for (var key in data){
-        src.push(srcIcons + key);
+        src.push(__dirname + '/../../icons-library/' + key);
     }
 
     return gulp.src(src)
