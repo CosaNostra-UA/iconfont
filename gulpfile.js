@@ -60,7 +60,7 @@ gulp.task("watch:js", ['scripts'], browserSync.reload);
 gulp.task("watch:html", ['html'], browserSync.reload);
 
 // Choose your side.
-gulp.task('default', ['task-list', 'basefont']);
+gulp.task('default', ['task-list']);
 
 // Build world
 gulp.task('build', ['basefont', 'scripts', 'html']);
