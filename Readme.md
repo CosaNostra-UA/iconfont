@@ -11,11 +11,10 @@ npm install --save git+ssh://git@git.111pix.com:7999/fw/library-iconfont.git
 ## Usage
 
  - For the first time:
- ```
- - write the valid path to icons in ./src/config.json
+```
  gulp basedata
  gulp build
- ```
+```
 
 
  - Create selection config somewhere (gulp/font-config.json) using your favorite editor or iconfont webinterface
