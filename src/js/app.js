@@ -63,8 +63,8 @@ $('document').ready(function() {
 
     $('#show-config').click(function(){
         var content = getContent();
-        var showConfig = window.open("data:text/html", "_blank");
-        showConfig.document.write('<div>' + JSON.stringify(content) + '</div>');
+        var showConfig = window.open("");
+        showConfig.document.write('<title>Font-config</title><div>' + JSON.stringify(content) + '</div>');
     });
 
     $download.click(function() {
