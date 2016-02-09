@@ -55,13 +55,3 @@ gulp iconfont --env <fontName>
 gulp generateHtml
 gulp html
 ```
-
-
-
-TODO: 
-
-    --- regenerate baseData.json  : gulp task basedata (done)
-    --- basefont add to default/build/serve task (done)
-    --- allow to copypaste json (selection.json) from webinterface (done)
-    --- "Example app running on port 3002 " replace with " Open your browser at "http://localhost:3002/"  and enjoy the show! (done)
- 

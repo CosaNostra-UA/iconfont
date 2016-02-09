@@ -1,3 +1,4 @@
+
 var gulp            = require('gulp');
 var args            = require('yargs').argv;
 var jade            = require('gulp-jade');
@@ -84,7 +85,7 @@ gulp.task('generateHtml', ['basefont'], function() {
       pretty: true
     }))
     .pipe(rename('index.html'))
-    .pipe(gulp.dest('./src/'))
+    .pipe(gulp.dest('./src/'));
 });
 
 
