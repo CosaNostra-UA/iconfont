@@ -5,17 +5,17 @@ Universal library to generate icon fonts across all our's projects
 ## Installation
 
 ```
-npm install --save git+ssh://git@git.111pix.com:7999/fw/library-iconfont.git
+git clone ssh://git@git.111pix.com:7999/fw/library-iconfont.git
+npm install
 ```
 
 ## Usage
 
- - For the first time:
-```
- gulp basedata
- gulp build
-```
+### Integration for your project
 
+```
+npm install --save git+ssh://git@git.111pix.com:7999/fw/library-iconfont.git
+```
 
  - Create selection config somewhere (gulp/font-config.json) using your favorite editor or iconfont webinterface
 
@@ -29,6 +29,23 @@ gulp.task('generate-filmon-font', function() {
 });
 
 ```
+
+### Using web interface
+```
+cd .../library-iconfont  
+```  
+
+ - For the first time:
+```
+gulp build
+```
+
+ - Run server:
+```
+/usr/bin/node ./src/server.js or npm run server  
+```  
+
+ - Open your browser at "http://localhost:3002/"
 
 ## Hacking
 
@@ -48,10 +65,17 @@ gulp iconfont
 gulp iconfont --env <fontName>
 ```
 
-### To change set of source icons into index.html
+### To generate baseData.json
+```
+gulp basedata
+```
+
+
+### To change set of source icons
 
 ```
- - first, change src/baseData.json since you need
+- add or remove icons in ./icons-library
+- change src/baseData.json since you need
 gulp generateHtml
 gulp html
 ```
