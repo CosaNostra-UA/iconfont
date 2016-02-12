@@ -8,13 +8,19 @@ module.exports = function(){
     var code = 0xEA01;
     var content = {};
 
-    fs.readdir(__dirname + '/../../icons-library/', function(err, files){
-        files.forEach(function(data){
-            content[data] = {
-                unicode: (code++).toString(16).toUpperCase(),
-                name: data.slice(0, -4)
-            };
+    fs.readdir(__dirname + '/../../icons-library/', function(err, items){
+        items.map(function(dir) {
+            fs.readdir(__dirname + '/../../icons-library/' + dir, function(err, files){
+                files.forEach(function(data){
+                    content[dir + '/' + data] = {
+                    unicode: (code++).toString(16).toUpperCase(),
+                    name: data.slice(0, -4)
+                    };
+                 });
+            });
         });
-        fs.writeFile('src/baseData.json', JSON.stringify(content, null, '\t'));
+        setTimeout(function(){
+            fs.writeFile('src/baseData.json', JSON.stringify(content, null, '\t'));
+        }, 1000)
     });
 };

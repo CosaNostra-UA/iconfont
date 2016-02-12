@@ -1,1114 +1,1110 @@
 {
-	"3d-view-icon.svg": {
+	"test2/angry.svg": {
 		"unicode": "EA01",
-		"name": "3d-view-icon"
-	},
-	"Battlecamcontour.svg": {
-		"unicode": "EA02",
-		"name": "Battlecamcontour"
-	},
-	"IE.svg": {
-		"unicode": "EA03",
-		"name": "IE"
-	},
-	"accessibility.svg": {
-		"unicode": "EA04",
-		"name": "accessibility"
-	},
-	"android.svg": {
-		"unicode": "EA05",
-		"name": "android"
-	},
-	"angry.svg": {
-		"unicode": "EA06",
 		"name": "angry"
 	},
-	"antenna.svg": {
-		"unicode": "EA07",
+	"test2/antenna.svg": {
+		"unicode": "EA02",
 		"name": "antenna"
 	},
-	"apple.svg": {
-		"unicode": "EA08",
+	"test2/apple.svg": {
+		"unicode": "EA03",
 		"name": "apple"
 	},
-	"archive.svg": {
-		"unicode": "EA09",
-		"name": "archive"
-	},
-	"archive4.svg": {
-		"unicode": "EA0A",
-		"name": "archive4"
-	},
-	"arrow-bottom-bold.svg": {
-		"unicode": "EA0B",
-		"name": "arrow-bottom-bold"
-	},
-	"arrow-down.svg": {
-		"unicode": "EA0C",
-		"name": "arrow-down"
-	},
-	"arrow-left.svg": {
-		"unicode": "EA0D",
-		"name": "arrow-left"
-	},
-	"arrow-move.svg": {
-		"unicode": "EA0E",
-		"name": "arrow-move"
-	},
-	"arrow-right.svg": {
-		"unicode": "EA0F",
-		"name": "arrow-right"
-	},
-	"arrow-top-bold.svg": {
-		"unicode": "EA10",
-		"name": "arrow-top-bold"
-	},
-	"arrow-up.svg": {
-		"unicode": "EA11",
-		"name": "arrow-up"
-	},
-	"attachment.svg": {
-		"unicode": "EA12",
+	"test2/attachment.svg": {
+		"unicode": "EA04",
 		"name": "attachment"
 	},
-	"award-23-icon.svg": {
-		"unicode": "EA13",
+	"test2/award-23-icon.svg": {
+		"unicode": "EA05",
 		"name": "award-23-icon"
 	},
-	"back.svg": {
-		"unicode": "EA14",
+	"test2/back.svg": {
+		"unicode": "EA06",
 		"name": "back"
 	},
-	"backward.svg": {
-		"unicode": "EA15",
-		"name": "backward"
-	},
-	"bc_HD1.svg": {
-		"unicode": "EA16",
+	"test2/bc_HD1.svg": {
+		"unicode": "EA07",
 		"name": "bc_HD1"
 	},
-	"bc_HD_broadcast2.svg": {
-		"unicode": "EA17",
-		"name": "bc_HD_broadcast2"
-	},
-	"bc_antispam.svg": {
-		"unicode": "EA18",
-		"name": "bc_antispam"
-	},
-	"bc_follow.svg": {
-		"unicode": "EA19",
-		"name": "bc_follow"
-	},
-	"bc_lock.svg": {
-		"unicode": "EA1A",
-		"name": "bc_lock"
-	},
-	"bc_room_style.svg": {
-		"unicode": "EA1B",
-		"name": "bc_room_style"
-	},
-	"blocked.svg": {
-		"unicode": "EA1C",
-		"name": "blocked"
-	},
-	"bullhorn.svg": {
-		"unicode": "EA1D",
+	"test2/bullhorn.svg": {
+		"unicode": "EA08",
 		"name": "bullhorn"
 	},
-	"calculate.svg": {
-		"unicode": "EA1E",
+	"test2/calculate.svg": {
+		"unicode": "EA09",
 		"name": "calculate"
 	},
-	"camera-blocked1.svg": {
-		"unicode": "EA1F",
-		"name": "camera-blocked1"
-	},
-	"camera3.svg": {
-		"unicode": "EA20",
+	"test2/camera3.svg": {
+		"unicode": "EA0A",
 		"name": "camera3"
 	},
-	"cart-fill.svg": {
-		"unicode": "EA21",
-		"name": "cart-fill"
-	},
-	"cart.svg": {
-		"unicode": "EA22",
-		"name": "cart"
-	},
-	"chat.svg": {
-		"unicode": "EA23",
-		"name": "chat"
-	},
-	"chrome.svg": {
-		"unicode": "EA24",
-		"name": "chrome"
-	},
-	"circle-fill.svg": {
-		"unicode": "EA25",
-		"name": "circle-fill"
-	},
-	"coin-2-icon.svg": {
-		"unicode": "EA26",
-		"name": "coin-2-icon"
-	},
-	"coin.svg": {
-		"unicode": "EA27",
-		"name": "coin"
-	},
-	"comment.svg": {
-		"unicode": "EA28",
-		"name": "comment"
-	},
-	"cool.svg": {
-		"unicode": "EA29",
+	"test2/cool.svg": {
+		"unicode": "EA0B",
 		"name": "cool"
 	},
-	"credit-card-11-icon.svg": {
-		"unicode": "EA2A",
+	"test2/credit-card-11-icon.svg": {
+		"unicode": "EA0C",
 		"name": "credit-card-11-icon"
 	},
-	"credit.svg": {
-		"unicode": "EA2B",
+	"test2/credit.svg": {
+		"unicode": "EA0D",
 		"name": "credit"
 	},
-	"cut-4-icon.svg": {
-		"unicode": "EA2C",
-		"name": "cut-4-icon"
-	},
-	"cut-5.svg": {
-		"unicode": "EA2D",
-		"name": "cut-5"
-	},
-	"debit.svg": {
-		"unicode": "EA2E",
-		"name": "debit"
-	},
-	"ding.svg": {
-		"unicode": "EA2F",
+	"test2/ding.svg": {
+		"unicode": "EA0E",
 		"name": "ding"
 	},
-	"docs.svg": {
-		"unicode": "EA30",
+	"test2/docs.svg": {
+		"unicode": "EA0F",
 		"name": "docs"
 	},
-	"dollar.svg": {
-		"unicode": "EA31",
+	"test2/dollar.svg": {
+		"unicode": "EA10",
 		"name": "dollar"
 	},
-	"double-arrow-left.svg": {
-		"unicode": "EA32",
-		"name": "double-arrow-left"
-	},
-	"double-arrow-right.svg": {
-		"unicode": "EA33",
-		"name": "double-arrow-right"
-	},
-	"download.svg": {
-		"unicode": "EA34",
-		"name": "download"
-	},
-	"eTVlogo_Sept2014_black.svg": {
-		"unicode": "EA35",
+	"test2/eTVlogo_Sept2014_black.svg": {
+		"unicode": "EA11",
 		"name": "eTVlogo_Sept2014_black"
 	},
-	"eject.svg": {
-		"unicode": "EA36",
+	"test2/eject.svg": {
+		"unicode": "EA12",
 		"name": "eject"
 	},
-	"email-8-icon.svg": {
-		"unicode": "EA37",
+	"test2/email-8-icon.svg": {
+		"unicode": "EA13",
 		"name": "email-8-icon"
 	},
-	"email-icon.svg": {
-		"unicode": "EA38",
+	"test2/email-icon.svg": {
+		"unicode": "EA14",
 		"name": "email-icon"
 	},
-	"enter.svg": {
-		"unicode": "EA39",
-		"name": "enter"
-	},
-	"equalizer.svg": {
-		"unicode": "EA3A",
+	"test2/equalizer.svg": {
+		"unicode": "EA15",
 		"name": "equalizer"
 	},
-	"evil.svg": {
-		"unicode": "EA3B",
+	"test2/evil.svg": {
+		"unicode": "EA16",
 		"name": "evil"
 	},
-	"exit.svg": {
-		"unicode": "EA3C",
+	"test2/exit.svg": {
+		"unicode": "EA17",
 		"name": "exit"
 	},
-	"export.svg": {
-		"unicode": "EA3D",
+	"test2/export.svg": {
+		"unicode": "EA18",
 		"name": "export"
 	},
-	"export2.svg": {
-		"unicode": "EA3E",
-		"name": "export2"
-	},
-	"eye-7-icon.svg": {
-		"unicode": "EA3F",
-		"name": "eye-7-icon"
-	},
-	"eye-blocked.svg": {
-		"unicode": "EA40",
-		"name": "eye-blocked"
-	},
-	"eye.svg": {
-		"unicode": "EA41",
-		"name": "eye"
-	},
-	"facebook.svg": {
-		"unicode": "EA42",
-		"name": "facebook"
-	},
-	"facebook2.svg": {
-		"unicode": "EA43",
-		"name": "facebook2"
-	},
-	"film.svg": {
-		"unicode": "EA44",
-		"name": "film"
-	},
-	"filmon_social.svg": {
-		"unicode": "EA45",
-		"name": "filmon_social"
-	},
-	"find-users1.svg": {
-		"unicode": "EA46",
-		"name": "find-users1"
-	},
-	"finder.svg": {
-		"unicode": "EA47",
-		"name": "finder"
-	},
-	"firefox.svg": {
-		"unicode": "EA48",
+	"test2/firefox.svg": {
+		"unicode": "EA19",
 		"name": "firefox"
 	},
-	"first.svg": {
-		"unicode": "EA49",
+	"test2/first.svg": {
+		"unicode": "EA1A",
 		"name": "first"
 	},
-	"flag.svg": {
-		"unicode": "EA4A",
-		"name": "flag"
-	},
-	"flag2.svg": {
-		"unicode": "EA4B",
-		"name": "flag2"
-	},
-	"flame.svg": {
-		"unicode": "EA4C",
-		"name": "flame"
-	},
-	"folder.svg": {
-		"unicode": "EA4D",
-		"name": "folder"
-	},
-	"forward.svg": {
-		"unicode": "EA4E",
-		"name": "forward"
-	},
-	"gauge.svg": {
-		"unicode": "EA4F",
-		"name": "gauge"
-	},
-	"gear-2.svg": {
-		"unicode": "EA50",
-		"name": "gear-2"
-	},
-	"gear.svg": {
-		"unicode": "EA51",
-		"name": "gear"
-	},
-	"google-plus.svg": {
-		"unicode": "EA52",
+	"test2/google-plus.svg": {
+		"unicode": "EA1B",
 		"name": "google-plus"
 	},
-	"googleplus.svg": {
-		"unicode": "EA53",
-		"name": "googleplus"
-	},
-	"googleplus2.svg": {
-		"unicode": "EA54",
-		"name": "googleplus2"
-	},
-	"grid.svg": {
-		"unicode": "EA55",
-		"name": "grid"
-	},
-	"heart.svg": {
-		"unicode": "EA56",
-		"name": "heart"
-	},
-	"heart2.svg": {
-		"unicode": "EA57",
-		"name": "heart2"
-	},
-	"home.svg": {
-		"unicode": "EA58",
-		"name": "home"
-	},
-	"icon_8249.svg": {
-		"unicode": "EA59",
-		"name": "icon_8249"
-	},
-	"id-card-13-icon.svg": {
-		"unicode": "EA5A",
-		"name": "id-card-13-icon"
-	},
-	"info.svg": {
-		"unicode": "EA5B",
-		"name": "info"
-	},
-	"lab-small.svg": {
-		"unicode": "EA5C",
-		"name": "lab-small"
-	},
-	"last.svg": {
-		"unicode": "EA5D",
-		"name": "last"
-	},
-	"layout.svg": {
-		"unicode": "EA5E",
-		"name": "layout"
-	},
-	"lifebuoy.svg": {
-		"unicode": "EA5F",
+	"test2/lifebuoy.svg": {
+		"unicode": "EA1C",
 		"name": "lifebuoy"
 	},
-	"light-bulb.svg": {
-		"unicode": "EA60",
+	"test2/light-bulb.svg": {
+		"unicode": "EA1D",
 		"name": "light-bulb"
 	},
-	"link.svg": {
-		"unicode": "EA61",
-		"name": "link"
-	},
-	"list.svg": {
-		"unicode": "EA62",
-		"name": "list"
-	},
-	"list2.svg": {
-		"unicode": "EA63",
-		"name": "list2"
-	},
-	"list3.svg": {
-		"unicode": "EA64",
+	"test2/list3.svg": {
+		"unicode": "EA1E",
 		"name": "list3"
 	},
-	"lock-11-icon.svg": {
-		"unicode": "EA65",
-		"name": "lock-11-icon"
-	},
-	"lock.svg": {
-		"unicode": "EA66",
+	"test2/lock.svg": {
+		"unicode": "EA1F",
 		"name": "lock"
 	},
-	"lock3.svg": {
-		"unicode": "EA67",
+	"test2/lock3.svg": {
+		"unicode": "EA20",
 		"name": "lock3"
 	},
-	"login2.svg": {
-		"unicode": "EA68",
-		"name": "login2"
-	},
-	"loop.svg": {
-		"unicode": "EA69",
-		"name": "loop"
-	},
-	"mail.svg": {
-		"unicode": "EA6A",
-		"name": "mail"
-	},
-	"map-location.svg": {
-		"unicode": "EA6B",
+	"test2/map-location.svg": {
+		"unicode": "EA21",
 		"name": "map-location"
 	},
-	"megaphone.svg": {
-		"unicode": "EA6C",
+	"test2/megaphone.svg": {
+		"unicode": "EA22",
 		"name": "megaphone"
 	},
-	"menu.svg": {
-		"unicode": "EA6D",
-		"name": "menu"
-	},
-	"microphone.svg": {
-		"unicode": "EA6E",
-		"name": "microphone"
-	},
-	"mobile.svg": {
-		"unicode": "EA6F",
-		"name": "mobile"
-	},
-	"mobile2.svg": {
-		"unicode": "EA70",
+	"test2/mobile2.svg": {
+		"unicode": "EA23",
 		"name": "mobile2"
 	},
-	"music.svg": {
-		"unicode": "EA71",
+	"test2/music.svg": {
+		"unicode": "EA24",
 		"name": "music"
 	},
-	"new.svg": {
-		"unicode": "EA72",
+	"test2/new.svg": {
+		"unicode": "EA25",
 		"name": "new"
 	},
-	"newtab.svg": {
-		"unicode": "EA73",
-		"name": "newtab"
-	},
-	"next.svg": {
-		"unicode": "EA74",
-		"name": "next"
-	},
-	"not-avail.svg": {
-		"unicode": "EA75",
-		"name": "not-avail"
-	},
-	"opera.svg": {
-		"unicode": "EA76",
-		"name": "opera"
-	},
-	"paperplane.svg": {
-		"unicode": "EA77",
+	"test2/paperplane.svg": {
+		"unicode": "EA26",
 		"name": "paperplane"
 	},
-	"pause.svg": {
-		"unicode": "EA78",
+	"test2/pause.svg": {
+		"unicode": "EA27",
 		"name": "pause"
 	},
-	"picture-attachment-icon.svg": {
-		"unicode": "EA79",
-		"name": "picture-attachment-icon"
-	},
-	"picture-edit-icon.svg": {
-		"unicode": "EA7A",
-		"name": "picture-edit-icon"
-	},
-	"picture-remove-icon.svg": {
-		"unicode": "EA7B",
+	"test2/picture-remove-icon.svg": {
+		"unicode": "EA28",
 		"name": "picture-remove-icon"
 	},
-	"picture.svg": {
-		"unicode": "EA7C",
-		"name": "picture"
-	},
-	"pictures.svg": {
-		"unicode": "EA7D",
+	"test2/pictures.svg": {
+		"unicode": "EA29",
 		"name": "pictures"
 	},
-	"play.svg": {
-		"unicode": "EA7E",
+	"test2/play.svg": {
+		"unicode": "EA2A",
 		"name": "play"
 	},
-	"popup.svg": {
-		"unicode": "EA7F",
-		"name": "popup"
-	},
-	"previous.svg": {
-		"unicode": "EA80",
-		"name": "previous"
-	},
-	"question.svg": {
-		"unicode": "EA81",
-		"name": "question"
-	},
-	"reload.svg": {
-		"unicode": "EA82",
-		"name": "reload"
-	},
-	"remove.svg": {
-		"unicode": "EA83",
+	"test2/remove.svg": {
+		"unicode": "EA2B",
 		"name": "remove"
 	},
-	"remove2.svg": {
-		"unicode": "EA84",
+	"test2/remove2.svg": {
+		"unicode": "EA2C",
 		"name": "remove2"
 	},
-	"reply.svg": {
-		"unicode": "EA85",
-		"name": "reply"
-	},
-	"rocket.svg": {
-		"unicode": "EA86",
-		"name": "rocket"
-	},
-	"safari.svg": {
-		"unicode": "EA87",
-		"name": "safari"
-	},
-	"screen.svg": {
-		"unicode": "EA88",
+	"test2/screen.svg": {
+		"unicode": "EA2D",
 		"name": "screen"
 	},
-	"settings.svg": {
-		"unicode": "EA89",
+	"test2/settings.svg": {
+		"unicode": "EA2E",
 		"name": "settings"
 	},
-	"share.svg": {
-		"unicode": "EA8A",
+	"test2/share.svg": {
+		"unicode": "EA2F",
 		"name": "share"
 	},
-	"shuffle.svg": {
-		"unicode": "EA8B",
-		"name": "shuffle"
-	},
-	"stack.svg": {
-		"unicode": "EA8C",
-		"name": "stack"
-	},
-	"star.svg": {
-		"unicode": "EA8D",
-		"name": "star"
-	},
-	"stats.svg": {
-		"unicode": "EA8E",
-		"name": "stats"
-	},
-	"stop.svg": {
-		"unicode": "EA8F",
-		"name": "stop"
-	},
-	"table.svg": {
-		"unicode": "EA90",
-		"name": "table"
-	},
-	"tablet.svg": {
-		"unicode": "EA91",
-		"name": "tablet"
-	},
-	"tags-3-icon.svg": {
-		"unicode": "EA92",
-		"name": "tags-3-icon"
-	},
-	"th-list.svg": {
-		"unicode": "EA93",
-		"name": "th-list"
-	},
-	"th.svg": {
-		"unicode": "EA94",
-		"name": "th"
-	},
-	"thumb-3-icon.svg": {
-		"unicode": "EA95",
-		"name": "thumb-3-icon"
-	},
-	"thumb-3-icon2.svg": {
-		"unicode": "EA96",
-		"name": "thumb-3-icon2"
-	},
-	"thumb-icon.svg": {
-		"unicode": "EA97",
-		"name": "thumb-icon"
-	},
-	"thumb-icon2.svg": {
-		"unicode": "EA98",
-		"name": "thumb-icon2"
-	},
-	"tools.svg": {
-		"unicode": "EA99",
-		"name": "tools"
-	},
-	"trash.svg": {
-		"unicode": "EA9A",
-		"name": "trash"
-	},
-	"tux.svg": {
-		"unicode": "EA9B",
-		"name": "tux"
-	},
-	"tv.svg": {
-		"unicode": "EA9C",
-		"name": "tv"
-	},
-	"twitter.svg": {
-		"unicode": "EA9D",
-		"name": "twitter"
-	},
-	"twitter2.svg": {
-		"unicode": "EA9E",
-		"name": "twitter2"
-	},
-	"uni22.svg": {
-		"unicode": "EA9F",
-		"name": "uni22"
-	},
-	"uni23.svg": {
-		"unicode": "EAA0",
-		"name": "uni23"
-	},
-	"uni24.svg": {
-		"unicode": "EAA1",
-		"name": "uni24"
-	},
-	"uni25.svg": {
-		"unicode": "EAA2",
-		"name": "uni25"
-	},
-	"uni26.svg": {
-		"unicode": "EAA3",
-		"name": "uni26"
-	},
-	"uni27.svg": {
-		"unicode": "EAA4",
-		"name": "uni27"
-	},
-	"uni28.svg": {
-		"unicode": "EAA5",
-		"name": "uni28"
-	},
-	"uni29.svg": {
-		"unicode": "EAA6",
-		"name": "uni29"
-	},
-	"uni2B.svg": {
-		"unicode": "EAA7",
-		"name": "uni2B"
-	},
-	"uni2D.svg": {
-		"unicode": "EAA8",
-		"name": "uni2D"
-	},
-	"uni2F.svg": {
-		"unicode": "EAA9",
-		"name": "uni2F"
-	},
-	"uni32.svg": {
-		"unicode": "EAAA",
-		"name": "uni32"
-	},
-	"uni33.svg": {
-		"unicode": "EAAB",
-		"name": "uni33"
-	},
-	"uni34.svg": {
-		"unicode": "EAAC",
-		"name": "uni34"
-	},
-	"uni35.svg": {
-		"unicode": "EAAD",
+	"test2/uni35.svg": {
+		"unicode": "EA30",
 		"name": "uni35"
 	},
-	"uni37.svg": {
-		"unicode": "EAAE",
-		"name": "uni37"
-	},
-	"uni39.svg": {
-		"unicode": "EAAF",
-		"name": "uni39"
-	},
-	"uni3A.svg": {
-		"unicode": "EAB0",
-		"name": "uni3A"
-	},
-	"uni3B.svg": {
-		"unicode": "EAB1",
-		"name": "uni3B"
-	},
-	"uni3D.svg": {
-		"unicode": "EAB2",
-		"name": "uni3D"
-	},
-	"uni3F.svg": {
-		"unicode": "EAB3",
-		"name": "uni3F"
-	},
-	"uni42.svg": {
-		"unicode": "EAB4",
-		"name": "uni42"
-	},
-	"uni43.svg": {
-		"unicode": "EAB5",
-		"name": "uni43"
-	},
-	"uni46.svg": {
-		"unicode": "EAB6",
+	"test2/uni46.svg": {
+		"unicode": "EA31",
 		"name": "uni46"
 	},
-	"uni48.svg": {
-		"unicode": "EAB7",
+	"test2/uni48.svg": {
+		"unicode": "EA32",
 		"name": "uni48"
 	},
-	"uni4A.svg": {
-		"unicode": "EAB8",
-		"name": "uni4A"
-	},
-	"uni4B.svg": {
-		"unicode": "EAB9",
-		"name": "uni4B"
-	},
-	"uni4C.svg": {
-		"unicode": "EABA",
-		"name": "uni4C"
-	},
-	"uni4D.svg": {
-		"unicode": "EABB",
-		"name": "uni4D"
-	},
-	"uni4E.svg": {
-		"unicode": "EABC",
-		"name": "uni4E"
-	},
-	"uni4F.svg": {
-		"unicode": "EABD",
-		"name": "uni4F"
-	},
-	"uni50.svg": {
-		"unicode": "EABE",
+	"test2/uni50.svg": {
+		"unicode": "EA33",
 		"name": "uni50"
 	},
-	"uni53.svg": {
-		"unicode": "EABF",
-		"name": "uni53"
-	},
-	"uni56.svg": {
-		"unicode": "EAC0",
-		"name": "uni56"
-	},
-	"uni58.svg": {
-		"unicode": "EAC1",
+	"test2/uni58.svg": {
+		"unicode": "EA34",
 		"name": "uni58"
 	},
-	"uni5C.svg": {
-		"unicode": "EAC2",
-		"name": "uni5C"
-	},
-	"uni5D.svg": {
-		"unicode": "EAC3",
-		"name": "uni5D"
-	},
-	"uni5E.svg": {
-		"unicode": "EAC4",
-		"name": "uni5E"
-	},
-	"uni5F.svg": {
-		"unicode": "EAC5",
-		"name": "uni5F"
-	},
-	"uni60.svg": {
-		"unicode": "EAC6",
-		"name": "uni60"
-	},
-	"uni61.svg": {
-		"unicode": "EAC7",
+	"test2/uni61.svg": {
+		"unicode": "EA35",
 		"name": "uni61"
 	},
-	"uni62.svg": {
-		"unicode": "EAC8",
+	"test2/uni62.svg": {
+		"unicode": "EA36",
 		"name": "uni62"
 	},
-	"uni64.svg": {
-		"unicode": "EAC9",
+	"test2/uni64.svg": {
+		"unicode": "EA37",
 		"name": "uni64"
 	},
-	"uni65.svg": {
-		"unicode": "EACA",
+	"test2/uni65.svg": {
+		"unicode": "EA38",
 		"name": "uni65"
 	},
-	"uni66.svg": {
-		"unicode": "EACB",
+	"test2/uni66.svg": {
+		"unicode": "EA39",
 		"name": "uni66"
 	},
-	"uni68.svg": {
-		"unicode": "EACC",
-		"name": "uni68"
-	},
-	"uni69.svg": {
-		"unicode": "EACD",
+	"test2/uni69.svg": {
+		"unicode": "EA3A",
 		"name": "uni69"
 	},
-	"uni6B.svg": {
-		"unicode": "EACE",
-		"name": "uni6B"
-	},
-	"uni6C.svg": {
-		"unicode": "EACF",
-		"name": "uni6C"
-	},
-	"uni70.svg": {
-		"unicode": "EAD0",
+	"test2/uni70.svg": {
+		"unicode": "EA3B",
 		"name": "uni70"
 	},
-	"uni71.svg": {
-		"unicode": "EAD1",
+	"test2/uni71.svg": {
+		"unicode": "EA3C",
 		"name": "uni71"
 	},
-	"uni72.svg": {
-		"unicode": "EAD2",
+	"test2/uni72.svg": {
+		"unicode": "EA3D",
 		"name": "uni72"
 	},
-	"uni73.svg": {
-		"unicode": "EAD3",
+	"test2/uni73.svg": {
+		"unicode": "EA3E",
 		"name": "uni73"
 	},
-	"uni74.svg": {
-		"unicode": "EAD4",
-		"name": "uni74"
-	},
-	"uni75.svg": {
-		"unicode": "EAD5",
+	"test2/uni75.svg": {
+		"unicode": "EA3F",
 		"name": "uni75"
 	},
-	"uni79.svg": {
-		"unicode": "EAD6",
+	"test2/uni79.svg": {
+		"unicode": "EA40",
 		"name": "uni79"
 	},
-	"uni7C.svg": {
-		"unicode": "EAD7",
-		"name": "uni7C"
-	},
-	"uni7D.svg": {
-		"unicode": "EAD8",
-		"name": "uni7D"
-	},
-	"uni7E.svg": {
-		"unicode": "EAD9",
-		"name": "uni7E"
-	},
-	"uniE001.svg": {
-		"unicode": "EADA",
+	"test2/uniE001.svg": {
+		"unicode": "EA41",
 		"name": "uniE001"
 	},
-	"uniE002.svg": {
-		"unicode": "EADB",
+	"test2/uniE002.svg": {
+		"unicode": "EA42",
 		"name": "uniE002"
 	},
-	"uniE003.svg": {
-		"unicode": "EADC",
+	"test2/uniE003.svg": {
+		"unicode": "EA43",
 		"name": "uniE003"
 	},
-	"uniE006.svg": {
-		"unicode": "EADD",
-		"name": "uniE006"
-	},
-	"uniE009.svg": {
-		"unicode": "EADE",
+	"test2/uniE009.svg": {
+		"unicode": "EA44",
 		"name": "uniE009"
 	},
-	"uniE601.svg": {
-		"unicode": "EADF",
-		"name": "uniE601"
-	},
-	"uniE602.svg": {
-		"unicode": "EAE0",
-		"name": "uniE602"
-	},
-	"uniE603.svg": {
-		"unicode": "EAE1",
-		"name": "uniE603"
-	},
-	"uniE609.svg": {
-		"unicode": "EAE2",
-		"name": "uniE609"
-	},
-	"uniE60A.svg": {
-		"unicode": "EAE3",
+	"test2/uniE60A.svg": {
+		"unicode": "EA45",
 		"name": "uniE60A"
 	},
-	"uniE60B.svg": {
-		"unicode": "EAE4",
+	"test2/uniE60B.svg": {
+		"unicode": "EA46",
 		"name": "uniE60B"
 	},
-	"uniE60C.svg": {
-		"unicode": "EAE5",
+	"test2/uniE60C.svg": {
+		"unicode": "EA47",
 		"name": "uniE60C"
 	},
-	"uniE60F.svg": {
-		"unicode": "EAE6",
+	"test2/uniE60F.svg": {
+		"unicode": "EA48",
 		"name": "uniE60F"
 	},
-	"uniE610.svg": {
-		"unicode": "EAE7",
-		"name": "uniE610"
+	"test3/arrow-down.svg": {
+		"unicode": "EA49",
+		"name": "arrow-down"
 	},
-	"uniE611.svg": {
-		"unicode": "EAE8",
-		"name": "uniE611"
+	"test3/arrow-left.svg": {
+		"unicode": "EA4A",
+		"name": "arrow-left"
 	},
-	"uniE612.svg": {
-		"unicode": "EAE9",
-		"name": "uniE612"
+	"test3/arrow-move.svg": {
+		"unicode": "EA4B",
+		"name": "arrow-move"
 	},
-	"uniE613.svg": {
-		"unicode": "EAEA",
-		"name": "uniE613"
+	"test3/bc_HD_broadcast2.svg": {
+		"unicode": "EA4C",
+		"name": "bc_HD_broadcast2"
 	},
-	"uniE615.svg": {
-		"unicode": "EAEB",
-		"name": "uniE615"
+	"test3/chat.svg": {
+		"unicode": "EA4D",
+		"name": "chat"
 	},
-	"uniE616.svg": {
-		"unicode": "EAEC",
-		"name": "uniE616"
+	"test3/chrome.svg": {
+		"unicode": "EA4E",
+		"name": "chrome"
 	},
-	"uniE617.svg": {
-		"unicode": "EAED",
-		"name": "uniE617"
+	"test3/circle-fill.svg": {
+		"unicode": "EA4F",
+		"name": "circle-fill"
 	},
-	"uniE618.svg": {
-		"unicode": "EAEE",
-		"name": "uniE618"
+	"test3/double-arrow-left.svg": {
+		"unicode": "EA50",
+		"name": "double-arrow-left"
 	},
-	"uniE61A.svg": {
-		"unicode": "EAEF",
-		"name": "uniE61A"
+	"test3/double-arrow-right.svg": {
+		"unicode": "EA51",
+		"name": "double-arrow-right"
 	},
-	"uniE61B.svg": {
-		"unicode": "EAF0",
-		"name": "uniE61B"
+	"test3/download.svg": {
+		"unicode": "EA52",
+		"name": "download"
 	},
-	"uniE61C.svg": {
-		"unicode": "EAF1",
-		"name": "uniE61C"
+	"test3/export2.svg": {
+		"unicode": "EA53",
+		"name": "export2"
 	},
-	"uniE61D.svg": {
-		"unicode": "EAF2",
-		"name": "uniE61D"
+	"test3/eye-7-icon.svg": {
+		"unicode": "EA54",
+		"name": "eye-7-icon"
 	},
-	"uniF011.svg": {
-		"unicode": "EAF3",
-		"name": "uniF011"
+	"test3/eye.svg": {
+		"unicode": "EA55",
+		"name": "eye"
 	},
-	"uniF100.svg": {
-		"unicode": "EAF4",
-		"name": "uniF100"
+	"test3/film.svg": {
+		"unicode": "EA56",
+		"name": "film"
 	},
-	"uniF101.svg": {
-		"unicode": "EAF5",
-		"name": "uniF101"
+	"test3/filmon_social.svg": {
+		"unicode": "EA57",
+		"name": "filmon_social"
 	},
-	"uniF114.svg": {
-		"unicode": "EAF6",
-		"name": "uniF114"
+	"test3/finder.svg": {
+		"unicode": "EA58",
+		"name": "finder"
 	},
-	"uniF115.svg": {
-		"unicode": "EAF7",
-		"name": "uniF115"
+	"test3/flag.svg": {
+		"unicode": "EA59",
+		"name": "flag"
 	},
-	"uniF12E.svg": {
-		"unicode": "EAF8",
-		"name": "uniF12E"
+	"test3/flag2.svg": {
+		"unicode": "EA5A",
+		"name": "flag2"
 	},
-	"unlocked.svg": {
-		"unicode": "EAF9",
-		"name": "unlocked"
+	"test3/flame.svg": {
+		"unicode": "EA5B",
+		"name": "flame"
 	},
-	"upload.svg": {
-		"unicode": "EAFA",
-		"name": "upload"
+	"test3/gear-2.svg": {
+		"unicode": "EA5C",
+		"name": "gear-2"
 	},
-	"user-11-icon.svg": {
-		"unicode": "EAFB",
+	"test3/gear.svg": {
+		"unicode": "EA5D",
+		"name": "gear"
+	},
+	"test3/googleplus.svg": {
+		"unicode": "EA5E",
+		"name": "googleplus"
+	},
+	"test3/heart.svg": {
+		"unicode": "EA5F",
+		"name": "heart"
+	},
+	"test3/heart2.svg": {
+		"unicode": "EA60",
+		"name": "heart2"
+	},
+	"test3/home.svg": {
+		"unicode": "EA61",
+		"name": "home"
+	},
+	"test3/info.svg": {
+		"unicode": "EA62",
+		"name": "info"
+	},
+	"test3/lab-small.svg": {
+		"unicode": "EA63",
+		"name": "lab-small"
+	},
+	"test3/last.svg": {
+		"unicode": "EA64",
+		"name": "last"
+	},
+	"test3/link.svg": {
+		"unicode": "EA65",
+		"name": "link"
+	},
+	"test3/list.svg": {
+		"unicode": "EA66",
+		"name": "list"
+	},
+	"test3/list2.svg": {
+		"unicode": "EA67",
+		"name": "list2"
+	},
+	"test3/lock-11-icon.svg": {
+		"unicode": "EA68",
+		"name": "lock-11-icon"
+	},
+	"test3/login2.svg": {
+		"unicode": "EA69",
+		"name": "login2"
+	},
+	"test3/loop.svg": {
+		"unicode": "EA6A",
+		"name": "loop"
+	},
+	"test3/menu.svg": {
+		"unicode": "EA6B",
+		"name": "menu"
+	},
+	"test3/microphone.svg": {
+		"unicode": "EA6C",
+		"name": "microphone"
+	},
+	"test3/mobile.svg": {
+		"unicode": "EA6D",
+		"name": "mobile"
+	},
+	"test3/newtab.svg": {
+		"unicode": "EA6E",
+		"name": "newtab"
+	},
+	"test3/next.svg": {
+		"unicode": "EA6F",
+		"name": "next"
+	},
+	"test3/not-avail.svg": {
+		"unicode": "EA70",
+		"name": "not-avail"
+	},
+	"test3/picture-attachment-icon.svg": {
+		"unicode": "EA71",
+		"name": "picture-attachment-icon"
+	},
+	"test3/picture-edit-icon.svg": {
+		"unicode": "EA72",
+		"name": "picture-edit-icon"
+	},
+	"test3/picture.svg": {
+		"unicode": "EA73",
+		"name": "picture"
+	},
+	"test3/popup.svg": {
+		"unicode": "EA74",
+		"name": "popup"
+	},
+	"test3/previous.svg": {
+		"unicode": "EA75",
+		"name": "previous"
+	},
+	"test3/question.svg": {
+		"unicode": "EA76",
+		"name": "question"
+	},
+	"test3/reply.svg": {
+		"unicode": "EA77",
+		"name": "reply"
+	},
+	"test3/rocket.svg": {
+		"unicode": "EA78",
+		"name": "rocket"
+	},
+	"test3/safari.svg": {
+		"unicode": "EA79",
+		"name": "safari"
+	},
+	"test3/shuffle.svg": {
+		"unicode": "EA7A",
+		"name": "shuffle"
+	},
+	"test3/stack.svg": {
+		"unicode": "EA7B",
+		"name": "stack"
+	},
+	"test3/star.svg": {
+		"unicode": "EA7C",
+		"name": "star"
+	},
+	"test3/tablet.svg": {
+		"unicode": "EA7D",
+		"name": "tablet"
+	},
+	"test3/tags-3-icon.svg": {
+		"unicode": "EA7E",
+		"name": "tags-3-icon"
+	},
+	"test3/th.svg": {
+		"unicode": "EA7F",
+		"name": "th"
+	},
+	"test3/thumb-icon.svg": {
+		"unicode": "EA80",
+		"name": "thumb-icon"
+	},
+	"test3/thumb-icon2.svg": {
+		"unicode": "EA81",
+		"name": "thumb-icon2"
+	},
+	"test3/tools.svg": {
+		"unicode": "EA82",
+		"name": "tools"
+	},
+	"test3/twitter.svg": {
+		"unicode": "EA83",
+		"name": "twitter"
+	},
+	"test3/twitter2.svg": {
+		"unicode": "EA84",
+		"name": "twitter2"
+	},
+	"test3/uni2B.svg": {
+		"unicode": "EA85",
+		"name": "uni2B"
+	},
+	"test3/uni37.svg": {
+		"unicode": "EA86",
+		"name": "uni37"
+	},
+	"test3/uni39.svg": {
+		"unicode": "EA87",
+		"name": "uni39"
+	},
+	"test3/uni3B.svg": {
+		"unicode": "EA88",
+		"name": "uni3B"
+	},
+	"test3/uni3D.svg": {
+		"unicode": "EA89",
+		"name": "uni3D"
+	},
+	"test3/uni3F.svg": {
+		"unicode": "EA8A",
+		"name": "uni3F"
+	},
+	"test3/uni43.svg": {
+		"unicode": "EA8B",
+		"name": "uni43"
+	},
+	"test3/uni4D.svg": {
+		"unicode": "EA8C",
+		"name": "uni4D"
+	},
+	"test3/uni4E.svg": {
+		"unicode": "EA8D",
+		"name": "uni4E"
+	},
+	"test3/uni4F.svg": {
+		"unicode": "EA8E",
+		"name": "uni4F"
+	},
+	"test3/uni53.svg": {
+		"unicode": "EA8F",
+		"name": "uni53"
+	},
+	"test3/uni56.svg": {
+		"unicode": "EA90",
+		"name": "uni56"
+	},
+	"test3/uni5F.svg": {
+		"unicode": "EA91",
+		"name": "uni5F"
+	},
+	"test3/uni6B.svg": {
+		"unicode": "EA92",
+		"name": "uni6B"
+	},
+	"test3/uni6C.svg": {
+		"unicode": "EA93",
+		"name": "uni6C"
+	},
+	"test3/user-11-icon.svg": {
+		"unicode": "EA94",
 		"name": "user-11-icon"
 	},
-	"user-12.svg": {
-		"unicode": "EAFC",
+	"test3/user-12.svg": {
+		"unicode": "EA95",
 		"name": "user-12"
 	},
-	"user-13-icon.svg": {
-		"unicode": "EAFD",
+	"test3/user-13-icon.svg": {
+		"unicode": "EA96",
 		"name": "user-13-icon"
 	},
-	"user-14-icon.svg": {
-		"unicode": "EAFE",
+	"test3/user-14-icon.svg": {
+		"unicode": "EA97",
 		"name": "user-14-icon"
 	},
-	"user-2-icon.svg": {
-		"unicode": "EAFF",
-		"name": "user-2-icon"
-	},
-	"user-8.svg": {
-		"unicode": "EB00",
+	"test3/user-8.svg": {
+		"unicode": "EA98",
 		"name": "user-8"
 	},
-	"user-icon.svg": {
-		"unicode": "EB01",
+	"test3/user-icon.svg": {
+		"unicode": "EA99",
 		"name": "user-icon"
 	},
-	"user-iconmonstr-user-10-icon.svg": {
-		"unicode": "EB02",
+	"test3/user-iconmonstr-user-10-icon.svg": {
+		"unicode": "EA9A",
 		"name": "user-iconmonstr-user-10-icon"
 	},
-	"user.svg": {
-		"unicode": "EB03",
-		"name": "user"
-	},
-	"user_hp.svg": {
-		"unicode": "EB04",
+	"test3/user_hp.svg": {
+		"unicode": "EA9B",
 		"name": "user_hp"
 	},
-	"vcard.svg": {
-		"unicode": "EB05",
+	"test3/vcard.svg": {
+		"unicode": "EA9C",
 		"name": "vcard"
 	},
-	"video-4-icon.svg": {
-		"unicode": "EB06",
+	"test3/video-4-icon.svg": {
+		"unicode": "EA9D",
 		"name": "video-4-icon"
 	},
-	"video-camera-6-icon.svg": {
-		"unicode": "EB07",
+	"test3/video-camera-6-icon.svg": {
+		"unicode": "EA9E",
 		"name": "video-camera-6-icon"
 	},
-	"video.svg": {
-		"unicode": "EB08",
+	"test3/video.svg": {
+		"unicode": "EA9F",
 		"name": "video"
 	},
-	"volume-high.svg": {
-		"unicode": "EB09",
+	"test3/volume-high.svg": {
+		"unicode": "EAA0",
 		"name": "volume-high"
 	},
-	"volume-low.svg": {
-		"unicode": "EB0A",
+	"test3/volume-low.svg": {
+		"unicode": "EAA1",
 		"name": "volume-low"
 	},
-	"volume-medium.svg": {
-		"unicode": "EB0B",
+	"test3/volume-medium.svg": {
+		"unicode": "EAA2",
 		"name": "volume-medium"
 	},
-	"volume-mute.svg": {
-		"unicode": "EB0C",
+	"test3/volume-mute.svg": {
+		"unicode": "EAA3",
 		"name": "volume-mute"
 	},
-	"volume-mute2.svg": {
-		"unicode": "EB0D",
+	"test3/volume-mute2.svg": {
+		"unicode": "EAA4",
 		"name": "volume-mute2"
 	},
-	"warning.svg": {
-		"unicode": "EB0E",
+	"test3/warning.svg": {
+		"unicode": "EAA5",
 		"name": "warning"
 	},
-	"webcam-3-icon.svg": {
-		"unicode": "EB0F",
+	"test3/webcam-3-icon.svg": {
+		"unicode": "EAA6",
 		"name": "webcam-3-icon"
 	},
-	"windows.svg": {
-		"unicode": "EB10",
+	"test3/windows.svg": {
+		"unicode": "EAA7",
 		"name": "windows"
 	},
-	"windows8.svg": {
-		"unicode": "EB11",
+	"test3/windows8.svg": {
+		"unicode": "EAA8",
 		"name": "windows8"
 	},
-	"wrench-6-icon.svg": {
-		"unicode": "EB12",
+	"test3/wrench-6-icon.svg": {
+		"unicode": "EAA9",
 		"name": "wrench-6-icon"
 	},
-	"youtube.svg": {
-		"unicode": "EB13",
+	"test3/youtube.svg": {
+		"unicode": "EAAA",
 		"name": "youtube"
 	},
-	"youtube2.svg": {
-		"unicode": "EB14",
+	"test3/youtube2.svg": {
+		"unicode": "EAAB",
 		"name": "youtube2"
 	},
-	"zoom-in.svg": {
-		"unicode": "EB15",
+	"test3/zoom-in.svg": {
+		"unicode": "EAAC",
 		"name": "zoom-in"
 	},
-	"zoom-out.svg": {
-		"unicode": "EB16",
+	"test3/zoom-out.svg": {
+		"unicode": "EAAD",
 		"name": "zoom-out"
+	},
+	"test1/3d-view-icon.svg": {
+		"unicode": "EAAE",
+		"name": "3d-view-icon"
+	},
+	"test1/Battlecamcontour.svg": {
+		"unicode": "EAAF",
+		"name": "Battlecamcontour"
+	},
+	"test1/IE.svg": {
+		"unicode": "EAB0",
+		"name": "IE"
+	},
+	"test1/accessibility.svg": {
+		"unicode": "EAB1",
+		"name": "accessibility"
+	},
+	"test1/android.svg": {
+		"unicode": "EAB2",
+		"name": "android"
+	},
+	"test1/archive.svg": {
+		"unicode": "EAB3",
+		"name": "archive"
+	},
+	"test1/archive4.svg": {
+		"unicode": "EAB4",
+		"name": "archive4"
+	},
+	"test1/arrow-bottom-bold.svg": {
+		"unicode": "EAB5",
+		"name": "arrow-bottom-bold"
+	},
+	"test1/arrow-right.svg": {
+		"unicode": "EAB6",
+		"name": "arrow-right"
+	},
+	"test1/arrow-top-bold.svg": {
+		"unicode": "EAB7",
+		"name": "arrow-top-bold"
+	},
+	"test1/arrow-up.svg": {
+		"unicode": "EAB8",
+		"name": "arrow-up"
+	},
+	"test1/backward.svg": {
+		"unicode": "EAB9",
+		"name": "backward"
+	},
+	"test1/bc_antispam.svg": {
+		"unicode": "EABA",
+		"name": "bc_antispam"
+	},
+	"test1/bc_follow.svg": {
+		"unicode": "EABB",
+		"name": "bc_follow"
+	},
+	"test1/bc_lock.svg": {
+		"unicode": "EABC",
+		"name": "bc_lock"
+	},
+	"test1/bc_room_style.svg": {
+		"unicode": "EABD",
+		"name": "bc_room_style"
+	},
+	"test1/blocked.svg": {
+		"unicode": "EABE",
+		"name": "blocked"
+	},
+	"test1/camera-blocked1.svg": {
+		"unicode": "EABF",
+		"name": "camera-blocked1"
+	},
+	"test1/cart-fill.svg": {
+		"unicode": "EAC0",
+		"name": "cart-fill"
+	},
+	"test1/cart.svg": {
+		"unicode": "EAC1",
+		"name": "cart"
+	},
+	"test1/coin-2-icon.svg": {
+		"unicode": "EAC2",
+		"name": "coin-2-icon"
+	},
+	"test1/coin.svg": {
+		"unicode": "EAC3",
+		"name": "coin"
+	},
+	"test1/comment.svg": {
+		"unicode": "EAC4",
+		"name": "comment"
+	},
+	"test1/cut-4-icon.svg": {
+		"unicode": "EAC5",
+		"name": "cut-4-icon"
+	},
+	"test1/cut-5.svg": {
+		"unicode": "EAC6",
+		"name": "cut-5"
+	},
+	"test1/debit.svg": {
+		"unicode": "EAC7",
+		"name": "debit"
+	},
+	"test1/enter.svg": {
+		"unicode": "EAC8",
+		"name": "enter"
+	},
+	"test1/eye-blocked.svg": {
+		"unicode": "EAC9",
+		"name": "eye-blocked"
+	},
+	"test1/facebook.svg": {
+		"unicode": "EACA",
+		"name": "facebook"
+	},
+	"test1/facebook2.svg": {
+		"unicode": "EACB",
+		"name": "facebook2"
+	},
+	"test1/find-users1.svg": {
+		"unicode": "EACC",
+		"name": "find-users1"
+	},
+	"test1/folder.svg": {
+		"unicode": "EACD",
+		"name": "folder"
+	},
+	"test1/forward.svg": {
+		"unicode": "EACE",
+		"name": "forward"
+	},
+	"test1/gauge.svg": {
+		"unicode": "EACF",
+		"name": "gauge"
+	},
+	"test1/googleplus2.svg": {
+		"unicode": "EAD0",
+		"name": "googleplus2"
+	},
+	"test1/grid.svg": {
+		"unicode": "EAD1",
+		"name": "grid"
+	},
+	"test1/icon_8249.svg": {
+		"unicode": "EAD2",
+		"name": "icon_8249"
+	},
+	"test1/id-card-13-icon.svg": {
+		"unicode": "EAD3",
+		"name": "id-card-13-icon"
+	},
+	"test1/layout.svg": {
+		"unicode": "EAD4",
+		"name": "layout"
+	},
+	"test1/mail.svg": {
+		"unicode": "EAD5",
+		"name": "mail"
+	},
+	"test1/opera.svg": {
+		"unicode": "EAD6",
+		"name": "opera"
+	},
+	"test1/reload.svg": {
+		"unicode": "EAD7",
+		"name": "reload"
+	},
+	"test1/stats.svg": {
+		"unicode": "EAD8",
+		"name": "stats"
+	},
+	"test1/stop.svg": {
+		"unicode": "EAD9",
+		"name": "stop"
+	},
+	"test1/table.svg": {
+		"unicode": "EADA",
+		"name": "table"
+	},
+	"test1/th-list.svg": {
+		"unicode": "EADB",
+		"name": "th-list"
+	},
+	"test1/thumb-3-icon.svg": {
+		"unicode": "EADC",
+		"name": "thumb-3-icon"
+	},
+	"test1/thumb-3-icon2.svg": {
+		"unicode": "EADD",
+		"name": "thumb-3-icon2"
+	},
+	"test1/trash.svg": {
+		"unicode": "EADE",
+		"name": "trash"
+	},
+	"test1/tux.svg": {
+		"unicode": "EADF",
+		"name": "tux"
+	},
+	"test1/tv.svg": {
+		"unicode": "EAE0",
+		"name": "tv"
+	},
+	"test1/uni22.svg": {
+		"unicode": "EAE1",
+		"name": "uni22"
+	},
+	"test1/uni23.svg": {
+		"unicode": "EAE2",
+		"name": "uni23"
+	},
+	"test1/uni24.svg": {
+		"unicode": "EAE3",
+		"name": "uni24"
+	},
+	"test1/uni25.svg": {
+		"unicode": "EAE4",
+		"name": "uni25"
+	},
+	"test1/uni26.svg": {
+		"unicode": "EAE5",
+		"name": "uni26"
+	},
+	"test1/uni27.svg": {
+		"unicode": "EAE6",
+		"name": "uni27"
+	},
+	"test1/uni28.svg": {
+		"unicode": "EAE7",
+		"name": "uni28"
+	},
+	"test1/uni29.svg": {
+		"unicode": "EAE8",
+		"name": "uni29"
+	},
+	"test1/uni2D.svg": {
+		"unicode": "EAE9",
+		"name": "uni2D"
+	},
+	"test1/uni2F.svg": {
+		"unicode": "EAEA",
+		"name": "uni2F"
+	},
+	"test1/uni32.svg": {
+		"unicode": "EAEB",
+		"name": "uni32"
+	},
+	"test1/uni33.svg": {
+		"unicode": "EAEC",
+		"name": "uni33"
+	},
+	"test1/uni34.svg": {
+		"unicode": "EAED",
+		"name": "uni34"
+	},
+	"test1/uni3A.svg": {
+		"unicode": "EAEE",
+		"name": "uni3A"
+	},
+	"test1/uni4A.svg": {
+		"unicode": "EAEF",
+		"name": "uni4A"
+	},
+	"test1/uni4B.svg": {
+		"unicode": "EAF0",
+		"name": "uni4B"
+	},
+	"test1/uni4C.svg": {
+		"unicode": "EAF1",
+		"name": "uni4C"
+	},
+	"test1/uni5C.svg": {
+		"unicode": "EAF2",
+		"name": "uni5C"
+	},
+	"test1/uni5D.svg": {
+		"unicode": "EAF3",
+		"name": "uni5D"
+	},
+	"test1/uni5E.svg": {
+		"unicode": "EAF4",
+		"name": "uni5E"
+	},
+	"test1/uni60.svg": {
+		"unicode": "EAF5",
+		"name": "uni60"
+	},
+	"test1/uni68.svg": {
+		"unicode": "EAF6",
+		"name": "uni68"
+	},
+	"test1/uni74.svg": {
+		"unicode": "EAF7",
+		"name": "uni74"
+	},
+	"test1/uni7C.svg": {
+		"unicode": "EAF8",
+		"name": "uni7C"
+	},
+	"test1/uni7D.svg": {
+		"unicode": "EAF9",
+		"name": "uni7D"
+	},
+	"test1/uni7E.svg": {
+		"unicode": "EAFA",
+		"name": "uni7E"
+	},
+	"test1/uniE006.svg": {
+		"unicode": "EAFB",
+		"name": "uniE006"
+	},
+	"test1/uniE601.svg": {
+		"unicode": "EAFC",
+		"name": "uniE601"
+	},
+	"test1/uniE602.svg": {
+		"unicode": "EAFD",
+		"name": "uniE602"
+	},
+	"test1/uniE603.svg": {
+		"unicode": "EAFE",
+		"name": "uniE603"
+	},
+	"test1/uniE609.svg": {
+		"unicode": "EAFF",
+		"name": "uniE609"
+	},
+	"test1/uniE610.svg": {
+		"unicode": "EB00",
+		"name": "uniE610"
+	},
+	"test1/uniE611.svg": {
+		"unicode": "EB01",
+		"name": "uniE611"
+	},
+	"test1/uniE612.svg": {
+		"unicode": "EB02",
+		"name": "uniE612"
+	},
+	"test1/uniE613.svg": {
+		"unicode": "EB03",
+		"name": "uniE613"
+	},
+	"test1/uniE615.svg": {
+		"unicode": "EB04",
+		"name": "uniE615"
+	},
+	"test1/uniE616.svg": {
+		"unicode": "EB05",
+		"name": "uniE616"
+	},
+	"test1/uniE617.svg": {
+		"unicode": "EB06",
+		"name": "uniE617"
+	},
+	"test1/uniE618.svg": {
+		"unicode": "EB07",
+		"name": "uniE618"
+	},
+	"test1/uniE61A.svg": {
+		"unicode": "EB08",
+		"name": "uniE61A"
+	},
+	"test1/uniE61B.svg": {
+		"unicode": "EB09",
+		"name": "uniE61B"
+	},
+	"test1/uniE61C.svg": {
+		"unicode": "EB0A",
+		"name": "uniE61C"
+	},
+	"test1/uniE61D.svg": {
+		"unicode": "EB0B",
+		"name": "uniE61D"
+	},
+	"test1/uniF011.svg": {
+		"unicode": "EB0C",
+		"name": "uniF011"
+	},
+	"test1/uniF100.svg": {
+		"unicode": "EB0D",
+		"name": "uniF100"
+	},
+	"test1/uniF101.svg": {
+		"unicode": "EB0E",
+		"name": "uniF101"
+	},
+	"test1/uniF114.svg": {
+		"unicode": "EB0F",
+		"name": "uniF114"
+	},
+	"test1/uniF115.svg": {
+		"unicode": "EB10",
+		"name": "uniF115"
+	},
+	"test1/uniF12E.svg": {
+		"unicode": "EB11",
+		"name": "uniF12E"
+	},
+	"test1/unlocked.svg": {
+		"unicode": "EB12",
+		"name": "unlocked"
+	},
+	"test1/upload.svg": {
+		"unicode": "EB13",
+		"name": "upload"
+	},
+	"test1/user-2-icon.svg": {
+		"unicode": "EB14",
+		"name": "user-2-icon"
+	},
+	"test1/user.svg": {
+		"unicode": "EB15",
+		"name": "user"
 	}
 }

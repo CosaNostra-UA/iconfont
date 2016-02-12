@@ -13,6 +13,7 @@ var baseData        = require('./src/baseData.json');
 
 
 
+var fs = require("fs");
 var fontName = args.env || 'filmon-iconfont';
 require('gulp-stats')(gulp);
 require('gulp-task-list')(gulp);
@@ -79,13 +80,24 @@ gulp.task('basefont', function(){
 
 // Generate HTML
 gulp.task('generateHtml', ['basefont'], function() {
-  gulp.src('./src/html.jade')
-    .pipe(jade({
-      locals: baseData,
-      pretty: true
-    }))
-    .pipe(rename('index.html'))
-    .pipe(gulp.dest('./src/'));
+    var data = {};
+    fs.readdir('./icons-library', function(err, items) {
+        items.forEach(function(elem){
+            data[elem] = {};
+        });
+        for (var key in baseData) {
+            var k = key.split('/');
+            data[k[0]][key] = baseData[key];
+        }
+
+        gulp.src('./src/html.jade')
+            .pipe(jade({
+                locals: data,
+                pretty: true
+            }))
+            .pipe(rename('index.html'))
+            .pipe(gulp.dest('./src/'));
+    });
 });
 
 

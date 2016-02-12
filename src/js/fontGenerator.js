@@ -22,7 +22,9 @@ module.exports = function (fontName, data){
             fontName: fontName, // required
             formats: ['ttf', 'eot', 'woff', 'svg'],
             metadataProvider: function (filepath, cb) {
-                var f = data[path.basename(filepath)];
+                var index = (path.dirname(filepath)).lastIndexOf('/');
+                var dir = (path.dirname(filepath)).slice(index + 1);
+                var f = data[dir + '/' + path.basename(filepath)];
 
                 setImmediate( function() {
                     cb.call(null, null, {

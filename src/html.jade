@@ -27,6 +27,13 @@ html(lang="en")
             span.button#show-config Show Config
             form#edit-data
         div.field#icons-field
-            - for (var k in locals)
-                div.icon(data-name="#{locals[k].name}")&attributes({'data-code': locals[k].unicode, 'data-namefile': k})
-                    p &#x#{locals[k].unicode};
+            - for (var key in locals)
+                div.set
+                    h1
+                        span.arrow &#x25bd
+                        span.set-name #{key}
+                    form.set-icons
+                        - for (var k in locals[key])
+                            div.icon(data-name="#{locals[key][k].name}")&attributes({'data-code': locals[key][k].unicode,'data-namefile': k})
+                                p &#x#{locals[key][k].unicode};
+

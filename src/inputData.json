@@ -1,34 +1,42 @@
 {
-  "windows.svg": {
-    "unicode" : "0065",
-    "name" : "windows"
+  "test2/angry.svg": {
+    "unicode": "EA01",
+    "name": "angry"
   },
-  "uniE60A.svg": {
-    "unicode" : "03C7",
-    "name" : "uni"
+  "test2/antenna.svg": {
+    "unicode": "EA02",
+    "name": "antenna"
   },
-  "login2.svg": {
-    "unicode" : "20AC",
-    "name" : "login"
+  "test2/apple.svg": {
+    "unicode": "EA03",
+    "name": "apple"
   },
-  "apple.svg": {
-    "unicode" : "0061",
-    "name" : "apple"
+  "test3/heart2.svg": {
+    "unicode": "EA60",
+    "name": "heart2"
   },
-  "android.svg": {
-    "unicode" : "0062",
-    "name" : "android"
+  "test3/home.svg": {
+    "unicode": "EA61",
+    "name": "home"
   },
-  "ding.svg": {
-    "unicode" : "0063",
-    "name" : "ding"
+  "test3/info.svg": {
+    "unicode": "EA62",
+    "name": "info"
   },
-  "lab-small.svg": {
-    "unicode" : "0064",
-    "name" : "lab-small"
+  "test3/lab-small.svg": {
+    "unicode": "EA63",
+    "name": "lab-small"
   },
-  "video-camera-6-icon.svg": {
-    "unicode" : "0067",
-    "name" : "video"
+  "test1/comment.svg": {
+    "unicode": "EAC4",
+    "name": "comment"
+  },
+  "test1/cut-4-icon.svg": {
+    "unicode": "EAC5",
+    "name": "cut-4-icon"
+  },
+  "test1/cut-5.svg": {
+    "unicode": "EAC6",
+    "name": "cut-5"
   }
 }

@@ -22,7 +22,7 @@ $('document').ready(function() {
     });
 
     $iconsField.selectable({
-        filter: 'div',
+        filter: 'div.icon',
         selected: function( event, ui ) {
             $(ui.selected).toggleClass('selected');
         }
@@ -40,6 +40,18 @@ $('document').ready(function() {
             searchElem.data('name', $(this).children('input[name="name-icon"]').val());
             searchElem.data('code', $(this).children('input[name="code-icon"]').val());
         });
+    });
+
+    $('h1').click(function() {
+        if ( $(this).hasClass('check') ) {
+            $(this).removeClass('check');
+            $(this).children('.arrow').text(String.fromCodePoint(parseInt('25bd', 16)));
+            $(this).siblings('.set-icons').show();
+            return;
+        }
+        $(this).addClass('check');
+        $(this).children('.arrow').text(String.fromCodePoint(parseInt('25b7', 16)));
+        $(this).siblings('.set-icons').hide();
     });
 
     $font.click(function() {
