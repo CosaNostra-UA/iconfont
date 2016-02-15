@@ -27,55 +27,38 @@ p {
     margin-top: 14px;
 }
 
+h1 {
+    font: 22px Arial, sans-serif;
+    cursor: pointer;
+}
+
 label {
     font: 16px Arial,sans-serif;
 }
 
 input {
-    border: 1px solid #cccccc;
-    border-radius: .3125em;
-    background: #ffffff !important;
+    font-size: 1em;
+    width: 170px;
+    margin: 0;
+    border: 0;
+    color: inherit;
+    line-height: 1.5;
+    padding: .25em 0;
+    box-shadow: inset 0 -2px #ccc
+}
+
+input:hover {
+    box-shadow: inset 0 -2px #b9b5b5;
+}
+
+input:focus {
     outline: none;
-    width: 100px;
-    font-size: 14px;
-    margin: 3px;
+    box-shadow: inset 0 -2px #449fdb;
 }
 
 form {
     display: table;
     margin: 20px 15px;
-}
-
-.field {
-    font-family: basefont;
-    display: table;
-    width: 60%;
-    background: #ebebeb;
-    position: relative;
-    box-shadow: 0 0 12px 4px rgba(139, 139, 139, 0.3);
-    margin: 70px auto;
-    padding: 20px;
-    table-layout: fixed;
-    box-sizing: border-box;
-}
-
-.icon, div.selected.ui-selecting {
-    width: 62px;
-    height: 62px;
-    background-color: #d9d9d9;
-    margin: 5px;
-    border-radius: .3125em;
-    display: inline-block;
-    cursor: pointer;
-}
-
-.icon:hover {
-    box-shadow: inset 0 0 0 .1875em rgba(185, 181, 181, 0.98);
-}
-
-.selected, .selected:hover, div.ui-selecting {
-    background-color: #fff;
-    box-shadow: inset 0 0 0 .1875em #ffbb4d;
 }
 
 .head {
@@ -101,7 +84,7 @@ form {
     border-radius: .3125em;
     background-color: #e1e1e1;
     padding: 10px;
-    border: 2px solid rgba(185, 181, 181, 0.98);
+    border: 2px solid #b9b5b5;
     margin-left: 5px;
     cursor: pointer;
 }
@@ -109,6 +92,85 @@ form {
 .button-selected {
     background-color: #fff;
     border-color: #ffbb4d;
+}
+
+.field {
+    font-family: basefont;
+    display: table;
+    width: 60%;
+    background: #ebebeb;
+    position: relative;
+    box-shadow: 0 0 12px 4px #ccc;
+    margin: 70px auto;
+    padding: 20px;
+    table-layout: fixed;
+    box-sizing: border-box;
+}
+
+.set-name {
+    font: 32px Arial, sans-serif;
+    padding: 7px;
+    position: relative;
+    top: 3px;
+}
+
+.icon, div.selected.ui-selecting {
+    width: 62px;
+    height: 62px;
+    background-color: #d9d9d9;
+    margin: 5px;
+    border-radius: .3125em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon:hover {
+    box-shadow: inset 0 0 0 .1875em #b9b5b5;
+}
+
+.selected, .selected:hover, div.ui-selecting {
+    background-color: #fff;
+    box-shadow: inset 0 0 0 .1875em #ffbb4d;
+}
+
+.cell span {
+    width: 16px;
+    box-sizing: content-box;
+    display: inline-block;
+    padding-right: 5px;
+    position: relative;
+    top: 15%;
+}
+
+.ibkg {
+    height: 1.4em;
+    background-color: #fff;
+    box-shadow: inset 0 -2px #ccc
+}
+
+.remove {
+    font: 17px Arial,sans-serif;
+    display: inline;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.code, .code2 {
+    width: 100px;
+}
+
+.code2 {
+    text-align: right;
+}
+
+.invalid-data {
+    outline: none;
+    box-shadow: inset 0 -2px #db181f !important;
+}
+
+#edit-data div {
+    display: inline-block;
+    padding: 5px;
 }
 
 #font-field {
@@ -120,42 +182,6 @@ form {
     float: right;
     top: -10px;
     margin-right: 5px;
-}
-
-.code {
-    margin-left: 24px;
-}
-
-.remove {
-    font: 17px Arial,sans-serif;
-    display: inline;
-    margin: 0;
-    cursor: pointer;
-}
-
-.cell span {
-    width: 16px;
-    box-sizing: content-box;
-    display: inline-block;
-    text-align: center;
-    padding-right: 5px;
-}
-
-#edit-data div {
-    display: inline-block;
-    padding: 5px;
-}
-
-h1 {
-    font: 22px Arial, sans-serif;
-    cursor: pointer;
-}
-
-.set-name {
-    font: 32px Arial, sans-serif;
-    padding: 7px;
-    position: relative;
-    top: 3px;
 }
     </style>
   </head>
