@@ -21,6 +21,8 @@ module.exports = function (fontName, data){
         .pipe(iconfont({
             fontName: fontName, // required
             formats: ['ttf', 'eot', 'woff', 'svg'],
+            fontHeight: 1000,
+            normalize: true,
             metadataProvider: function (filepath, cb) {
                 var index = (path.dirname(filepath)).lastIndexOf('/');
                 var dir = (path.dirname(filepath)).slice(index + 1);
