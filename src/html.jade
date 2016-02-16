@@ -21,10 +21,16 @@ html(lang="en")
                 span.button#font Generate Font
         div.field#font-field
             br
-            label Font name:
-            input(type="text", name="name-font", value="filmon-iconfont", style="width: 150px")
+            label BaseFontIcon path:
+                input(type="text", name="path", value="fonts/", style="width: 150px")
             span.button#download Save
             span.button#show-config Show Config
+            br
+            label Class name:
+                input(type="text", name="name-class", value="filmon-icon-font", style="width:150px;position:relative;left:49px;")
+                br
+            label Font name:
+                input(type="text", name="name-font", value="filmon-icon", style="width:150px;position:relative;left:57px;")
             form#edit-data
         div.field#icons-field
             - for (var key in locals)

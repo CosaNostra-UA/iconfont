@@ -10,11 +10,13 @@ var generator  = require('./js/filmonIconGenerator.js');
 app.use(bodyParser.urlencoded({ extended: true }));
 
 app.post('/generate-font', function(req, res) {
+    var baseFontIconPath = req.body.baseFontIconPath;
+    var className = req.body.className;
     var fontName = req.body.fontName;
     var inputData = req.body.inputData;
     var destdir = 'fonts/' + fontName;
 
-    generator(fontName, inputData)
+    generator(baseFontIconPath, className, fontName, inputData)
         .on('error', function(err) {
             console.log(err);
             res.sendStatus(500);

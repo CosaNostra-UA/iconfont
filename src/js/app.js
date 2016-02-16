@@ -117,6 +117,8 @@ $('document').ready(function() {
 
     $download.click(function() {
         $download.addClass('button-selected');
+        var baseFontIconPath = $('input[name="path"]').val();
+        var className = $('input[name="name-class"]').val();
         var fontName = $('input[name="name-font"]').val();
         var content = getContent();
 
@@ -127,6 +129,8 @@ $('document').ready(function() {
             type: 'post',
             dataType: 'json',
             data: {
+                baseFontIconPath: baseFontIconPath,
+                className: className,
                 fontName: fontName,
                 inputData: content
             },

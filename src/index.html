@@ -190,8 +190,15 @@ form {
       <div class="bar-btn"><span id="selection" class="button">Selection</span><span id="font" class="button">Generate Font</span></div>
     </header>
     <div id="font-field" class="field"><br>
-      <label>Font name:</label>
-      <input type="text" name="name-font" value="filmon-iconfont" style="width: 150px"><span id="download" class="button">Save</span><span id="show-config" class="button">Show Config</span>
+      <label>BaseFontIcon path:
+        <input type="text" name="path" value="fonts/" style="width: 150px">
+      </label><span id="download" class="button">Save</span><span id="show-config" class="button">Show Config</span><br>
+      <label>Class name:
+        <input type="text" name="name-class" value="filmon-icon-font" style="width:150px;position:relative;left:49px;"><br>
+      </label>
+      <label>Font name:
+        <input type="text" name="name-font" value="filmon-icon" style="width:150px;position:relative;left:57px;">
+      </label>
       <form id="edit-data"></form>
     </div>
     <div id="icons-field" class="field">
