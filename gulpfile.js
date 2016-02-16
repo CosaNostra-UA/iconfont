@@ -13,17 +13,25 @@ var baseData        = require('./src/baseData.json');
 
 
 
+var browserSync     = require('browser-sync').create();
+var uglify          = require('gulp-uglify');
+var browserify      = require('gulp-browserify');
+var concat          = require('gulp-concat');
+
+
+
 var fs = require("fs");
-var fontName = args.env || 'filmon-iconfont';
+var fontData = args.env || 'fonts/,filmon-iconfont,filmon-icon';
 require('gulp-stats')(gulp);
 require('gulp-task-list')(gulp);
 
 
 
-var browserSync     = require('browser-sync').create();
-var uglify          = require('gulp-uglify');
-var browserify      = require('gulp-browserify');
-var concat          = require('gulp-concat');
+fontData = fontData.split(',');
+var baseFontIconPath = fontData[0];
+var className = fontData[1];
+var fontName = fontData[2];
+
 
 
 /// Browser-Sync task for development.
@@ -69,7 +77,7 @@ gulp.task('build', ['basefont', 'scripts', 'html']);
 
 // Generate font
 gulp.task('iconfont', function(){
-    iconfont(fontName, inputData);
+    iconfont(baseFontIconPath, className, fontName, inputData);
 });
 
 // Generate baseFont

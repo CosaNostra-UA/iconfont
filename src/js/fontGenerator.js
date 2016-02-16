@@ -20,7 +20,7 @@ module.exports = function (fontName, data){
     return gulp.src(src)
         .pipe(iconfont({
             fontName: fontName, // required
-            formats: ['ttf', 'eot', 'woff', 'svg'],
+            formats: ['ttf', 'eot', 'woff', 'woff2', 'svg'],
             fontHeight: 1000,
             normalize: true,
             metadataProvider: function (filepath, cb) {

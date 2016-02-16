@@ -7,37 +7,35 @@ var path = require('path');
 var Stream = require('readable-stream');
 var gutil = require('gulp-util');
 
-function cssFileContent(fontName, inputData) {
+function cssFileContent(baseFontIconPath, className, fontName, inputData) {
     var content = '@font-face { \n' +
-        'font-family: "' + fontName + '"; \n' +
-        'src:url("fonts/' + fontName + '.eot?coxx6d"); \n' +
-        'src:url("fonts/' + fontName + '.eot?coxx6d#iefix") format("embedded-opentype"), \n' +
-        'url("fonts/' + fontName + '.ttf?coxx6d") format("truetype"), \n' +
-        'url("fonts/' + fontName + '.woff?coxx6d") format("woff"), \n' +
-        'url("fonts/' + fontName + '.svg?coxx6d#' + fontName + '") format("svg"); \n' +
+        'font-family: "' + className + '"; \n' +
+        'src:url("' + baseFontIconPath + className + '/' + fontName + '.eot"); \n' +
+        'src:url("' + baseFontIconPath + className + '/' + fontName + '.eot?#iefix") format("eot"), \n' +
+        'url("' + baseFontIconPath + className + '/' + fontName + '.ttf") format("truetype"), \n' +
+        'url("' + baseFontIconPath + className + '/' + fontName + '.woff") format("woff"), \n' +
+        'url("' + baseFontIconPath + className + '/' + fontName + '.woff2") format("woff2"), \n' +
+        'url("' + baseFontIconPath + className + '/' + fontName + '.svg#' + fontName + '") format("svg"); \n' +
         'font-weight: normal; \n' +
         'font-style: normal; \n' +
         '} \n \n' +
-        '[class^="icon-"], [class*=" icon-"] { \n' +
-        '/!* use !important to prevent issues with browser extensions that change fonts *!/ \n' +
-        'font-family: "' + fontName + '" !important; \n' +
+        '.' + className + ' { \n' +
+        'font-family: "' + className + '"; \n' +
         'speak: none; \n' +
         'font-style: normal; \n' +
         'font-weight: normal; \n' +
         'font-variant: normal; \n' +
         'text-transform: none; \n' +
-        'line-height: 1; \n \n' +
-        '/!* Better Font Rendering =========== *!/ \n' +
+        'line-height: 1; \n' +
         '-webkit-font-smoothing: antialiased; \n' +
         '-moz-osx-font-smoothing: grayscale; \n' +
         '} \n \n';
 
     for ( var key in inputData ) {
-        var icon = (inputData[key].name).substr(0, 5) === 'icon-' ? '.' : '.icon-';
-        content = content + icon + inputData[key].name +
+        content = content + '.' + className + '.' + inputData[key].name +
             ':before { \n' +
             'content: "' +
-            '\\' + (inputData[key].unicode).toString().replace(/\s+/g,'') + ';"  \n } \n';
+            '\\' + (inputData[key].unicode).toString(16).toUpperCase() + ';"  \n } \n';
     }
     return content;
 }
@@ -65,7 +63,7 @@ module.exports  = function (options) {
 
         if('.svg' === path.extname(file.path)) {
             stream.push(file.clone());
-            file.contents = new Buffer(cssFileContent(options.fontName, options.inputData));
+            file.contents = new Buffer(cssFileContent(options.baseFontIconPath, options.className, options.fontName, options.inputData));
         }
         else {
             stream.push(file);

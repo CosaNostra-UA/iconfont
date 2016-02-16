@@ -53,19 +53,29 @@ gulp build
 
  - Change data from inputData.json since you need.
 
- - To running with default font name ('filmon-iconfont'):
+ - To running with default font data ('fonts/,filmon-iconfont,filmon-icon', where
+ <baseFontIconPath> = fonts/
+ <className> = filmon-iconfont
+ <fontName> = filmon-icon
+ , - separator
+####  Warning!!!! 
+  - separation without spaces
+  - all parameters are required
+ ):
 
 ```
 gulp iconfont
 ```
 
- - To running with the given font name:
+ - To running with the given font data:
 
 ```
-gulp iconfont --env <fontName>
+gulp iconfont --env <baseFontIconPath>,<className>,<fontName>
 ```
 
 ### To generate baseData.json
+####  Warning!!!! 
+Unicode values are assigned randomly
 ```
 gulp basedata
 ```
