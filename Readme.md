@@ -54,10 +54,13 @@ gulp build
  - Change data from inputData.json since you need.
 
  - To running with default font data ('fonts/,filmon-iconfont,filmon-icon', where
+
+```
  <baseFontIconPath> = fonts/
  <className> = filmon-iconfont
  <fontName> = filmon-icon
  , - separator
+```
 ####  Warning!!!! 
   - separation without spaces
   - all parameters are required
