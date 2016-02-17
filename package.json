@@ -1,19 +1,49 @@
 {
   "name": "library-iconfont",
+  "version": "1.0.0",
   "description": "Universal library to generate icon fonts across all our's projects",
-  "version": "0.1.0",
-  "homepage": "http://www.filmon.com/",
+  "main": "src/js/fontGenerator.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "/usr/bin/node ./src/server.js"
+  },
   "author": "Marina Tsymbal <marina.tsymbal@filmon.com>",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.14.2",
+    "browser-sync": "^2.10.1",
+    "browserify": "^12.0.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-browserify": "^0.5.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-iconfont": "^5.0.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-stats": "0.0.3",
+    "gulp-task-list": "0.0.1",
+    "gulp-uglify": "^1.5.1",
+    "gulp-util": "^3.0.7",
+    "gulp-zip": "^3.0.2",
+    "readable-stream": "^2.0.5",
+    "string.fromcodepoint": "^0.2.1",
+    "yargs": "^3.32.0",
+    "jquery": "^2.1.4"
+  },
   "repository": {
     "type": "git",
     "url": "ssh://git@git.111pix.com:7999/fw/library-iconfont.git"
   },
+  "homepage": "http://www.filmon.com/",
   "bugs": {
     "url": "http://pm.filmon.com:8080/browse/FILMONCOM"
   },
-  "license": "WTFPL",
-  "main": "index.js",
   "engines": {
     "node": ">=0.12.0"
+  },
+  "devDependencies": {
+    "gulp-jade": "^1.1.0",
+    "gulp-zip": "^3.1.0",
+    "jquery": "^2.1.4"
   }
 }

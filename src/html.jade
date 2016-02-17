@@ -1,0 +1,45 @@
+doctype html
+html(lang="en")
+    head
+        meta(charset="utf-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no")
+        title FilmOn Icon Library
+        meta(name="description", content="TODO")
+        meta(name="keywords", content="TODO")
+        <!-- favicon icons -->
+        link(href="http://static.filmon.com/theme/img/favicon_2.ico", rel="icon", type="image/x-icon")
+        link(href="http://static.filmon.com/theme/img/favicon_2.ico", rel="shortcut icon", type="image/vnd.microsoft.icon")
+        script(src="js/app.js")
+        script(src="//code.jquery.com/ui/1.11.4/jquery-ui.js")
+        style
+            include style.css
+    body
+        header.head
+            div.bar-btn
+                span.button#selection Selection
+                span.button#font Generate Font
+        div.field#font-field
+            br
+            label BaseFontIcon path:
+                input(type="text", name="path", value="fonts/", style="width: 150px")
+            span.button#download Save
+            span.button#show-config Show Config
+            br
+            label Class name:
+                input(type="text", name="name-class", value="filmon-icon-font", style="width:150px;position:relative;left:49px;")
+                br
+            label Font name:
+                input(type="text", name="name-font", value="filmon-icon", style="width:150px;position:relative;left:57px;")
+            form#edit-data
+        div.field#icons-field
+            - for (var key in locals)
+                div.set
+                    h1
+                        span.arrow &#x25bd
+                        span.set-name #{key}
+                    form.set-icons
+                        - for (var k in locals[key])
+                            div.icon(data-name="#{locals[key][k].name}")&attributes({'data-code': locals[key][k].unicode,'data-namefile': k})
+                                p &#x#{locals[key][k].unicode};
+

@@ -1,0 +1,8 @@
+.DS_Store
+Thumbs.db
+
+public
+npm-debug.log
+node_modules
+dist
+.idea

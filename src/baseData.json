@@ -1,0 +1,1098 @@
+{
+	"Comment-Icons/comment-2.svg": {
+		"unicode": "EA01",
+		"name": "comment-2"
+	},
+	"Comment-Icons/comment.svg": {
+		"unicode": "EA02",
+		"name": "comment"
+	},
+	"Comment-Icons/comments-2.svg": {
+		"unicode": "EA03",
+		"name": "comments-2"
+	},
+	"Comment-Icons/comments-3.svg": {
+		"unicode": "EA04",
+		"name": "comments-3"
+	},
+	"Comment-Icons/comments-4.svg": {
+		"unicode": "EA05",
+		"name": "comments-4"
+	},
+	"Comment-Icons/comments.svg": {
+		"unicode": "EA06",
+		"name": "comments"
+	},
+	"File-Icons/attachment-picture.svg": {
+		"unicode": "EA07",
+		"name": "attachment-picture"
+	},
+	"File-Icons/document-2.svg": {
+		"unicode": "EA08",
+		"name": "document-2"
+	},
+	"File-Icons/document-3.svg": {
+		"unicode": "EA09",
+		"name": "document-3"
+	},
+	"File-Icons/document.svg": {
+		"unicode": "EA0A",
+		"name": "document"
+	},
+	"File-Icons/documents-2.svg": {
+		"unicode": "EA0B",
+		"name": "documents-2"
+	},
+	"File-Icons/documents.svg": {
+		"unicode": "EA0C",
+		"name": "documents"
+	},
+	"File-Icons/edit-document.svg": {
+		"unicode": "EA0D",
+		"name": "edit-document"
+	},
+	"File-Icons/edit-picture.svg": {
+		"unicode": "EA0E",
+		"name": "edit-picture"
+	},
+	"File-Icons/files.svg": {
+		"unicode": "EA0F",
+		"name": "files"
+	},
+	"File-Icons/film.svg": {
+		"unicode": "EA10",
+		"name": "film"
+	},
+	"File-Icons/picture.svg": {
+		"unicode": "EA11",
+		"name": "picture"
+	},
+	"File-Icons/pictures.svg": {
+		"unicode": "EA12",
+		"name": "pictures"
+	},
+	"File-Icons/remove-picture.svg": {
+		"unicode": "EA13",
+		"name": "remove-picture"
+	},
+	"File-Icons/search-document.svg": {
+		"unicode": "EA14",
+		"name": "search-document"
+	},
+	"Hand-Icons/thumbs-down-2.svg": {
+		"unicode": "EA15",
+		"name": "thumbs-down-2"
+	},
+	"Hand-Icons/thumbs-down.svg": {
+		"unicode": "EA16",
+		"name": "thumbs-down"
+	},
+	"Hand-Icons/thumbs-up-2.svg": {
+		"unicode": "EA17",
+		"name": "thumbs-up-2"
+	},
+	"Hand-Icons/thumbs-up.svg": {
+		"unicode": "EA18",
+		"name": "thumbs-up"
+	},
+	"Mail-Icons/mail-2.svg": {
+		"unicode": "EA19",
+		"name": "mail-2"
+	},
+	"Mail-Icons/mail-3.svg": {
+		"unicode": "EA1A",
+		"name": "mail-3"
+	},
+	"Mail-Icons/mail-4.svg": {
+		"unicode": "EA1B",
+		"name": "mail-4"
+	},
+	"Mail-Icons/mail.svg": {
+		"unicode": "EA1C",
+		"name": "mail"
+	},
+	"Other/export.svg": {
+		"unicode": "EA1D",
+		"name": "export"
+	},
+	"Other/export2.svg": {
+		"unicode": "EA1E",
+		"name": "export2"
+	},
+	"Other/login-2.svg": {
+		"unicode": "EA1F",
+		"name": "login-2"
+	},
+	"Other/login.svg": {
+		"unicode": "EA20",
+		"name": "login"
+	},
+	"Other/logout.svg": {
+		"unicode": "EA21",
+		"name": "logout"
+	},
+	"Other/newtab-2.svg": {
+		"unicode": "EA22",
+		"name": "newtab-2"
+	},
+	"Other/newtab.svg": {
+		"unicode": "EA23",
+		"name": "newtab"
+	},
+	"Other/pop-out.svg": {
+		"unicode": "EA24",
+		"name": "pop-out"
+	},
+	"Other/reply-2.svg": {
+		"unicode": "EA25",
+		"name": "reply-2"
+	},
+	"Other/reply.svg": {
+		"unicode": "EA26",
+		"name": "reply"
+	},
+	"Payment-Icons/credit-card-2.svg": {
+		"unicode": "EA27",
+		"name": "credit-card-2"
+	},
+	"Payment-Icons/credit-card-3.svg": {
+		"unicode": "EA28",
+		"name": "credit-card-3"
+	},
+	"Payment-Icons/credit-card-4.svg": {
+		"unicode": "EA29",
+		"name": "credit-card-4"
+	},
+	"Payment-Icons/credit-card.svg": {
+		"unicode": "EA2A",
+		"name": "credit-card"
+	},
+	"Spinner-Icons/cog.svg": {
+		"unicode": "EA2B",
+		"name": "cog"
+	},
+	"Spinner-Icons/refresh.svg": {
+		"unicode": "EA2C",
+		"name": "refresh"
+	},
+	"Spinner-Icons/spinner-2.svg": {
+		"unicode": "EA2D",
+		"name": "spinner-2"
+	},
+	"Spinner-Icons/spinner-3.svg": {
+		"unicode": "EA2E",
+		"name": "spinner-3"
+	},
+	"Spinner-Icons/spinner.svg": {
+		"unicode": "EA2F",
+		"name": "spinner"
+	},
+	"Brand-icons/amazon-black.svg": {
+		"unicode": "EA30",
+		"name": "amazon-black"
+	},
+	"Brand-icons/android.svg": {
+		"unicode": "EA31",
+		"name": "android"
+	},
+	"Brand-icons/apple.svg": {
+		"unicode": "EA32",
+		"name": "apple"
+	},
+	"Brand-icons/battlecam.svg": {
+		"unicode": "EA33",
+		"name": "battlecam"
+	},
+	"Brand-icons/bc-antispam.svg": {
+		"unicode": "EA34",
+		"name": "bc-antispam"
+	},
+	"Brand-icons/bc-follow.svg": {
+		"unicode": "EA35",
+		"name": "bc-follow"
+	},
+	"Brand-icons/bc-hd-broadcast-2.svg": {
+		"unicode": "EA36",
+		"name": "bc-hd-broadcast-2"
+	},
+	"Brand-icons/bc-hd.svg": {
+		"unicode": "EA37",
+		"name": "bc-hd"
+	},
+	"Brand-icons/bc-lock.svg": {
+		"unicode": "EA38",
+		"name": "bc-lock"
+	},
+	"Brand-icons/blackberry.svg": {
+		"unicode": "EA39",
+		"name": "blackberry"
+	},
+	"Brand-icons/chrome.svg": {
+		"unicode": "EA3A",
+		"name": "chrome"
+	},
+	"Brand-icons/e-tv.svg": {
+		"unicode": "EA3B",
+		"name": "e-tv"
+	},
+	"Brand-icons/facebook-2.svg": {
+		"unicode": "EA3C",
+		"name": "facebook-2"
+	},
+	"Brand-icons/facebook.svg": {
+		"unicode": "EA3D",
+		"name": "facebook"
+	},
+	"Brand-icons/filmon-logo.svg": {
+		"unicode": "EA3E",
+		"name": "filmon-logo"
+	},
+	"Brand-icons/filmon-premium.svg": {
+		"unicode": "EA3F",
+		"name": "filmon-premium"
+	},
+	"Brand-icons/filmon-social-tv.svg": {
+		"unicode": "EA40",
+		"name": "filmon-social-tv"
+	},
+	"Brand-icons/filmon-you-vids.svg": {
+		"unicode": "EA41",
+		"name": "filmon-you-vids"
+	},
+	"Brand-icons/firefox.svg": {
+		"unicode": "EA42",
+		"name": "firefox"
+	},
+	"Brand-icons/google+.svg": {
+		"unicode": "EA43",
+		"name": "google+"
+	},
+	"Brand-icons/google-plus.svg": {
+		"unicode": "EA44",
+		"name": "google-plus"
+	},
+	"Brand-icons/ie.svg": {
+		"unicode": "EA45",
+		"name": "ie"
+	},
+	"Brand-icons/instagram.svg": {
+		"unicode": "EA46",
+		"name": "instagram"
+	},
+	"Brand-icons/lg.svg": {
+		"unicode": "EA47",
+		"name": "lg"
+	},
+	"Brand-icons/linux.svg": {
+		"unicode": "EA48",
+		"name": "linux"
+	},
+	"Brand-icons/mac.svg": {
+		"unicode": "EA49",
+		"name": "mac"
+	},
+	"Brand-icons/opera.svg": {
+		"unicode": "EA4A",
+		"name": "opera"
+	},
+	"Brand-icons/premiumicon.svg": {
+		"unicode": "EA4B",
+		"name": "premiumicon"
+	},
+	"Brand-icons/safari.svg": {
+		"unicode": "EA4C",
+		"name": "safari"
+	},
+	"Brand-icons/twitter-2.svg": {
+		"unicode": "EA4D",
+		"name": "twitter-2"
+	},
+	"Brand-icons/twitter.svg": {
+		"unicode": "EA4E",
+		"name": "twitter"
+	},
+	"Brand-icons/windows-10.svg": {
+		"unicode": "EA4F",
+		"name": "windows-10"
+	},
+	"Brand-icons/windows.svg": {
+		"unicode": "EA50",
+		"name": "windows"
+	},
+	"Brand-icons/xbox.svg": {
+		"unicode": "EA51",
+		"name": "xbox"
+	},
+	"Brand-icons/youtube.svg": {
+		"unicode": "EA52",
+		"name": "youtube"
+	},
+	"Text-Editor-Icons/attachment.svg": {
+		"unicode": "EA53",
+		"name": "attachment"
+	},
+	"Text-Editor-Icons/cut-2.svg": {
+		"unicode": "EA54",
+		"name": "cut-2"
+	},
+	"Text-Editor-Icons/cut.svg": {
+		"unicode": "EA55",
+		"name": "cut"
+	},
+	"Text-Editor-Icons/list-2.svg": {
+		"unicode": "EA56",
+		"name": "list-2"
+	},
+	"Text-Editor-Icons/list-3.svg": {
+		"unicode": "EA57",
+		"name": "list-3"
+	},
+	"Text-Editor-Icons/list.svg": {
+		"unicode": "EA58",
+		"name": "list"
+	},
+	"Text-Editor-Icons/table.svg": {
+		"unicode": "EA59",
+		"name": "table"
+	},
+	"Directional-Icons/angle-double-left.svg": {
+		"unicode": "EA5A",
+		"name": "angle-double-left"
+	},
+	"Directional-Icons/angle-double-right-2.svg": {
+		"unicode": "EA5B",
+		"name": "angle-double-right-2"
+	},
+	"Directional-Icons/angle-double-right.svg": {
+		"unicode": "EA5C",
+		"name": "angle-double-right"
+	},
+	"Directional-Icons/angle-down-2.svg": {
+		"unicode": "EA5D",
+		"name": "angle-down-2"
+	},
+	"Directional-Icons/angle-down-3.svg": {
+		"unicode": "EA5E",
+		"name": "angle-down-3"
+	},
+	"Directional-Icons/angle-down.svg": {
+		"unicode": "EA5F",
+		"name": "angle-down"
+	},
+	"Directional-Icons/angle-left-2.svg": {
+		"unicode": "EA60",
+		"name": "angle-left-2"
+	},
+	"Directional-Icons/angle-left-3.svg": {
+		"unicode": "EA61",
+		"name": "angle-left-3"
+	},
+	"Directional-Icons/angle-left-4.svg": {
+		"unicode": "EA62",
+		"name": "angle-left-4"
+	},
+	"Directional-Icons/angle-left.svg": {
+		"unicode": "EA63",
+		"name": "angle-left"
+	},
+	"Directional-Icons/angle-right-2.svg": {
+		"unicode": "EA64",
+		"name": "angle-right-2"
+	},
+	"Directional-Icons/angle-right-3.svg": {
+		"unicode": "EA65",
+		"name": "angle-right-3"
+	},
+	"Directional-Icons/angle-right-4.svg": {
+		"unicode": "EA66",
+		"name": "angle-right-4"
+	},
+	"Directional-Icons/angle-right.svg": {
+		"unicode": "EA67",
+		"name": "angle-right"
+	},
+	"Directional-Icons/angle-up-2.svg": {
+		"unicode": "EA68",
+		"name": "angle-up-2"
+	},
+	"Directional-Icons/angle-up-3.svg": {
+		"unicode": "EA69",
+		"name": "angle-up-3"
+	},
+	"Directional-Icons/angle-up.svg": {
+		"unicode": "EA6A",
+		"name": "angle-up"
+	},
+	"Directional-Icons/angledouble-left-2.svg": {
+		"unicode": "EA6B",
+		"name": "angledouble-left-2"
+	},
+	"Directional-Icons/arrow-down.svg": {
+		"unicode": "EA6C",
+		"name": "arrow-down"
+	},
+	"Directional-Icons/arrow-left-2.svg": {
+		"unicode": "EA6D",
+		"name": "arrow-left-2"
+	},
+	"Directional-Icons/arrow-left.svg": {
+		"unicode": "EA6E",
+		"name": "arrow-left"
+	},
+	"Directional-Icons/arrow-up.svg": {
+		"unicode": "EA6F",
+		"name": "arrow-up"
+	},
+	"Directional-Icons/arrows.svg": {
+		"unicode": "EA70",
+		"name": "arrows"
+	},
+	"Directional-Icons/back.svg": {
+		"unicode": "EA71",
+		"name": "back"
+	},
+	"Directional-Icons/caret-down.svg": {
+		"unicode": "EA72",
+		"name": "caret-down"
+	},
+	"Directional-Icons/caret-left.svg": {
+		"unicode": "EA73",
+		"name": "caret-left"
+	},
+	"Directional-Icons/caret-right.svg": {
+		"unicode": "EA74",
+		"name": "caret-right"
+	},
+	"Directional-Icons/caret-up.svg": {
+		"unicode": "EA75",
+		"name": "caret-up"
+	},
+	"Video-Player-Icons/backward.svg": {
+		"unicode": "EA76",
+		"name": "backward"
+	},
+	"Video-Player-Icons/eject.svg": {
+		"unicode": "EA77",
+		"name": "eject"
+	},
+	"Video-Player-Icons/first.svg": {
+		"unicode": "EA78",
+		"name": "first"
+	},
+	"Video-Player-Icons/forward.svg": {
+		"unicode": "EA79",
+		"name": "forward"
+	},
+	"Video-Player-Icons/fullscreen-2.svg": {
+		"unicode": "EA7A",
+		"name": "fullscreen-2"
+	},
+	"Video-Player-Icons/fullscreen.svg": {
+		"unicode": "EA7B",
+		"name": "fullscreen"
+	},
+	"Video-Player-Icons/last.svg": {
+		"unicode": "EA7C",
+		"name": "last"
+	},
+	"Video-Player-Icons/loop.svg": {
+		"unicode": "EA7D",
+		"name": "loop"
+	},
+	"Video-Player-Icons/next.svg": {
+		"unicode": "EA7E",
+		"name": "next"
+	},
+	"Video-Player-Icons/pause.svg": {
+		"unicode": "EA7F",
+		"name": "pause"
+	},
+	"Video-Player-Icons/play-2.svg": {
+		"unicode": "EA80",
+		"name": "play-2"
+	},
+	"Video-Player-Icons/play-3.svg": {
+		"unicode": "EA81",
+		"name": "play-3"
+	},
+	"Video-Player-Icons/play-4.svg": {
+		"unicode": "EA82",
+		"name": "play-4"
+	},
+	"Video-Player-Icons/play.svg": {
+		"unicode": "EA83",
+		"name": "play"
+	},
+	"Video-Player-Icons/previous.svg": {
+		"unicode": "EA84",
+		"name": "previous"
+	},
+	"Video-Player-Icons/shuffle.svg": {
+		"unicode": "EA85",
+		"name": "shuffle"
+	},
+	"Video-Player-Icons/stop.svg": {
+		"unicode": "EA86",
+		"name": "stop"
+	},
+	"User-Icons/add-user.svg": {
+		"unicode": "EA87",
+		"name": "add-user"
+	},
+	"User-Icons/find-users.svg": {
+		"unicode": "EA88",
+		"name": "find-users"
+	},
+	"User-Icons/remove-user.svg": {
+		"unicode": "EA89",
+		"name": "remove-user"
+	},
+	"User-Icons/user-2.svg": {
+		"unicode": "EA8A",
+		"name": "user-2"
+	},
+	"User-Icons/user-3.svg": {
+		"unicode": "EA8B",
+		"name": "user-3"
+	},
+	"User-Icons/user-4.svg": {
+		"unicode": "EA8C",
+		"name": "user-4"
+	},
+	"User-Icons/user-5.svg": {
+		"unicode": "EA8D",
+		"name": "user-5"
+	},
+	"User-Icons/user-support-2.svg": {
+		"unicode": "EA8E",
+		"name": "user-support-2"
+	},
+	"User-Icons/user-support.svg": {
+		"unicode": "EA8F",
+		"name": "user-support"
+	},
+	"User-Icons/user-woman.svg": {
+		"unicode": "EA90",
+		"name": "user-woman"
+	},
+	"User-Icons/user.svg": {
+		"unicode": "EA91",
+		"name": "user"
+	},
+	"User-Icons/users-2.svg": {
+		"unicode": "EA92",
+		"name": "users-2"
+	},
+	"User-Icons/users-3.svg": {
+		"unicode": "EA93",
+		"name": "users-3"
+	},
+	"User-Icons/users-4.svg": {
+		"unicode": "EA94",
+		"name": "users-4"
+	},
+	"User-Icons/users.svg": {
+		"unicode": "EA95",
+		"name": "users"
+	},
+	"Volume-Icons/volume-high.svg": {
+		"unicode": "EA96",
+		"name": "volume-high"
+	},
+	"Volume-Icons/volume-low.svg": {
+		"unicode": "EA97",
+		"name": "volume-low"
+	},
+	"Volume-Icons/volume-medium.svg": {
+		"unicode": "EA98",
+		"name": "volume-medium"
+	},
+	"Volume-Icons/volume-mute.svg": {
+		"unicode": "EA99",
+		"name": "volume-mute"
+	},
+	"Volume-Icons/volume-mute2.svg": {
+		"unicode": "EA9A",
+		"name": "volume-mute2"
+	},
+	"Download-Icons/download-2.svg": {
+		"unicode": "EA9B",
+		"name": "download-2"
+	},
+	"Download-Icons/download-3.svg": {
+		"unicode": "EA9C",
+		"name": "download-3"
+	},
+	"Download-Icons/download-4.svg": {
+		"unicode": "EA9D",
+		"name": "download-4"
+	},
+	"Download-Icons/download.svg": {
+		"unicode": "EA9E",
+		"name": "download"
+	},
+	"Download-Icons/upload-2.svg": {
+		"unicode": "EA9F",
+		"name": "upload-2"
+	},
+	"Download-Icons/upload-3.svg": {
+		"unicode": "EAA0",
+		"name": "upload-3"
+	},
+	"Download-Icons/upload-4.svg": {
+		"unicode": "EAA1",
+		"name": "upload-4"
+	},
+	"Download-Icons/upload.svg": {
+		"unicode": "EAA2",
+		"name": "upload"
+	},
+	"Web-Application-Icons/3d-view.svg": {
+		"unicode": "EAA3",
+		"name": "3d-view"
+	},
+	"Web-Application-Icons/accessibility.svg": {
+		"unicode": "EAA4",
+		"name": "accessibility"
+	},
+	"Web-Application-Icons/archive-4.svg": {
+		"unicode": "EAA5",
+		"name": "archive-4"
+	},
+	"Web-Application-Icons/archive.svg": {
+		"unicode": "EAA6",
+		"name": "archive"
+	},
+	"Web-Application-Icons/attention.svg": {
+		"unicode": "EAA7",
+		"name": "attention"
+	},
+	"Web-Application-Icons/award.svg": {
+		"unicode": "EAA8",
+		"name": "award"
+	},
+	"Web-Application-Icons/bc-room-style.svg": {
+		"unicode": "EAA9",
+		"name": "bc-room-style"
+	},
+	"Web-Application-Icons/bell.svg": {
+		"unicode": "EAAA",
+		"name": "bell"
+	},
+	"Web-Application-Icons/blocked.svg": {
+		"unicode": "EAAB",
+		"name": "blocked"
+	},
+	"Web-Application-Icons/bullhorn.svg": {
+		"unicode": "EAAC",
+		"name": "bullhorn"
+	},
+	"Web-Application-Icons/calendar.svg": {
+		"unicode": "EAAD",
+		"name": "calendar"
+	},
+	"Web-Application-Icons/camera-3.svg": {
+		"unicode": "EAAE",
+		"name": "camera-3"
+	},
+	"Web-Application-Icons/camera-blocked.svg": {
+		"unicode": "EAAF",
+		"name": "camera-blocked"
+	},
+	"Web-Application-Icons/cast-connected.svg": {
+		"unicode": "EAB0",
+		"name": "cast-connected"
+	},
+	"Web-Application-Icons/cast.svg": {
+		"unicode": "EAB1",
+		"name": "cast"
+	},
+	"Web-Application-Icons/circle.svg": {
+		"unicode": "EAB2",
+		"name": "circle"
+	},
+	"Web-Application-Icons/circles.svg": {
+		"unicode": "EAB3",
+		"name": "circles"
+	},
+	"Web-Application-Icons/clock-2.svg": {
+		"unicode": "EAB4",
+		"name": "clock-2"
+	},
+	"Web-Application-Icons/clock-3.svg": {
+		"unicode": "EAB5",
+		"name": "clock-3"
+	},
+	"Web-Application-Icons/clock.svg": {
+		"unicode": "EAB6",
+		"name": "clock"
+	},
+	"Web-Application-Icons/close-2.svg": {
+		"unicode": "EAB7",
+		"name": "close-2"
+	},
+	"Web-Application-Icons/close.svg": {
+		"unicode": "EAB8",
+		"name": "close"
+	},
+	"Web-Application-Icons/cogs.svg": {
+		"unicode": "EAB9",
+		"name": "cogs"
+	},
+	"Web-Application-Icons/coin-2.svg": {
+		"unicode": "EABA",
+		"name": "coin-2"
+	},
+	"Web-Application-Icons/coin.svg": {
+		"unicode": "EABB",
+		"name": "coin"
+	},
+	"Web-Application-Icons/currency-dollar.svg": {
+		"unicode": "EABC",
+		"name": "currency-dollar"
+	},
+	"Web-Application-Icons/device.svg": {
+		"unicode": "EABD",
+		"name": "device"
+	},
+	"Web-Application-Icons/equalizer.svg": {
+		"unicode": "EABE",
+		"name": "equalizer"
+	},
+	"Web-Application-Icons/eye-2.svg": {
+		"unicode": "EABF",
+		"name": "eye-2"
+	},
+	"Web-Application-Icons/eye-blocked.svg": {
+		"unicode": "EAC0",
+		"name": "eye-blocked"
+	},
+	"Web-Application-Icons/eye.svg": {
+		"unicode": "EAC1",
+		"name": "eye"
+	},
+	"Web-Application-Icons/flag-2.svg": {
+		"unicode": "EAC2",
+		"name": "flag-2"
+	},
+	"Web-Application-Icons/flag.svg": {
+		"unicode": "EAC3",
+		"name": "flag"
+	},
+	"Web-Application-Icons/flame.svg": {
+		"unicode": "EAC4",
+		"name": "flame"
+	},
+	"Web-Application-Icons/gauge.svg": {
+		"unicode": "EAC5",
+		"name": "gauge"
+	},
+	"Web-Application-Icons/geotag-2.svg": {
+		"unicode": "EAC6",
+		"name": "geotag-2"
+	},
+	"Web-Application-Icons/geotag.svg": {
+		"unicode": "EAC7",
+		"name": "geotag"
+	},
+	"Web-Application-Icons/grid.svg": {
+		"unicode": "EAC8",
+		"name": "grid"
+	},
+	"Web-Application-Icons/heart-2.svg": {
+		"unicode": "EAC9",
+		"name": "heart-2"
+	},
+	"Web-Application-Icons/heart.svg": {
+		"unicode": "EACA",
+		"name": "heart"
+	},
+	"Web-Application-Icons/house.svg": {
+		"unicode": "EACB",
+		"name": "house"
+	},
+	"Web-Application-Icons/id-card.svg": {
+		"unicode": "EACC",
+		"name": "id-card"
+	},
+	"Web-Application-Icons/info.svg": {
+		"unicode": "EACD",
+		"name": "info"
+	},
+	"Web-Application-Icons/key.svg": {
+		"unicode": "EACE",
+		"name": "key"
+	},
+	"Web-Application-Icons/layout.svg": {
+		"unicode": "EACF",
+		"name": "layout"
+	},
+	"Web-Application-Icons/lifebuoy.svg": {
+		"unicode": "EAD0",
+		"name": "lifebuoy"
+	},
+	"Web-Application-Icons/light-bulb.svg": {
+		"unicode": "EAD1",
+		"name": "light-bulb"
+	},
+	"Web-Application-Icons/link-2.svg": {
+		"unicode": "EAD2",
+		"name": "link-2"
+	},
+	"Web-Application-Icons/link.svg": {
+		"unicode": "EAD3",
+		"name": "link"
+	},
+	"Web-Application-Icons/lock-2.svg": {
+		"unicode": "EAD4",
+		"name": "lock-2"
+	},
+	"Web-Application-Icons/lock.svg": {
+		"unicode": "EAD5",
+		"name": "lock"
+	},
+	"Web-Application-Icons/mathematical-signs.svg": {
+		"unicode": "EAD6",
+		"name": "mathematical-signs"
+	},
+	"Web-Application-Icons/megaphone.svg": {
+		"unicode": "EAD7",
+		"name": "megaphone"
+	},
+	"Web-Application-Icons/menu.svg": {
+		"unicode": "EAD8",
+		"name": "menu"
+	},
+	"Web-Application-Icons/microphone.svg": {
+		"unicode": "EAD9",
+		"name": "microphone"
+	},
+	"Web-Application-Icons/minus.svg": {
+		"unicode": "EADA",
+		"name": "minus"
+	},
+	"Web-Application-Icons/music.svg": {
+		"unicode": "EADB",
+		"name": "music"
+	},
+	"Web-Application-Icons/navicon-2.svg": {
+		"unicode": "EADC",
+		"name": "navicon-2"
+	},
+	"Web-Application-Icons/navicon.svg": {
+		"unicode": "EADD",
+		"name": "navicon"
+	},
+	"Web-Application-Icons/new.svg": {
+		"unicode": "EADE",
+		"name": "new"
+	},
+	"Web-Application-Icons/paperplane.svg": {
+		"unicode": "EADF",
+		"name": "paperplane"
+	},
+	"Web-Application-Icons/pencil.svg": {
+		"unicode": "EAE0",
+		"name": "pencil"
+	},
+	"Web-Application-Icons/phone-2.svg": {
+		"unicode": "EAE1",
+		"name": "phone-2"
+	},
+	"Web-Application-Icons/phone-3.svg": {
+		"unicode": "EAE2",
+		"name": "phone-3"
+	},
+	"Web-Application-Icons/phone.svg": {
+		"unicode": "EAE3",
+		"name": "phone"
+	},
+	"Web-Application-Icons/plus.svg": {
+		"unicode": "EAE4",
+		"name": "plus"
+	},
+	"Web-Application-Icons/popup.svg": {
+		"unicode": "EAE5",
+		"name": "popup"
+	},
+	"Web-Application-Icons/power-off.svg": {
+		"unicode": "EAE6",
+		"name": "power-off"
+	},
+	"Web-Application-Icons/puzzle.svg": {
+		"unicode": "EAE7",
+		"name": "puzzle"
+	},
+	"Web-Application-Icons/question-2.svg": {
+		"unicode": "EAE8",
+		"name": "question-2"
+	},
+	"Web-Application-Icons/question-3.svg": {
+		"unicode": "EAE9",
+		"name": "question-3"
+	},
+	"Web-Application-Icons/question.svg": {
+		"unicode": "EAEA",
+		"name": "question"
+	},
+	"Web-Application-Icons/r.svg": {
+		"unicode": "EAEB",
+		"name": "r"
+	},
+	"Web-Application-Icons/rocket.svg": {
+		"unicode": "EAEC",
+		"name": "rocket"
+	},
+	"Web-Application-Icons/rss-feed.svg": {
+		"unicode": "EAED",
+		"name": "rss-feed"
+	},
+	"Web-Application-Icons/satellite-antenna.svg": {
+		"unicode": "EAEE",
+		"name": "satellite-antenna"
+	},
+	"Web-Application-Icons/screen.svg": {
+		"unicode": "EAEF",
+		"name": "screen"
+	},
+	"Web-Application-Icons/search-2.svg": {
+		"unicode": "EAF0",
+		"name": "search-2"
+	},
+	"Web-Application-Icons/search-minus.svg": {
+		"unicode": "EAF1",
+		"name": "search-minus"
+	},
+	"Web-Application-Icons/search-plus.svg": {
+		"unicode": "EAF2",
+		"name": "search-plus"
+	},
+	"Web-Application-Icons/search.svg": {
+		"unicode": "EAF3",
+		"name": "search"
+	},
+	"Web-Application-Icons/settings-2.svg": {
+		"unicode": "EAF4",
+		"name": "settings-2"
+	},
+	"Web-Application-Icons/settings.svg": {
+		"unicode": "EAF5",
+		"name": "settings"
+	},
+	"Web-Application-Icons/share-2.svg": {
+		"unicode": "EAF6",
+		"name": "share-2"
+	},
+	"Web-Application-Icons/share.svg": {
+		"unicode": "EAF7",
+		"name": "share"
+	},
+	"Web-Application-Icons/shopping-cart-2.svg": {
+		"unicode": "EAF8",
+		"name": "shopping-cart-2"
+	},
+	"Web-Application-Icons/shopping-cart.svg": {
+		"unicode": "EAF9",
+		"name": "shopping-cart"
+	},
+	"Web-Application-Icons/signal.svg": {
+		"unicode": "EAFA",
+		"name": "signal"
+	},
+	"Web-Application-Icons/stack.svg": {
+		"unicode": "EAFB",
+		"name": "stack"
+	},
+	"Web-Application-Icons/star-2.svg": {
+		"unicode": "EAFC",
+		"name": "star-2"
+	},
+	"Web-Application-Icons/star-3.svg": {
+		"unicode": "EAFD",
+		"name": "star-3"
+	},
+	"Web-Application-Icons/star.svg": {
+		"unicode": "EAFE",
+		"name": "star"
+	},
+	"Web-Application-Icons/stats.svg": {
+		"unicode": "EAFF",
+		"name": "stats"
+	},
+	"Web-Application-Icons/tablet.svg": {
+		"unicode": "EB00",
+		"name": "tablet"
+	},
+	"Web-Application-Icons/tags.svg": {
+		"unicode": "EB01",
+		"name": "tags"
+	},
+	"Web-Application-Icons/th.svg": {
+		"unicode": "EB02",
+		"name": "th"
+	},
+	"Web-Application-Icons/tick.svg": {
+		"unicode": "EB03",
+		"name": "tick"
+	},
+	"Web-Application-Icons/times-circle.svg": {
+		"unicode": "EB04",
+		"name": "times-circle"
+	},
+	"Web-Application-Icons/tools.svg": {
+		"unicode": "EB05",
+		"name": "tools"
+	},
+	"Web-Application-Icons/trash-2.svg": {
+		"unicode": "EB06",
+		"name": "trash-2"
+	},
+	"Web-Application-Icons/trash-3.svg": {
+		"unicode": "EB07",
+		"name": "trash-3"
+	},
+	"Web-Application-Icons/trash.svg": {
+		"unicode": "EB08",
+		"name": "trash"
+	},
+	"Web-Application-Icons/tube.svg": {
+		"unicode": "EB09",
+		"name": "tube"
+	},
+	"Web-Application-Icons/tv.svg": {
+		"unicode": "EB0A",
+		"name": "tv"
+	},
+	"Web-Application-Icons/unlock.svg": {
+		"unicode": "EB0B",
+		"name": "unlock"
+	},
+	"Web-Application-Icons/unlocked.svg": {
+		"unicode": "EB0C",
+		"name": "unlocked"
+	},
+	"Web-Application-Icons/video-2.svg": {
+		"unicode": "EB0D",
+		"name": "video-2"
+	},
+	"Web-Application-Icons/video-camera.svg": {
+		"unicode": "EB0E",
+		"name": "video-camera"
+	},
+	"Web-Application-Icons/video.svg": {
+		"unicode": "EB0F",
+		"name": "video"
+	},
+	"Web-Application-Icons/webcam.svg": {
+		"unicode": "EB10",
+		"name": "webcam"
+	},
+	"Web-Application-Icons/wrench-2.svg": {
+		"unicode": "EB11",
+		"name": "wrench-2"
+	},
+	"Web-Application-Icons/wrench.svg": {
+		"unicode": "EB12",
+		"name": "wrench"
+	}
+}

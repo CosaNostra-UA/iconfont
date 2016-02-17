@@ -2,16 +2,93 @@
 
 Universal library to generate icon fonts across all our's projects
 
-## Goals
+## Installation
 
-* automating the creation of fonts for all the company's projects
-* version control for each icon font
-* uniform basis of icons for all projects
+```
+git clone ssh://git@git.111pix.com:7999/fw/library-iconfont.git
+npm install
+```
 
-## Background and strategic fit
+## Usage
 
-* each icon is a separate file in the library (directory) and has a readable name
-* this library allows to generate the font of a certain set of icons and demo css / less for use in the ui-kit
-* input data to the library - mapping "character code - the name used icons"
-* the library exports gulp and grunt wrappers (for gulp / grunt tasks)
-* based of nodejs + expressjs create website like iconmoon
+### Integration for your project
+
+```
+npm install --save git+ssh://git@git.111pix.com:7999/fw/library-iconfont.git
+```
+
+ - Create selection config somewhere (gulp/font-config.json) using your favorite editor or iconfont webinterface
+
+```
+gulp.task('generate-filmon-font', function() {
+	var fontName = "filmon-icon-font";
+	var selection = require('./gulp/font-config.json');
+	var generator = require('library-iconfont');
+
+	return generator(fontName, selection).pipe(gulp.dest('./public/build/fonts/'));
+});
+
+```
+
+### Using web interface
+```
+cd .../library-iconfont  
+```  
+
+ - For the first time:
+```
+gulp build
+```
+
+ - Run server:
+```
+/usr/bin/node ./src/server.js or npm run server  
+```  
+
+ - Open your browser at "http://localhost:3002/"
+
+## Hacking
+
+### Using library-iconfont gulp task
+
+ - Change data from inputData.json since you need.
+
+ - To running with default font data ('fonts/,filmon-iconfont,filmon-icon', where
+
+```
+ <baseFontIconPath> = fonts/
+ <className> = filmon-iconfont
+ <fontName> = filmon-icon
+ , - separator
+```
+####  Warning!!!! 
+  - separation without spaces
+  - all parameters are required
+ ):
+
+```
+gulp iconfont
+```
+
+ - To running with the given font data:
+
+```
+gulp iconfont --env <baseFontIconPath>,<className>,<fontName>
+```
+
+### To generate baseData.json
+####  Warning!!!! 
+Unicode values are assigned randomly
+```
+gulp basedata
+```
+
+
+### To change set of source icons
+
+```
+- add or remove icons in ./icons-library
+- change src/baseData.json since you need
+gulp generateHtml
+gulp html
+```

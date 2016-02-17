@@ -1,0 +1,42 @@
+{
+  "test2/angry.svg": {
+    "unicode": "EA01",
+    "name": "angry"
+  },
+  "test2/antenna.svg": {
+    "unicode": "EA02",
+    "name": "antenna"
+  },
+  "test2/apple.svg": {
+    "unicode": "EA03",
+    "name": "apple"
+  },
+  "test3/heart2.svg": {
+    "unicode": "EA60",
+    "name": "heart2"
+  },
+  "test3/home.svg": {
+    "unicode": "EA61",
+    "name": "home"
+  },
+  "test3/info.svg": {
+    "unicode": "EA62",
+    "name": "info"
+  },
+  "test3/lab-small.svg": {
+    "unicode": "EA63",
+    "name": "lab-small"
+  },
+  "test1/comment.svg": {
+    "unicode": "EAC4",
+    "name": "comment"
+  },
+  "test1/cut-4-icon.svg": {
+    "unicode": "EAC5",
+    "name": "cut-4-icon"
+  },
+  "test1/cut-5.svg": {
+    "unicode": "EAC6",
+    "name": "cut-5"
+  }
+}

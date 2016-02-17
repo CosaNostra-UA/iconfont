@@ -1,0 +1,1104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, maximum-scale=1, initial-scale=1, user-scalable=no">
+    <title>FilmOn Icon Library</title>
+    <meta name="description" content="TODO">
+    <meta name="keywords" content="TODO"><!-- favicon icons -->
+    <link href="http://static.filmon.com/theme/img/favicon_2.ico" rel="icon" type="image/x-icon">
+    <link href="http://static.filmon.com/theme/img/favicon_2.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+    <script src="js/app.js"></script>
+    <script src="//code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <style>
+@font-face{
+    font-family:basefont;
+    src:url('fonts/basefont.eot');
+    src:url('fonts/basefont.eot?#iefix') format('embedded-opentype') ,
+    url('fonts/basefont.woff') format('woff'),
+    url('fonts/basefont.ttf') format('truetype'),
+    url('fonts/basefont.svg') format('svg');
+}
+
+p {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 14px;
+}
+
+h1 {
+    font: 22px Arial, sans-serif;
+    cursor: pointer;
+}
+
+label {
+    font: 16px Arial,sans-serif;
+}
+
+input {
+    font-size: 1em;
+    width: 170px;
+    margin: 0;
+    border: 0;
+    color: inherit;
+    line-height: 1.5;
+    padding: .25em 0;
+    box-shadow: inset 0 -2px #ccc
+}
+
+input:hover {
+    box-shadow: inset 0 -2px #b9b5b5;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: inset 0 -2px #449fdb;
+}
+
+form {
+    display: table;
+    margin: 20px 15px;
+}
+
+.head {
+    width: 100%;
+    position: fixed;
+    z-index: 111;
+    top: 0;
+    right: 0;
+}
+
+.bar-btn {
+    display: block;
+    width: 60%;
+    margin: 0 auto;
+    background: #efefef;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.button {
+    font: 16px Arial,sans-serif;
+    border-radius: .3125em;
+    background-color: #e1e1e1;
+    padding: 10px;
+    border: 2px solid #b9b5b5;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.button-selected {
+    background-color: #fff;
+    border-color: #ffbb4d;
+}
+
+.field {
+    font-family: basefont;
+    display: table;
+    width: 60%;
+    background: #ebebeb;
+    position: relative;
+    box-shadow: 0 0 12px 4px #ccc;
+    margin: 70px auto;
+    padding: 20px;
+    table-layout: fixed;
+    box-sizing: border-box;
+}
+
+.set-name {
+    font: 32px Arial, sans-serif;
+    padding: 7px;
+    position: relative;
+    top: 3px;
+}
+
+.icon, div.selected.ui-selecting {
+    width: 62px;
+    height: 62px;
+    background-color: #d9d9d9;
+    margin: 5px;
+    border-radius: .3125em;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.icon:hover {
+    box-shadow: inset 0 0 0 .1875em #b9b5b5;
+}
+
+.selected, .selected:hover, div.ui-selecting {
+    background-color: #fff;
+    box-shadow: inset 0 0 0 .1875em #ffbb4d;
+}
+
+.cell span {
+    width: 16px;
+    box-sizing: content-box;
+    display: inline-block;
+    padding-right: 5px;
+    position: relative;
+    top: 15%;
+}
+
+.ibkg {
+    height: 1.4em;
+    background-color: #fff;
+    box-shadow: inset 0 -2px #ccc
+}
+
+.remove {
+    font: 17px Arial,sans-serif;
+    display: inline;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.code, .code2 {
+    width: 100px;
+}
+
+.code2 {
+    text-align: right;
+}
+
+.invalid-data {
+    outline: none;
+    box-shadow: inset 0 -2px #db181f !important;
+}
+
+#edit-data div {
+    display: inline-block;
+    padding: 5px;
+}
+
+#font-field {
+    display: none;
+}
+
+#download, #show-config {
+    position: relative;
+    float: right;
+    top: -10px;
+    margin-right: 5px;
+}
+    </style>
+  </head>
+  <body>
+    <header class="head">
+      <div class="bar-btn"><span id="selection" class="button">Selection</span><span id="font" class="button">Generate Font</span></div>
+    </header>
+    <div id="font-field" class="field"><br>
+      <label>BaseFontIcon path:
+        <input type="text" name="path" value="fonts/" style="width: 150px">
+      </label><span id="download" class="button">Save</span><span id="show-config" class="button">Show Config</span><br>
+      <label>Class name:
+        <input type="text" name="name-class" value="filmon-icon-font" style="width:150px;position:relative;left:49px;"><br>
+      </label>
+      <label>Font name:
+        <input type="text" name="name-font" value="filmon-icon" style="width:150px;position:relative;left:57px;">
+      </label>
+      <form id="edit-data"></form>
+    </div>
+    <div id="icons-field" class="field">
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Brand-icons</span></h1>
+        <form class="set-icons">
+          <div data-name="amazon-black" class="icon" data-code="EA30" data-namefile="Brand-icons/amazon-black.svg">
+            <p>&#xEA30;</p>
+          </div>
+          <div data-name="android" class="icon" data-code="EA31" data-namefile="Brand-icons/android.svg">
+            <p>&#xEA31;</p>
+          </div>
+          <div data-name="apple" class="icon" data-code="EA32" data-namefile="Brand-icons/apple.svg">
+            <p>&#xEA32;</p>
+          </div>
+          <div data-name="battlecam" class="icon" data-code="EA33" data-namefile="Brand-icons/battlecam.svg">
+            <p>&#xEA33;</p>
+          </div>
+          <div data-name="bc-antispam" class="icon" data-code="EA34" data-namefile="Brand-icons/bc-antispam.svg">
+            <p>&#xEA34;</p>
+          </div>
+          <div data-name="bc-follow" class="icon" data-code="EA35" data-namefile="Brand-icons/bc-follow.svg">
+            <p>&#xEA35;</p>
+          </div>
+          <div data-name="bc-hd-broadcast-2" class="icon" data-code="EA36" data-namefile="Brand-icons/bc-hd-broadcast-2.svg">
+            <p>&#xEA36;</p>
+          </div>
+          <div data-name="bc-hd" class="icon" data-code="EA37" data-namefile="Brand-icons/bc-hd.svg">
+            <p>&#xEA37;</p>
+          </div>
+          <div data-name="bc-lock" class="icon" data-code="EA38" data-namefile="Brand-icons/bc-lock.svg">
+            <p>&#xEA38;</p>
+          </div>
+          <div data-name="blackberry" class="icon" data-code="EA39" data-namefile="Brand-icons/blackberry.svg">
+            <p>&#xEA39;</p>
+          </div>
+          <div data-name="chrome" class="icon" data-code="EA3A" data-namefile="Brand-icons/chrome.svg">
+            <p>&#xEA3A;</p>
+          </div>
+          <div data-name="e-tv" class="icon" data-code="EA3B" data-namefile="Brand-icons/e-tv.svg">
+            <p>&#xEA3B;</p>
+          </div>
+          <div data-name="facebook-2" class="icon" data-code="EA3C" data-namefile="Brand-icons/facebook-2.svg">
+            <p>&#xEA3C;</p>
+          </div>
+          <div data-name="facebook" class="icon" data-code="EA3D" data-namefile="Brand-icons/facebook.svg">
+            <p>&#xEA3D;</p>
+          </div>
+          <div data-name="filmon-logo" class="icon" data-code="EA3E" data-namefile="Brand-icons/filmon-logo.svg">
+            <p>&#xEA3E;</p>
+          </div>
+          <div data-name="filmon-premium" class="icon" data-code="EA3F" data-namefile="Brand-icons/filmon-premium.svg">
+            <p>&#xEA3F;</p>
+          </div>
+          <div data-name="filmon-social-tv" class="icon" data-code="EA40" data-namefile="Brand-icons/filmon-social-tv.svg">
+            <p>&#xEA40;</p>
+          </div>
+          <div data-name="filmon-you-vids" class="icon" data-code="EA41" data-namefile="Brand-icons/filmon-you-vids.svg">
+            <p>&#xEA41;</p>
+          </div>
+          <div data-name="firefox" class="icon" data-code="EA42" data-namefile="Brand-icons/firefox.svg">
+            <p>&#xEA42;</p>
+          </div>
+          <div data-name="google+" class="icon" data-code="EA43" data-namefile="Brand-icons/google+.svg">
+            <p>&#xEA43;</p>
+          </div>
+          <div data-name="google-plus" class="icon" data-code="EA44" data-namefile="Brand-icons/google-plus.svg">
+            <p>&#xEA44;</p>
+          </div>
+          <div data-name="ie" class="icon" data-code="EA45" data-namefile="Brand-icons/ie.svg">
+            <p>&#xEA45;</p>
+          </div>
+          <div data-name="instagram" class="icon" data-code="EA46" data-namefile="Brand-icons/instagram.svg">
+            <p>&#xEA46;</p>
+          </div>
+          <div data-name="lg" class="icon" data-code="EA47" data-namefile="Brand-icons/lg.svg">
+            <p>&#xEA47;</p>
+          </div>
+          <div data-name="linux" class="icon" data-code="EA48" data-namefile="Brand-icons/linux.svg">
+            <p>&#xEA48;</p>
+          </div>
+          <div data-name="mac" class="icon" data-code="EA49" data-namefile="Brand-icons/mac.svg">
+            <p>&#xEA49;</p>
+          </div>
+          <div data-name="opera" class="icon" data-code="EA4A" data-namefile="Brand-icons/opera.svg">
+            <p>&#xEA4A;</p>
+          </div>
+          <div data-name="premiumicon" class="icon" data-code="EA4B" data-namefile="Brand-icons/premiumicon.svg">
+            <p>&#xEA4B;</p>
+          </div>
+          <div data-name="safari" class="icon" data-code="EA4C" data-namefile="Brand-icons/safari.svg">
+            <p>&#xEA4C;</p>
+          </div>
+          <div data-name="twitter-2" class="icon" data-code="EA4D" data-namefile="Brand-icons/twitter-2.svg">
+            <p>&#xEA4D;</p>
+          </div>
+          <div data-name="twitter" class="icon" data-code="EA4E" data-namefile="Brand-icons/twitter.svg">
+            <p>&#xEA4E;</p>
+          </div>
+          <div data-name="windows-10" class="icon" data-code="EA4F" data-namefile="Brand-icons/windows-10.svg">
+            <p>&#xEA4F;</p>
+          </div>
+          <div data-name="windows" class="icon" data-code="EA50" data-namefile="Brand-icons/windows.svg">
+            <p>&#xEA50;</p>
+          </div>
+          <div data-name="xbox" class="icon" data-code="EA51" data-namefile="Brand-icons/xbox.svg">
+            <p>&#xEA51;</p>
+          </div>
+          <div data-name="youtube" class="icon" data-code="EA52" data-namefile="Brand-icons/youtube.svg">
+            <p>&#xEA52;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Comment-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="comment-2" class="icon" data-code="EA01" data-namefile="Comment-Icons/comment-2.svg">
+            <p>&#xEA01;</p>
+          </div>
+          <div data-name="comment" class="icon" data-code="EA02" data-namefile="Comment-Icons/comment.svg">
+            <p>&#xEA02;</p>
+          </div>
+          <div data-name="comments-2" class="icon" data-code="EA03" data-namefile="Comment-Icons/comments-2.svg">
+            <p>&#xEA03;</p>
+          </div>
+          <div data-name="comments-3" class="icon" data-code="EA04" data-namefile="Comment-Icons/comments-3.svg">
+            <p>&#xEA04;</p>
+          </div>
+          <div data-name="comments-4" class="icon" data-code="EA05" data-namefile="Comment-Icons/comments-4.svg">
+            <p>&#xEA05;</p>
+          </div>
+          <div data-name="comments" class="icon" data-code="EA06" data-namefile="Comment-Icons/comments.svg">
+            <p>&#xEA06;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Directional-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="angle-double-left" class="icon" data-code="EA5A" data-namefile="Directional-Icons/angle-double-left.svg">
+            <p>&#xEA5A;</p>
+          </div>
+          <div data-name="angle-double-right-2" class="icon" data-code="EA5B" data-namefile="Directional-Icons/angle-double-right-2.svg">
+            <p>&#xEA5B;</p>
+          </div>
+          <div data-name="angle-double-right" class="icon" data-code="EA5C" data-namefile="Directional-Icons/angle-double-right.svg">
+            <p>&#xEA5C;</p>
+          </div>
+          <div data-name="angle-down-2" class="icon" data-code="EA5D" data-namefile="Directional-Icons/angle-down-2.svg">
+            <p>&#xEA5D;</p>
+          </div>
+          <div data-name="angle-down-3" class="icon" data-code="EA5E" data-namefile="Directional-Icons/angle-down-3.svg">
+            <p>&#xEA5E;</p>
+          </div>
+          <div data-name="angle-down" class="icon" data-code="EA5F" data-namefile="Directional-Icons/angle-down.svg">
+            <p>&#xEA5F;</p>
+          </div>
+          <div data-name="angle-left-2" class="icon" data-code="EA60" data-namefile="Directional-Icons/angle-left-2.svg">
+            <p>&#xEA60;</p>
+          </div>
+          <div data-name="angle-left-3" class="icon" data-code="EA61" data-namefile="Directional-Icons/angle-left-3.svg">
+            <p>&#xEA61;</p>
+          </div>
+          <div data-name="angle-left-4" class="icon" data-code="EA62" data-namefile="Directional-Icons/angle-left-4.svg">
+            <p>&#xEA62;</p>
+          </div>
+          <div data-name="angle-left" class="icon" data-code="EA63" data-namefile="Directional-Icons/angle-left.svg">
+            <p>&#xEA63;</p>
+          </div>
+          <div data-name="angle-right-2" class="icon" data-code="EA64" data-namefile="Directional-Icons/angle-right-2.svg">
+            <p>&#xEA64;</p>
+          </div>
+          <div data-name="angle-right-3" class="icon" data-code="EA65" data-namefile="Directional-Icons/angle-right-3.svg">
+            <p>&#xEA65;</p>
+          </div>
+          <div data-name="angle-right-4" class="icon" data-code="EA66" data-namefile="Directional-Icons/angle-right-4.svg">
+            <p>&#xEA66;</p>
+          </div>
+          <div data-name="angle-right" class="icon" data-code="EA67" data-namefile="Directional-Icons/angle-right.svg">
+            <p>&#xEA67;</p>
+          </div>
+          <div data-name="angle-up-2" class="icon" data-code="EA68" data-namefile="Directional-Icons/angle-up-2.svg">
+            <p>&#xEA68;</p>
+          </div>
+          <div data-name="angle-up-3" class="icon" data-code="EA69" data-namefile="Directional-Icons/angle-up-3.svg">
+            <p>&#xEA69;</p>
+          </div>
+          <div data-name="angle-up" class="icon" data-code="EA6A" data-namefile="Directional-Icons/angle-up.svg">
+            <p>&#xEA6A;</p>
+          </div>
+          <div data-name="angledouble-left-2" class="icon" data-code="EA6B" data-namefile="Directional-Icons/angledouble-left-2.svg">
+            <p>&#xEA6B;</p>
+          </div>
+          <div data-name="arrow-down" class="icon" data-code="EA6C" data-namefile="Directional-Icons/arrow-down.svg">
+            <p>&#xEA6C;</p>
+          </div>
+          <div data-name="arrow-left-2" class="icon" data-code="EA6D" data-namefile="Directional-Icons/arrow-left-2.svg">
+            <p>&#xEA6D;</p>
+          </div>
+          <div data-name="arrow-left" class="icon" data-code="EA6E" data-namefile="Directional-Icons/arrow-left.svg">
+            <p>&#xEA6E;</p>
+          </div>
+          <div data-name="arrow-up" class="icon" data-code="EA6F" data-namefile="Directional-Icons/arrow-up.svg">
+            <p>&#xEA6F;</p>
+          </div>
+          <div data-name="arrows" class="icon" data-code="EA70" data-namefile="Directional-Icons/arrows.svg">
+            <p>&#xEA70;</p>
+          </div>
+          <div data-name="back" class="icon" data-code="EA71" data-namefile="Directional-Icons/back.svg">
+            <p>&#xEA71;</p>
+          </div>
+          <div data-name="caret-down" class="icon" data-code="EA72" data-namefile="Directional-Icons/caret-down.svg">
+            <p>&#xEA72;</p>
+          </div>
+          <div data-name="caret-left" class="icon" data-code="EA73" data-namefile="Directional-Icons/caret-left.svg">
+            <p>&#xEA73;</p>
+          </div>
+          <div data-name="caret-right" class="icon" data-code="EA74" data-namefile="Directional-Icons/caret-right.svg">
+            <p>&#xEA74;</p>
+          </div>
+          <div data-name="caret-up" class="icon" data-code="EA75" data-namefile="Directional-Icons/caret-up.svg">
+            <p>&#xEA75;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Download-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="download-2" class="icon" data-code="EA9B" data-namefile="Download-Icons/download-2.svg">
+            <p>&#xEA9B;</p>
+          </div>
+          <div data-name="download-3" class="icon" data-code="EA9C" data-namefile="Download-Icons/download-3.svg">
+            <p>&#xEA9C;</p>
+          </div>
+          <div data-name="download-4" class="icon" data-code="EA9D" data-namefile="Download-Icons/download-4.svg">
+            <p>&#xEA9D;</p>
+          </div>
+          <div data-name="download" class="icon" data-code="EA9E" data-namefile="Download-Icons/download.svg">
+            <p>&#xEA9E;</p>
+          </div>
+          <div data-name="upload-2" class="icon" data-code="EA9F" data-namefile="Download-Icons/upload-2.svg">
+            <p>&#xEA9F;</p>
+          </div>
+          <div data-name="upload-3" class="icon" data-code="EAA0" data-namefile="Download-Icons/upload-3.svg">
+            <p>&#xEAA0;</p>
+          </div>
+          <div data-name="upload-4" class="icon" data-code="EAA1" data-namefile="Download-Icons/upload-4.svg">
+            <p>&#xEAA1;</p>
+          </div>
+          <div data-name="upload" class="icon" data-code="EAA2" data-namefile="Download-Icons/upload.svg">
+            <p>&#xEAA2;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">File-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="attachment-picture" class="icon" data-code="EA07" data-namefile="File-Icons/attachment-picture.svg">
+            <p>&#xEA07;</p>
+          </div>
+          <div data-name="document-2" class="icon" data-code="EA08" data-namefile="File-Icons/document-2.svg">
+            <p>&#xEA08;</p>
+          </div>
+          <div data-name="document-3" class="icon" data-code="EA09" data-namefile="File-Icons/document-3.svg">
+            <p>&#xEA09;</p>
+          </div>
+          <div data-name="document" class="icon" data-code="EA0A" data-namefile="File-Icons/document.svg">
+            <p>&#xEA0A;</p>
+          </div>
+          <div data-name="documents-2" class="icon" data-code="EA0B" data-namefile="File-Icons/documents-2.svg">
+            <p>&#xEA0B;</p>
+          </div>
+          <div data-name="documents" class="icon" data-code="EA0C" data-namefile="File-Icons/documents.svg">
+            <p>&#xEA0C;</p>
+          </div>
+          <div data-name="edit-document" class="icon" data-code="EA0D" data-namefile="File-Icons/edit-document.svg">
+            <p>&#xEA0D;</p>
+          </div>
+          <div data-name="edit-picture" class="icon" data-code="EA0E" data-namefile="File-Icons/edit-picture.svg">
+            <p>&#xEA0E;</p>
+          </div>
+          <div data-name="files" class="icon" data-code="EA0F" data-namefile="File-Icons/files.svg">
+            <p>&#xEA0F;</p>
+          </div>
+          <div data-name="film" class="icon" data-code="EA10" data-namefile="File-Icons/film.svg">
+            <p>&#xEA10;</p>
+          </div>
+          <div data-name="picture" class="icon" data-code="EA11" data-namefile="File-Icons/picture.svg">
+            <p>&#xEA11;</p>
+          </div>
+          <div data-name="pictures" class="icon" data-code="EA12" data-namefile="File-Icons/pictures.svg">
+            <p>&#xEA12;</p>
+          </div>
+          <div data-name="remove-picture" class="icon" data-code="EA13" data-namefile="File-Icons/remove-picture.svg">
+            <p>&#xEA13;</p>
+          </div>
+          <div data-name="search-document" class="icon" data-code="EA14" data-namefile="File-Icons/search-document.svg">
+            <p>&#xEA14;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Hand-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="thumbs-down-2" class="icon" data-code="EA15" data-namefile="Hand-Icons/thumbs-down-2.svg">
+            <p>&#xEA15;</p>
+          </div>
+          <div data-name="thumbs-down" class="icon" data-code="EA16" data-namefile="Hand-Icons/thumbs-down.svg">
+            <p>&#xEA16;</p>
+          </div>
+          <div data-name="thumbs-up-2" class="icon" data-code="EA17" data-namefile="Hand-Icons/thumbs-up-2.svg">
+            <p>&#xEA17;</p>
+          </div>
+          <div data-name="thumbs-up" class="icon" data-code="EA18" data-namefile="Hand-Icons/thumbs-up.svg">
+            <p>&#xEA18;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Mail-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="mail-2" class="icon" data-code="EA19" data-namefile="Mail-Icons/mail-2.svg">
+            <p>&#xEA19;</p>
+          </div>
+          <div data-name="mail-3" class="icon" data-code="EA1A" data-namefile="Mail-Icons/mail-3.svg">
+            <p>&#xEA1A;</p>
+          </div>
+          <div data-name="mail-4" class="icon" data-code="EA1B" data-namefile="Mail-Icons/mail-4.svg">
+            <p>&#xEA1B;</p>
+          </div>
+          <div data-name="mail" class="icon" data-code="EA1C" data-namefile="Mail-Icons/mail.svg">
+            <p>&#xEA1C;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Other</span></h1>
+        <form class="set-icons">
+          <div data-name="export" class="icon" data-code="EA1D" data-namefile="Other/export.svg">
+            <p>&#xEA1D;</p>
+          </div>
+          <div data-name="export2" class="icon" data-code="EA1E" data-namefile="Other/export2.svg">
+            <p>&#xEA1E;</p>
+          </div>
+          <div data-name="login-2" class="icon" data-code="EA1F" data-namefile="Other/login-2.svg">
+            <p>&#xEA1F;</p>
+          </div>
+          <div data-name="login" class="icon" data-code="EA20" data-namefile="Other/login.svg">
+            <p>&#xEA20;</p>
+          </div>
+          <div data-name="logout" class="icon" data-code="EA21" data-namefile="Other/logout.svg">
+            <p>&#xEA21;</p>
+          </div>
+          <div data-name="newtab-2" class="icon" data-code="EA22" data-namefile="Other/newtab-2.svg">
+            <p>&#xEA22;</p>
+          </div>
+          <div data-name="newtab" class="icon" data-code="EA23" data-namefile="Other/newtab.svg">
+            <p>&#xEA23;</p>
+          </div>
+          <div data-name="pop-out" class="icon" data-code="EA24" data-namefile="Other/pop-out.svg">
+            <p>&#xEA24;</p>
+          </div>
+          <div data-name="reply-2" class="icon" data-code="EA25" data-namefile="Other/reply-2.svg">
+            <p>&#xEA25;</p>
+          </div>
+          <div data-name="reply" class="icon" data-code="EA26" data-namefile="Other/reply.svg">
+            <p>&#xEA26;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Payment-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="credit-card-2" class="icon" data-code="EA27" data-namefile="Payment-Icons/credit-card-2.svg">
+            <p>&#xEA27;</p>
+          </div>
+          <div data-name="credit-card-3" class="icon" data-code="EA28" data-namefile="Payment-Icons/credit-card-3.svg">
+            <p>&#xEA28;</p>
+          </div>
+          <div data-name="credit-card-4" class="icon" data-code="EA29" data-namefile="Payment-Icons/credit-card-4.svg">
+            <p>&#xEA29;</p>
+          </div>
+          <div data-name="credit-card" class="icon" data-code="EA2A" data-namefile="Payment-Icons/credit-card.svg">
+            <p>&#xEA2A;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Spinner-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="cog" class="icon" data-code="EA2B" data-namefile="Spinner-Icons/cog.svg">
+            <p>&#xEA2B;</p>
+          </div>
+          <div data-name="refresh" class="icon" data-code="EA2C" data-namefile="Spinner-Icons/refresh.svg">
+            <p>&#xEA2C;</p>
+          </div>
+          <div data-name="spinner-2" class="icon" data-code="EA2D" data-namefile="Spinner-Icons/spinner-2.svg">
+            <p>&#xEA2D;</p>
+          </div>
+          <div data-name="spinner-3" class="icon" data-code="EA2E" data-namefile="Spinner-Icons/spinner-3.svg">
+            <p>&#xEA2E;</p>
+          </div>
+          <div data-name="spinner" class="icon" data-code="EA2F" data-namefile="Spinner-Icons/spinner.svg">
+            <p>&#xEA2F;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Text-Editor-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="attachment" class="icon" data-code="EA53" data-namefile="Text-Editor-Icons/attachment.svg">
+            <p>&#xEA53;</p>
+          </div>
+          <div data-name="cut-2" class="icon" data-code="EA54" data-namefile="Text-Editor-Icons/cut-2.svg">
+            <p>&#xEA54;</p>
+          </div>
+          <div data-name="cut" class="icon" data-code="EA55" data-namefile="Text-Editor-Icons/cut.svg">
+            <p>&#xEA55;</p>
+          </div>
+          <div data-name="list-2" class="icon" data-code="EA56" data-namefile="Text-Editor-Icons/list-2.svg">
+            <p>&#xEA56;</p>
+          </div>
+          <div data-name="list-3" class="icon" data-code="EA57" data-namefile="Text-Editor-Icons/list-3.svg">
+            <p>&#xEA57;</p>
+          </div>
+          <div data-name="list" class="icon" data-code="EA58" data-namefile="Text-Editor-Icons/list.svg">
+            <p>&#xEA58;</p>
+          </div>
+          <div data-name="table" class="icon" data-code="EA59" data-namefile="Text-Editor-Icons/table.svg">
+            <p>&#xEA59;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">User-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="add-user" class="icon" data-code="EA87" data-namefile="User-Icons/add-user.svg">
+            <p>&#xEA87;</p>
+          </div>
+          <div data-name="find-users" class="icon" data-code="EA88" data-namefile="User-Icons/find-users.svg">
+            <p>&#xEA88;</p>
+          </div>
+          <div data-name="remove-user" class="icon" data-code="EA89" data-namefile="User-Icons/remove-user.svg">
+            <p>&#xEA89;</p>
+          </div>
+          <div data-name="user-2" class="icon" data-code="EA8A" data-namefile="User-Icons/user-2.svg">
+            <p>&#xEA8A;</p>
+          </div>
+          <div data-name="user-3" class="icon" data-code="EA8B" data-namefile="User-Icons/user-3.svg">
+            <p>&#xEA8B;</p>
+          </div>
+          <div data-name="user-4" class="icon" data-code="EA8C" data-namefile="User-Icons/user-4.svg">
+            <p>&#xEA8C;</p>
+          </div>
+          <div data-name="user-5" class="icon" data-code="EA8D" data-namefile="User-Icons/user-5.svg">
+            <p>&#xEA8D;</p>
+          </div>
+          <div data-name="user-support-2" class="icon" data-code="EA8E" data-namefile="User-Icons/user-support-2.svg">
+            <p>&#xEA8E;</p>
+          </div>
+          <div data-name="user-support" class="icon" data-code="EA8F" data-namefile="User-Icons/user-support.svg">
+            <p>&#xEA8F;</p>
+          </div>
+          <div data-name="user-woman" class="icon" data-code="EA90" data-namefile="User-Icons/user-woman.svg">
+            <p>&#xEA90;</p>
+          </div>
+          <div data-name="user" class="icon" data-code="EA91" data-namefile="User-Icons/user.svg">
+            <p>&#xEA91;</p>
+          </div>
+          <div data-name="users-2" class="icon" data-code="EA92" data-namefile="User-Icons/users-2.svg">
+            <p>&#xEA92;</p>
+          </div>
+          <div data-name="users-3" class="icon" data-code="EA93" data-namefile="User-Icons/users-3.svg">
+            <p>&#xEA93;</p>
+          </div>
+          <div data-name="users-4" class="icon" data-code="EA94" data-namefile="User-Icons/users-4.svg">
+            <p>&#xEA94;</p>
+          </div>
+          <div data-name="users" class="icon" data-code="EA95" data-namefile="User-Icons/users.svg">
+            <p>&#xEA95;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Video-Player-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="backward" class="icon" data-code="EA76" data-namefile="Video-Player-Icons/backward.svg">
+            <p>&#xEA76;</p>
+          </div>
+          <div data-name="eject" class="icon" data-code="EA77" data-namefile="Video-Player-Icons/eject.svg">
+            <p>&#xEA77;</p>
+          </div>
+          <div data-name="first" class="icon" data-code="EA78" data-namefile="Video-Player-Icons/first.svg">
+            <p>&#xEA78;</p>
+          </div>
+          <div data-name="forward" class="icon" data-code="EA79" data-namefile="Video-Player-Icons/forward.svg">
+            <p>&#xEA79;</p>
+          </div>
+          <div data-name="fullscreen-2" class="icon" data-code="EA7A" data-namefile="Video-Player-Icons/fullscreen-2.svg">
+            <p>&#xEA7A;</p>
+          </div>
+          <div data-name="fullscreen" class="icon" data-code="EA7B" data-namefile="Video-Player-Icons/fullscreen.svg">
+            <p>&#xEA7B;</p>
+          </div>
+          <div data-name="last" class="icon" data-code="EA7C" data-namefile="Video-Player-Icons/last.svg">
+            <p>&#xEA7C;</p>
+          </div>
+          <div data-name="loop" class="icon" data-code="EA7D" data-namefile="Video-Player-Icons/loop.svg">
+            <p>&#xEA7D;</p>
+          </div>
+          <div data-name="next" class="icon" data-code="EA7E" data-namefile="Video-Player-Icons/next.svg">
+            <p>&#xEA7E;</p>
+          </div>
+          <div data-name="pause" class="icon" data-code="EA7F" data-namefile="Video-Player-Icons/pause.svg">
+            <p>&#xEA7F;</p>
+          </div>
+          <div data-name="play-2" class="icon" data-code="EA80" data-namefile="Video-Player-Icons/play-2.svg">
+            <p>&#xEA80;</p>
+          </div>
+          <div data-name="play-3" class="icon" data-code="EA81" data-namefile="Video-Player-Icons/play-3.svg">
+            <p>&#xEA81;</p>
+          </div>
+          <div data-name="play-4" class="icon" data-code="EA82" data-namefile="Video-Player-Icons/play-4.svg">
+            <p>&#xEA82;</p>
+          </div>
+          <div data-name="play" class="icon" data-code="EA83" data-namefile="Video-Player-Icons/play.svg">
+            <p>&#xEA83;</p>
+          </div>
+          <div data-name="previous" class="icon" data-code="EA84" data-namefile="Video-Player-Icons/previous.svg">
+            <p>&#xEA84;</p>
+          </div>
+          <div data-name="shuffle" class="icon" data-code="EA85" data-namefile="Video-Player-Icons/shuffle.svg">
+            <p>&#xEA85;</p>
+          </div>
+          <div data-name="stop" class="icon" data-code="EA86" data-namefile="Video-Player-Icons/stop.svg">
+            <p>&#xEA86;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Volume-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="volume-high" class="icon" data-code="EA96" data-namefile="Volume-Icons/volume-high.svg">
+            <p>&#xEA96;</p>
+          </div>
+          <div data-name="volume-low" class="icon" data-code="EA97" data-namefile="Volume-Icons/volume-low.svg">
+            <p>&#xEA97;</p>
+          </div>
+          <div data-name="volume-medium" class="icon" data-code="EA98" data-namefile="Volume-Icons/volume-medium.svg">
+            <p>&#xEA98;</p>
+          </div>
+          <div data-name="volume-mute" class="icon" data-code="EA99" data-namefile="Volume-Icons/volume-mute.svg">
+            <p>&#xEA99;</p>
+          </div>
+          <div data-name="volume-mute2" class="icon" data-code="EA9A" data-namefile="Volume-Icons/volume-mute2.svg">
+            <p>&#xEA9A;</p>
+          </div>
+        </form>
+      </div>
+      <div class="set">
+        <h1><span class="arrow">&#x25bd</span><span class="set-name">Web-Application-Icons</span></h1>
+        <form class="set-icons">
+          <div data-name="3d-view" class="icon" data-code="EAA3" data-namefile="Web-Application-Icons/3d-view.svg">
+            <p>&#xEAA3;</p>
+          </div>
+          <div data-name="accessibility" class="icon" data-code="EAA4" data-namefile="Web-Application-Icons/accessibility.svg">
+            <p>&#xEAA4;</p>
+          </div>
+          <div data-name="archive-4" class="icon" data-code="EAA5" data-namefile="Web-Application-Icons/archive-4.svg">
+            <p>&#xEAA5;</p>
+          </div>
+          <div data-name="archive" class="icon" data-code="EAA6" data-namefile="Web-Application-Icons/archive.svg">
+            <p>&#xEAA6;</p>
+          </div>
+          <div data-name="attention" class="icon" data-code="EAA7" data-namefile="Web-Application-Icons/attention.svg">
+            <p>&#xEAA7;</p>
+          </div>
+          <div data-name="award" class="icon" data-code="EAA8" data-namefile="Web-Application-Icons/award.svg">
+            <p>&#xEAA8;</p>
+          </div>
+          <div data-name="bc-room-style" class="icon" data-code="EAA9" data-namefile="Web-Application-Icons/bc-room-style.svg">
+            <p>&#xEAA9;</p>
+          </div>
+          <div data-name="bell" class="icon" data-code="EAAA" data-namefile="Web-Application-Icons/bell.svg">
+            <p>&#xEAAA;</p>
+          </div>
+          <div data-name="blocked" class="icon" data-code="EAAB" data-namefile="Web-Application-Icons/blocked.svg">
+            <p>&#xEAAB;</p>
+          </div>
+          <div data-name="bullhorn" class="icon" data-code="EAAC" data-namefile="Web-Application-Icons/bullhorn.svg">
+            <p>&#xEAAC;</p>
+          </div>
+          <div data-name="calendar" class="icon" data-code="EAAD" data-namefile="Web-Application-Icons/calendar.svg">
+            <p>&#xEAAD;</p>
+          </div>
+          <div data-name="camera-3" class="icon" data-code="EAAE" data-namefile="Web-Application-Icons/camera-3.svg">
+            <p>&#xEAAE;</p>
+          </div>
+          <div data-name="camera-blocked" class="icon" data-code="EAAF" data-namefile="Web-Application-Icons/camera-blocked.svg">
+            <p>&#xEAAF;</p>
+          </div>
+          <div data-name="cast-connected" class="icon" data-code="EAB0" data-namefile="Web-Application-Icons/cast-connected.svg">
+            <p>&#xEAB0;</p>
+          </div>
+          <div data-name="cast" class="icon" data-code="EAB1" data-namefile="Web-Application-Icons/cast.svg">
+            <p>&#xEAB1;</p>
+          </div>
+          <div data-name="circle" class="icon" data-code="EAB2" data-namefile="Web-Application-Icons/circle.svg">
+            <p>&#xEAB2;</p>
+          </div>
+          <div data-name="circles" class="icon" data-code="EAB3" data-namefile="Web-Application-Icons/circles.svg">
+            <p>&#xEAB3;</p>
+          </div>
+          <div data-name="clock-2" class="icon" data-code="EAB4" data-namefile="Web-Application-Icons/clock-2.svg">
+            <p>&#xEAB4;</p>
+          </div>
+          <div data-name="clock-3" class="icon" data-code="EAB5" data-namefile="Web-Application-Icons/clock-3.svg">
+            <p>&#xEAB5;</p>
+          </div>
+          <div data-name="clock" class="icon" data-code="EAB6" data-namefile="Web-Application-Icons/clock.svg">
+            <p>&#xEAB6;</p>
+          </div>
+          <div data-name="close-2" class="icon" data-code="EAB7" data-namefile="Web-Application-Icons/close-2.svg">
+            <p>&#xEAB7;</p>
+          </div>
+          <div data-name="close" class="icon" data-code="EAB8" data-namefile="Web-Application-Icons/close.svg">
+            <p>&#xEAB8;</p>
+          </div>
+          <div data-name="cogs" class="icon" data-code="EAB9" data-namefile="Web-Application-Icons/cogs.svg">
+            <p>&#xEAB9;</p>
+          </div>
+          <div data-name="coin-2" class="icon" data-code="EABA" data-namefile="Web-Application-Icons/coin-2.svg">
+            <p>&#xEABA;</p>
+          </div>
+          <div data-name="coin" class="icon" data-code="EABB" data-namefile="Web-Application-Icons/coin.svg">
+            <p>&#xEABB;</p>
+          </div>
+          <div data-name="currency-dollar" class="icon" data-code="EABC" data-namefile="Web-Application-Icons/currency-dollar.svg">
+            <p>&#xEABC;</p>
+          </div>
+          <div data-name="device" class="icon" data-code="EABD" data-namefile="Web-Application-Icons/device.svg">
+            <p>&#xEABD;</p>
+          </div>
+          <div data-name="equalizer" class="icon" data-code="EABE" data-namefile="Web-Application-Icons/equalizer.svg">
+            <p>&#xEABE;</p>
+          </div>
+          <div data-name="eye-2" class="icon" data-code="EABF" data-namefile="Web-Application-Icons/eye-2.svg">
+            <p>&#xEABF;</p>
+          </div>
+          <div data-name="eye-blocked" class="icon" data-code="EAC0" data-namefile="Web-Application-Icons/eye-blocked.svg">
+            <p>&#xEAC0;</p>
+          </div>
+          <div data-name="eye" class="icon" data-code="EAC1" data-namefile="Web-Application-Icons/eye.svg">
+            <p>&#xEAC1;</p>
+          </div>
+          <div data-name="flag-2" class="icon" data-code="EAC2" data-namefile="Web-Application-Icons/flag-2.svg">
+            <p>&#xEAC2;</p>
+          </div>
+          <div data-name="flag" class="icon" data-code="EAC3" data-namefile="Web-Application-Icons/flag.svg">
+            <p>&#xEAC3;</p>
+          </div>
+          <div data-name="flame" class="icon" data-code="EAC4" data-namefile="Web-Application-Icons/flame.svg">
+            <p>&#xEAC4;</p>
+          </div>
+          <div data-name="gauge" class="icon" data-code="EAC5" data-namefile="Web-Application-Icons/gauge.svg">
+            <p>&#xEAC5;</p>
+          </div>
+          <div data-name="geotag-2" class="icon" data-code="EAC6" data-namefile="Web-Application-Icons/geotag-2.svg">
+            <p>&#xEAC6;</p>
+          </div>
+          <div data-name="geotag" class="icon" data-code="EAC7" data-namefile="Web-Application-Icons/geotag.svg">
+            <p>&#xEAC7;</p>
+          </div>
+          <div data-name="grid" class="icon" data-code="EAC8" data-namefile="Web-Application-Icons/grid.svg">
+            <p>&#xEAC8;</p>
+          </div>
+          <div data-name="heart-2" class="icon" data-code="EAC9" data-namefile="Web-Application-Icons/heart-2.svg">
+            <p>&#xEAC9;</p>
+          </div>
+          <div data-name="heart" class="icon" data-code="EACA" data-namefile="Web-Application-Icons/heart.svg">
+            <p>&#xEACA;</p>
+          </div>
+          <div data-name="house" class="icon" data-code="EACB" data-namefile="Web-Application-Icons/house.svg">
+            <p>&#xEACB;</p>
+          </div>
+          <div data-name="id-card" class="icon" data-code="EACC" data-namefile="Web-Application-Icons/id-card.svg">
+            <p>&#xEACC;</p>
+          </div>
+          <div data-name="info" class="icon" data-code="EACD" data-namefile="Web-Application-Icons/info.svg">
+            <p>&#xEACD;</p>
+          </div>
+          <div data-name="key" class="icon" data-code="EACE" data-namefile="Web-Application-Icons/key.svg">
+            <p>&#xEACE;</p>
+          </div>
+          <div data-name="layout" class="icon" data-code="EACF" data-namefile="Web-Application-Icons/layout.svg">
+            <p>&#xEACF;</p>
+          </div>
+          <div data-name="lifebuoy" class="icon" data-code="EAD0" data-namefile="Web-Application-Icons/lifebuoy.svg">
+            <p>&#xEAD0;</p>
+          </div>
+          <div data-name="light-bulb" class="icon" data-code="EAD1" data-namefile="Web-Application-Icons/light-bulb.svg">
+            <p>&#xEAD1;</p>
+          </div>
+          <div data-name="link-2" class="icon" data-code="EAD2" data-namefile="Web-Application-Icons/link-2.svg">
+            <p>&#xEAD2;</p>
+          </div>
+          <div data-name="link" class="icon" data-code="EAD3" data-namefile="Web-Application-Icons/link.svg">
+            <p>&#xEAD3;</p>
+          </div>
+          <div data-name="lock-2" class="icon" data-code="EAD4" data-namefile="Web-Application-Icons/lock-2.svg">
+            <p>&#xEAD4;</p>
+          </div>
+          <div data-name="lock" class="icon" data-code="EAD5" data-namefile="Web-Application-Icons/lock.svg">
+            <p>&#xEAD5;</p>
+          </div>
+          <div data-name="mathematical-signs" class="icon" data-code="EAD6" data-namefile="Web-Application-Icons/mathematical-signs.svg">
+            <p>&#xEAD6;</p>
+          </div>
+          <div data-name="megaphone" class="icon" data-code="EAD7" data-namefile="Web-Application-Icons/megaphone.svg">
+            <p>&#xEAD7;</p>
+          </div>
+          <div data-name="menu" class="icon" data-code="EAD8" data-namefile="Web-Application-Icons/menu.svg">
+            <p>&#xEAD8;</p>
+          </div>
+          <div data-name="microphone" class="icon" data-code="EAD9" data-namefile="Web-Application-Icons/microphone.svg">
+            <p>&#xEAD9;</p>
+          </div>
+          <div data-name="minus" class="icon" data-code="EADA" data-namefile="Web-Application-Icons/minus.svg">
+            <p>&#xEADA;</p>
+          </div>
+          <div data-name="music" class="icon" data-code="EADB" data-namefile="Web-Application-Icons/music.svg">
+            <p>&#xEADB;</p>
+          </div>
+          <div data-name="navicon-2" class="icon" data-code="EADC" data-namefile="Web-Application-Icons/navicon-2.svg">
+            <p>&#xEADC;</p>
+          </div>
+          <div data-name="navicon" class="icon" data-code="EADD" data-namefile="Web-Application-Icons/navicon.svg">
+            <p>&#xEADD;</p>
+          </div>
+          <div data-name="new" class="icon" data-code="EADE" data-namefile="Web-Application-Icons/new.svg">
+            <p>&#xEADE;</p>
+          </div>
+          <div data-name="paperplane" class="icon" data-code="EADF" data-namefile="Web-Application-Icons/paperplane.svg">
+            <p>&#xEADF;</p>
+          </div>
+          <div data-name="pencil" class="icon" data-code="EAE0" data-namefile="Web-Application-Icons/pencil.svg">
+            <p>&#xEAE0;</p>
+          </div>
+          <div data-name="phone-2" class="icon" data-code="EAE1" data-namefile="Web-Application-Icons/phone-2.svg">
+            <p>&#xEAE1;</p>
+          </div>
+          <div data-name="phone-3" class="icon" data-code="EAE2" data-namefile="Web-Application-Icons/phone-3.svg">
+            <p>&#xEAE2;</p>
+          </div>
+          <div data-name="phone" class="icon" data-code="EAE3" data-namefile="Web-Application-Icons/phone.svg">
+            <p>&#xEAE3;</p>
+          </div>
+          <div data-name="plus" class="icon" data-code="EAE4" data-namefile="Web-Application-Icons/plus.svg">
+            <p>&#xEAE4;</p>
+          </div>
+          <div data-name="popup" class="icon" data-code="EAE5" data-namefile="Web-Application-Icons/popup.svg">
+            <p>&#xEAE5;</p>
+          </div>
+          <div data-name="power-off" class="icon" data-code="EAE6" data-namefile="Web-Application-Icons/power-off.svg">
+            <p>&#xEAE6;</p>
+          </div>
+          <div data-name="puzzle" class="icon" data-code="EAE7" data-namefile="Web-Application-Icons/puzzle.svg">
+            <p>&#xEAE7;</p>
+          </div>
+          <div data-name="question-2" class="icon" data-code="EAE8" data-namefile="Web-Application-Icons/question-2.svg">
+            <p>&#xEAE8;</p>
+          </div>
+          <div data-name="question-3" class="icon" data-code="EAE9" data-namefile="Web-Application-Icons/question-3.svg">
+            <p>&#xEAE9;</p>
+          </div>
+          <div data-name="question" class="icon" data-code="EAEA" data-namefile="Web-Application-Icons/question.svg">
+            <p>&#xEAEA;</p>
+          </div>
+          <div data-name="r" class="icon" data-code="EAEB" data-namefile="Web-Application-Icons/r.svg">
+            <p>&#xEAEB;</p>
+          </div>
+          <div data-name="rocket" class="icon" data-code="EAEC" data-namefile="Web-Application-Icons/rocket.svg">
+            <p>&#xEAEC;</p>
+          </div>
+          <div data-name="rss-feed" class="icon" data-code="EAED" data-namefile="Web-Application-Icons/rss-feed.svg">
+            <p>&#xEAED;</p>
+          </div>
+          <div data-name="satellite-antenna" class="icon" data-code="EAEE" data-namefile="Web-Application-Icons/satellite-antenna.svg">
+            <p>&#xEAEE;</p>
+          </div>
+          <div data-name="screen" class="icon" data-code="EAEF" data-namefile="Web-Application-Icons/screen.svg">
+            <p>&#xEAEF;</p>
+          </div>
+          <div data-name="search-2" class="icon" data-code="EAF0" data-namefile="Web-Application-Icons/search-2.svg">
+            <p>&#xEAF0;</p>
+          </div>
+          <div data-name="search-minus" class="icon" data-code="EAF1" data-namefile="Web-Application-Icons/search-minus.svg">
+            <p>&#xEAF1;</p>
+          </div>
+          <div data-name="search-plus" class="icon" data-code="EAF2" data-namefile="Web-Application-Icons/search-plus.svg">
+            <p>&#xEAF2;</p>
+          </div>
+          <div data-name="search" class="icon" data-code="EAF3" data-namefile="Web-Application-Icons/search.svg">
+            <p>&#xEAF3;</p>
+          </div>
+          <div data-name="settings-2" class="icon" data-code="EAF4" data-namefile="Web-Application-Icons/settings-2.svg">
+            <p>&#xEAF4;</p>
+          </div>
+          <div data-name="settings" class="icon" data-code="EAF5" data-namefile="Web-Application-Icons/settings.svg">
+            <p>&#xEAF5;</p>
+          </div>
+          <div data-name="share-2" class="icon" data-code="EAF6" data-namefile="Web-Application-Icons/share-2.svg">
+            <p>&#xEAF6;</p>
+          </div>
+          <div data-name="share" class="icon" data-code="EAF7" data-namefile="Web-Application-Icons/share.svg">
+            <p>&#xEAF7;</p>
+          </div>
+          <div data-name="shopping-cart-2" class="icon" data-code="EAF8" data-namefile="Web-Application-Icons/shopping-cart-2.svg">
+            <p>&#xEAF8;</p>
+          </div>
+          <div data-name="shopping-cart" class="icon" data-code="EAF9" data-namefile="Web-Application-Icons/shopping-cart.svg">
+            <p>&#xEAF9;</p>
+          </div>
+          <div data-name="signal" class="icon" data-code="EAFA" data-namefile="Web-Application-Icons/signal.svg">
+            <p>&#xEAFA;</p>
+          </div>
+          <div data-name="stack" class="icon" data-code="EAFB" data-namefile="Web-Application-Icons/stack.svg">
+            <p>&#xEAFB;</p>
+          </div>
+          <div data-name="star-2" class="icon" data-code="EAFC" data-namefile="Web-Application-Icons/star-2.svg">
+            <p>&#xEAFC;</p>
+          </div>
+          <div data-name="star-3" class="icon" data-code="EAFD" data-namefile="Web-Application-Icons/star-3.svg">
+            <p>&#xEAFD;</p>
+          </div>
+          <div data-name="star" class="icon" data-code="EAFE" data-namefile="Web-Application-Icons/star.svg">
+            <p>&#xEAFE;</p>
+          </div>
+          <div data-name="stats" class="icon" data-code="EAFF" data-namefile="Web-Application-Icons/stats.svg">
+            <p>&#xEAFF;</p>
+          </div>
+          <div data-name="tablet" class="icon" data-code="EB00" data-namefile="Web-Application-Icons/tablet.svg">
+            <p>&#xEB00;</p>
+          </div>
+          <div data-name="tags" class="icon" data-code="EB01" data-namefile="Web-Application-Icons/tags.svg">
+            <p>&#xEB01;</p>
+          </div>
+          <div data-name="th" class="icon" data-code="EB02" data-namefile="Web-Application-Icons/th.svg">
+            <p>&#xEB02;</p>
+          </div>
+          <div data-name="tick" class="icon" data-code="EB03" data-namefile="Web-Application-Icons/tick.svg">
+            <p>&#xEB03;</p>
+          </div>
+          <div data-name="times-circle" class="icon" data-code="EB04" data-namefile="Web-Application-Icons/times-circle.svg">
+            <p>&#xEB04;</p>
+          </div>
+          <div data-name="tools" class="icon" data-code="EB05" data-namefile="Web-Application-Icons/tools.svg">
+            <p>&#xEB05;</p>
+          </div>
+          <div data-name="trash-2" class="icon" data-code="EB06" data-namefile="Web-Application-Icons/trash-2.svg">
+            <p>&#xEB06;</p>
+          </div>
+          <div data-name="trash-3" class="icon" data-code="EB07" data-namefile="Web-Application-Icons/trash-3.svg">
+            <p>&#xEB07;</p>
+          </div>
+          <div data-name="trash" class="icon" data-code="EB08" data-namefile="Web-Application-Icons/trash.svg">
+            <p>&#xEB08;</p>
+          </div>
+          <div data-name="tube" class="icon" data-code="EB09" data-namefile="Web-Application-Icons/tube.svg">
+            <p>&#xEB09;</p>
+          </div>
+          <div data-name="tv" class="icon" data-code="EB0A" data-namefile="Web-Application-Icons/tv.svg">
+            <p>&#xEB0A;</p>
+          </div>
+          <div data-name="unlock" class="icon" data-code="EB0B" data-namefile="Web-Application-Icons/unlock.svg">
+            <p>&#xEB0B;</p>
+          </div>
+          <div data-name="unlocked" class="icon" data-code="EB0C" data-namefile="Web-Application-Icons/unlocked.svg">
+            <p>&#xEB0C;</p>
+          </div>
+          <div data-name="video-2" class="icon" data-code="EB0D" data-namefile="Web-Application-Icons/video-2.svg">
+            <p>&#xEB0D;</p>
+          </div>
+          <div data-name="video-camera" class="icon" data-code="EB0E" data-namefile="Web-Application-Icons/video-camera.svg">
+            <p>&#xEB0E;</p>
+          </div>
+          <div data-name="video" class="icon" data-code="EB0F" data-namefile="Web-Application-Icons/video.svg">
+            <p>&#xEB0F;</p>
+          </div>
+          <div data-name="webcam" class="icon" data-code="EB10" data-namefile="Web-Application-Icons/webcam.svg">
+            <p>&#xEB10;</p>
+          </div>
+          <div data-name="wrench-2" class="icon" data-code="EB11" data-namefile="Web-Application-Icons/wrench-2.svg">
+            <p>&#xEB11;</p>
+          </div>
+          <div data-name="wrench" class="icon" data-code="EB12" data-namefile="Web-Application-Icons/wrench.svg">
+            <p>&#xEB12;</p>
+          </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
