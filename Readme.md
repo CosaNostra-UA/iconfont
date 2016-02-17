@@ -52,28 +52,33 @@ gulp build
 ### Using library-iconfont gulp task
 
  - Change data from inputData.json since you need.
-
- - To running with default font data ('fonts/,filmon-iconfont,filmon-icon', where
-
+ 
+#### Example
+ 
 ```
- <baseFontIconPath> = fonts/
- <className> = filmon-iconfont
- <fontName> = filmon-icon
- , - separator
+{
+  "config": {
+    "destFontPath": "fonts/",
+    "className": "filmon",
+    "fontFamily": "filmon-icon"
+  },
+  "iconslist": {
+    "comment-icons/comments-3.svg": {
+      "unicode": "EA04",
+      "name": "comments-3"
+    },
+    "file-icons/attachment-picture.svg": {
+      "unicode": "EA07",
+      "name": "attachment-picture"
+    }
+  }
+}
 ```
-####  Warning!!!! 
-  - separation without spaces
-  - all parameters are required
- ):
 
+ - Runing gulp task
+ 
 ```
 gulp iconfont
-```
-
- - To running with the given font data:
-
-```
-gulp iconfont --env <baseFontIconPath>,<className>,<fontName>
 ```
 
 ### To generate baseData.json
