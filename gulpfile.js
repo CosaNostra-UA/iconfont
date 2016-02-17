@@ -1,36 +1,27 @@
 
-var gulp            = require('gulp');
-var args            = require('yargs').argv;
-var jade            = require('gulp-jade');
-var rename          = require('gulp-rename');
+var gulp                = require('gulp');
+var fs                  = require("fs");
+var jade                = require('gulp-jade');
+var rename              = require('gulp-rename');
 
 
 
-var iconfont        = require('./src/js/filmonIconGenerator.js');
-var basefont        = require('./src/js/fontGenerator.js');
-var inputData       = require('./src/inputData.json');
-var baseData        = require('./src/baseData.json');
+var generateCss         = require('./src/js/cssGenerator.js');
+var generateFont        = require('./src/js/fontGenerator.js');
+var inputData           = require('./src/inputData.json');
+var baseData            = require('./src/baseData.json');
 
 
 
-var browserSync     = require('browser-sync').create();
-var uglify          = require('gulp-uglify');
-var browserify      = require('gulp-browserify');
-var concat          = require('gulp-concat');
+var browserSync         = require('browser-sync').create();
+var uglify              = require('gulp-uglify');
+var browserify          = require('gulp-browserify');
+var concat              = require('gulp-concat');
 
 
 
-var fs = require("fs");
-var fontData = args.env || 'fonts/,filmon-iconfont,filmon-icon';
 require('gulp-stats')(gulp);
 require('gulp-task-list')(gulp);
-
-
-
-fontData = fontData.split(',');
-var baseFontIconPath = fontData[0];
-var className = fontData[1];
-var fontName = fontData[2];
 
 
 
@@ -77,12 +68,17 @@ gulp.task('build', ['basefont', 'scripts', 'html']);
 
 // Generate font
 gulp.task('iconfont', function(){
-    iconfont(baseFontIconPath, className, fontName, inputData);
+    generateFont(inputData.config.fontFamily, inputData.iconslist)
+        .pipe(generateCss({
+            config: inputData.config,
+            inputData: inputData.iconslist
+        }))
+        .pipe(gulp.dest('public/fonts/' + inputData.config.fontFamily));
 });
 
 // Generate baseFont
 gulp.task('basefont', function(){
-    basefont('basefont', baseData)
+    generateFont('basefont', baseData)
         .pipe(gulp.dest('public/fonts/'));
 });
 

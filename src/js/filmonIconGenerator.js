@@ -6,14 +6,12 @@ var font       = require('./fontGenerator.js');
 var css        = require('./cssGenerator.js');
 var zip        = require('gulp-zip');
 
-module.exports = function (baseFontIconPath, className, fontName, inputData) {
-    return font(fontName, inputData)
+module.exports = function (config, inputData) {
+    return font(config.fontFamily, inputData)
         .pipe(css({
-            baseFontIconPath: baseFontIconPath,
-            className: className,
-            fontName: fontName,
+            config: config,
             inputData: inputData
         }))
-        .pipe(zip(fontName + '.zip'))
-        .pipe(gulp.dest('public/fonts/' + fontName));
+        .pipe(zip(config.fontFamily + '.zip'))
+        .pipe(gulp.dest('public/fonts/' + config.fontFamily));
 };

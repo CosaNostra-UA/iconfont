@@ -7,7 +7,12 @@ var path = require('path');
 var Stream = require('readable-stream');
 var gutil = require('gulp-util');
 
-function cssFileContent(baseFontIconPath, className, fontName, inputData) {
+function cssFileContent(config, inputData) {
+    var baseFontIconPath = (config.destFontPath).substr(-1) === '/' ?
+                            config.destFontPath :
+                            config.destFontPath + '/';
+    var className = config.className;
+    var fontName = config.fontFamily;
     var content = '@font-face { \n' +
         'font-family: "' + className + '"; \n' +
         'src:url("' + baseFontIconPath + className + '/' + fontName + '.eot"); \n' +
@@ -45,8 +50,8 @@ module.exports  = function (options) {
 
     options = options || {};
 
-    if( !options.fontName ){
-        throw new gutil.PluginError('cssGenerator', 'Missing options.fontName');
+    if( !options.config ){
+        throw new gutil.PluginError('cssGenerator', 'Missing options.config');
     }
 
     if( !options.inputData ){
@@ -63,7 +68,7 @@ module.exports  = function (options) {
 
         if('.svg' === path.extname(file.path)) {
             stream.push(file.clone());
-            file.contents = new Buffer(cssFileContent(options.baseFontIconPath, options.className, options.fontName, options.inputData));
+            file.contents = new Buffer(cssFileContent(options.config, options.inputData));
         }
         else {
             stream.push(file);

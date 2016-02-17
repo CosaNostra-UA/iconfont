@@ -27,7 +27,6 @@
     "gulp-zip": "^3.0.2",
     "readable-stream": "^2.0.5",
     "string.fromcodepoint": "^0.2.1",
-    "yargs": "^3.32.0",
     "jquery": "^2.1.4"
   },
   "repository": {
