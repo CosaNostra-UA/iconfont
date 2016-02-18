@@ -5,13 +5,13 @@
     "fontFamily": "filmon-icon"
   },
   "iconslist": {
-    "Comment-Icons/comments-3.svg": {
-      "unicode": "EA04",
-      "name": "comments-3"
+    "comments/comments.svg": {
+      "unicode": "EA06",
+      "name": "comments"
     },
-    "File-Icons/attachment-picture.svg": {
+    "Other/export.svg": {
       "unicode": "EA07",
-      "name": "attachment-picture"
+      "name": "export"
     }
   }
 }
