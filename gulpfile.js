@@ -1,22 +1,17 @@
 
 var gulp                = require('gulp');
-var fs                  = require("fs");
-var jade                = require('gulp-jade');
-var rename              = require('gulp-rename');
-
-
-
-var generateCss         = require('./src/js/cssGenerator.js');
-var generateFont        = require('./src/js/fontGenerator.js');
-var inputData           = require('./src/inputData.json');
-var baseData            = require('./src/baseData.json');
-
-
-
 var browserSync         = require('browser-sync').create();
 var uglify              = require('gulp-uglify');
 var browserify          = require('gulp-browserify');
 var concat              = require('gulp-concat');
+
+
+
+var iconfont            = require('./src/js/filmonIconGenerator.js');
+var generateHtml        = require('./src/js/htmlGenerator.js');
+var generateFont        = require('./src/js/fontGenerator.js');
+var inputData           = require('./src/inputData.json');
+var baseData            = require('./src/baseData.json');
 
 
 
@@ -68,11 +63,7 @@ gulp.task('build', ['basefont', 'scripts', 'html']);
 
 // Generate font
 gulp.task('iconfont', function(){
-    generateFont(inputData.config.fontFamily, inputData.iconslist)
-        .pipe(generateCss({
-            config: inputData.config,
-            inputData: inputData.iconslist
-        }))
+    iconfont(inputData.config, inputData.iconslist)
         .pipe(gulp.dest('public/fonts/' + inputData.config.fontFamily));
 });
 
@@ -83,25 +74,8 @@ gulp.task('basefont', function(){
 });
 
 // Generate HTML
-gulp.task('generateHtml', ['basefont'], function() {
-    var data = {};
-    fs.readdir('./icons-library', function(err, items) {
-        items.forEach(function(elem){
-            data[elem] = {};
-        });
-        for (var key in baseData) {
-            var k = key.split('/');
-            data[k[0]][key] = baseData[key];
-        }
-
-        gulp.src('./src/html.jade')
-            .pipe(jade({
-                locals: data,
-                pretty: true
-            }))
-            .pipe(rename('index.html'))
-            .pipe(gulp.dest('./src/'));
-    });
+gulp.task('generateHtml', function() {
+    generateHtml();
 });
 
 

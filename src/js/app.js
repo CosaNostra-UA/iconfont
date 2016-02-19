@@ -12,6 +12,31 @@ $('document').ready(function() {
     var $form        = $('#edit-data');
     var $download    = $('#download');
 
+    $.ajax({
+        url: '/icons',
+        type: 'get',
+        success: function() {
+            $('style').append("@font-face{ \n" +
+                "font-family:basefont; \n" +
+                "src:url('fonts/basefont.eot'); \n" +
+                "src:url('fonts/basefont.eot?#iefix') format('embedded-opentype') , \n" +
+                    "url('fonts/basefont.woff') format('woff'), \n" +
+                    "url('fonts/basefont.woff2') format('woff2'), \n" +
+                    "url('fonts/basefont.ttf') format('truetype'), \n" +
+                    "url('fonts/basefont.svg') format('svg'); \n" +
+            "}");
+
+            $('div.icon').each(function(){
+                $(this).children('img').hide();
+                var html = '<p>&#x' + $(this).data('code') + '</p>';
+                $(this).append(html);
+            });
+        },
+        error: function (xhr, ajaxOptions, thrownError) {
+            alert('Response Error: ' + xhr.status + ' ' + thrownError);
+        }
+    });
+
     $body.on('click', '.icon', function(){
         $(this).toggleClass('selected');
     });
