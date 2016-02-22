@@ -5,13 +5,505 @@
     "fontFamily": "filmon-icon"
   },
   "iconslist": {
+    "brands/filmon-logo.svg": {
+      "unicode": "E900",
+      "name": "filmon-logo"
+    },
+    "brands/amazon-black.svg": {
+      "unicode": "E628",
+      "name": "amazon-black"
+    },
+    "brands/premiumicon.svg": {
+      "unicode": "E625",
+      "name": "premiumicon"
+    },
+    "brands/filmon-premium.svg": {
+      "unicode": "E624",
+      "name": "filmon-premium"
+    },
+    "applications/menu.svg": {
+      "unicode": "E623",
+      "name": "menu"
+    },
+    "applications/attention.svg": {
+      "unicode": "21",
+      "name": "attention"
+    },
+    "applications/circles.svg": {
+      "unicode": "22",
+      "name": "circles"
+    },
+    "applications/clock-3.svg": {
+      "unicode": "23",
+      "name": "clock-3"
+    },
+    "applications/clock-2.svg": {
+      "unicode": "24",
+      "name": "clock-2"
+    },
+    "users/user-5.svg": {
+      "unicode": "25",
+      "name": "user-5"
+    },
+    "users/users-3.svg": {
+      "unicode": "26",
+      "name": "users-3"
+    },
+    "applications/coin-2.svg": {
+      "unicode": "27",
+      "name": "coin-2"
+    },
+    "download/upload-4.svg": {
+      "unicode": "28",
+      "name": "upload-4"
+    },
+    "download/download-4.svg": {
+      "unicode": "29",
+      "name": "download-4"
+    },
+    "payment/credit-card-3.svg": {
+      "unicode": "2A",
+      "name": "credit-card-3"
+    },
+    "applications/plus.svg": {
+      "unicode": "2B",
+      "name": "plus"
+    },
+    "directionals/arrow-up.svg": {
+      "unicode": "2C",
+      "name": "arrow-up"
+    },
+    "applications/minus.svg": {
+      "unicode": "2D",
+      "name": "minus"
+    },
+    "directionals/arrow-down.svg": {
+      "unicode": "2E",
+      "name": "arrow-down"
+    },
+    "download/download-3.svg": {
+      "unicode": "2F",
+      "name": "download-3"
+    },
+    "applications/mathematical-signs.svg": {
+      "unicode": "30",
+      "name": "mathematical-signs"
+    },
+    "applications/star-1.svg": {
+      "unicode": "31",
+      "name": "star-1"
+    },
+    "applications/star-3.svg": {
+      "unicode": "32",
+      "name": "star-3"
+    },
+    "download/download-2.svg": {
+      "unicode": "33",
+      "name": "download-2"
+    },
+    "download/upload-2.svg": {
+      "unicode": "34",
+      "name": "upload-2"
+    },
+    "other/login-1.svg": {
+      "unicode": "35",
+      "name": "login-1"
+    },
+    "other/logout.svg": {
+      "unicode": "36",
+      "name": "logout"
+    },
+    "users/user-2.svg": {
+      "unicode": "37",
+      "name": "user-2"
+    },
+    "users/users-2.svg": {
+      "unicode": "38",
+      "name": "users-2"
+    },
+    "files/search-document.svg": {
+      "unicode": "39",
+      "name": "search-document"
+    },
+    "applications/lifebuoy.svg": {
+      "unicode": "3A",
+      "name": "lifebuoy"
+    },
+    "applications/pencil.svg": {
+      "unicode": "3B",
+      "name": "pencil"
+    },
+    "spinners/cog.svg": {
+      "unicode": "3C",
+      "name": "cog"
+    },
+    "applications/cogs.svg": {
+      "unicode": "3D",
+      "name": "cogs"
+    },
+    "applications/wrench-2.svg": {
+      "unicode": "3F",
+      "name": "wrench-2"
+    },
+    "applications/house.svg": {
+      "unicode": "40",
+      "name": "house"
+    },
+    "brands/apple.svg": {
+      "unicode": "41",
+      "name": "apple"
+    },
+    "applications/phone-3.svg": {
+      "unicode": "42",
+      "name": "phone-3"
+    },
+    "videocontrols/play-3.svg": {
+      "unicode": "43",
+      "name": "play-3"
+    },
+    "brands/android.svg": {
+      "unicode": "44",
+      "name": "android"
+    },
+    "applications/geotag-1.svg": {
+      "unicode": "45",
+      "name": "geotag-1"
+    },
+    "other/reply-2.svg": {
+      "unicode": "46",
+      "name": "reply-2"
+    },
+    "applications/geotag-2.svg": {
+      "unicode": "47",
+      "name": "geotag-2"
+    },
+    "applications/device.svg": {
+      "unicode": "48",
+      "name": "device"
+    },
+    "applications/shopping-cart-1.svg": {
+      "unicode": "49",
+      "name": "shopping-cart-1"
+    },
+    "files/document-3.svg": {
+      "unicode": "4A",
+      "name": "document-3"
+    },
+    "files/document-2.svg": {
+      "unicode": "4B",
+      "name": "document-2"
+    },
+    "directionals/angle-left-2.svg": {
+      "unicode": "4C",
+      "name": "angle-left-2"
+    },
+    "brands/windows-10.svg": {
+      "unicode": "4D",
+      "name": "windows-10"
+    },
+    "spinners/spinner-1.svg": {
+      "unicode": "4E",
+      "name": "spinner-1"
+    },
+    "spinners/spinner-2.svg": {
+      "unicode": "4F",
+      "name": "spinner-2"
+    },
+    "applications/question-3.svg": {
+      "unicode": "50",
+      "name": "question-3"
+    },
+    "videocontrols/play-1.svg": {
+      "unicode": "51",
+      "name": "play-1"
+    },
+    "directionals/angle-right-2.svg": {
+      "unicode": "52",
+      "name": "angle-right-2"
+    },
+    "applications/share-1.svg": {
+      "unicode": "53",
+      "name": "share-1"
+    },
     "applications/tv.svg": {
-      "unicode": "EB0A",
+      "unicode": "54",
       "name": "tv"
     },
-    "applications/unlock.svg": {
-      "unicode": "EB0B",
-      "name": "unlock"
+    "brands/linux.svg": {
+      "unicode": "55",
+      "name": "linux"
+    },
+    "texteditor/list-2.svg": {
+      "unicode": "56",
+      "name": "list-2"
+    },
+    "brands/windows.svg": {
+      "unicode": "57",
+      "name": "windows"
+    },
+    "applications/close-1.svg": {
+      "unicode": "58",
+      "name": "close-1"
+    },
+    "applications/link.svg": {
+      "unicode": "59",
+      "name": "link"
+    },
+    "files/picture.svg": {
+      "unicode": "5A",
+      "name": "picture"
+    },
+    "applications/signal.svg": {
+      "unicode": "5B",
+      "name": "signal"
+    },
+    "download/upload-3.svg": {
+      "unicode": "5C",
+      "name": "upload-3"
+    },
+    "files/edit-document.svg": {
+      "unicode": "5D",
+      "name": "edit-document"
+    },
+    "applications/settings-2.svg": {
+      "unicode": "5E",
+      "name": "settings-2"
+    },
+    "directionals/angle-up-2.svg": {
+      "unicode": "5F",
+      "name": "angle-up-2"
+    },
+    "directionals/angle-down-2.svg": {
+      "unicode": "61",
+      "name": "angle-down-2"
+    },
+    "brands/blackberry.svg": {
+      "unicode": "62",
+      "name": "blackberry"
+    },
+    "applications/shopping-cart-2.svg": {
+      "unicode": "63",
+      "name": "shopping-cart-2"
+    },
+    "directionals/caret-down.svg": {
+      "unicode": "64",
+      "name": "caret-down"
+    },
+    "applications/eye-2.svg": {
+      "unicode": "65",
+      "name": "eye-2"
+    },
+    "brands/facebook-2.svg": {
+      "unicode": "66",
+      "name": "facebook-2"
+    },
+    "brands/google-plus-2.svg": {
+      "unicode": "67",
+      "name": "google-plus-2"
+    },
+    "directionals/caret-up.svg": {
+      "unicode": "68",
+      "name": "caret-up"
+    },
+    "applications/info.svg": {
+      "unicode": "69",
+      "name": "info"
+    },
+    "applications/tick.svg": {
+      "unicode": "6B",
+      "name": "tick"
+    },
+    "directionals/caret-left.svg": {
+      "unicode": "6C",
+      "name": "caret-left"
+    },
+    "mail/mail-1.svg": {
+      "unicode": "6D",
+      "name": "mail-1"
+    },
+    "applications/circle.svg": {
+      "unicode": "6F",
+      "name": "circle"
+    },
+    "videocontrols/play-2.svg": {
+      "unicode": "70",
+      "name": "play-2"
+    },
+    "directionals/caret-right.svg": {
+      "unicode": "72",
+      "name": "caret-right"
+    },
+    "applications/search.svg": {
+      "unicode": "73",
+      "name": "search"
+    },
+    "brands/twitter-2.svg": {
+      "unicode": "74",
+      "name": "twitter-2"
+    },
+    "other/pop-out.svg": {
+      "unicode": "75",
+      "name": "pop-out"
+    },
+    "applications/close-2.svg": {
+      "unicode": "78",
+      "name": "close-2"
+    },
+    "brands/youtube.svg": {
+      "unicode": "79",
+      "name": "youtube"
+    },
+    "applications/flag-1.svg": {
+      "unicode": "E600",
+      "name": "flag-1"
+    },
+    "applications/clock-1.svg": {
+      "unicode": "E601",
+      "name": "clock-1"
+    },
+    "applications/phone-1.svg": {
+      "unicode": "E602",
+      "name": "phone-1"
+    },
+    "applications/video-camera.svg": {
+      "unicode": "E603",
+      "name": "video-camera"
+    },
+    "applications/microphone.svg": {
+      "unicode": "E604",
+      "name": "microphone"
+    },
+    "applications/eye-1.svg": {
+      "unicode": "E605",
+      "name": "eye-1"
+    },
+    "applications/satellite-antenna.svg": {
+      "unicode": "E606",
+      "name": "satellite-antenna"
+    },
+    "brands/battlecam.svg": {
+      "unicode": "E607",
+      "name": "battlecam"
+    },
+    "applications/navicon-1.svg": {
+      "unicode": "E608",
+      "name": "navicon-1"
+    },
+    "applications/times-circle.svg": {
+      "unicode": "E609",
+      "name": "times-circle"
+    },
+    "other/login-2.svg": {
+      "unicode": "E60A",
+      "name": "login-2"
+    },
+    "users/user-4.svg": {
+      "unicode": "E60B",
+      "name": "user-4"
+    },
+    "spinners/cog.svg": {
+      "unicode": "E60C",
+      "name": "cog"
+    },
+    "directionals/angle-left-1.svg": {
+      "unicode": "E621",
+      "name": "angle-left-1"
+    },
+    "directionals/angle-down-3.svg": {
+      "unicode": "E60D",
+      "name": "angle-down-3"
+    },
+    "directionals/angle-up-1.svg": {
+      "unicode": "E60E",
+      "name": "angle-up-1"
+    },
+    "directionals/angle-right-3.svg": {
+      "unicode": "E622",
+      "name": "angle-right-3"
+    },
+    "brands/mac.svg": {
+      "unicode": "E60F",
+      "name": "mac"
+    },
+    "comments/comments-3.svg": {
+      "unicode": "E610",
+      "name": "comments-3"
+    },
+    "brands/e-tv.svg": {
+      "unicode": "E611",
+      "name": "e-tv"
+    },
+    "files/documents-2.svg": {
+      "unicode": "E613",
+      "name": "documents-2"
+    },
+    "spinners/refresh.svg": {
+      "unicode": "E614",
+      "name": "refresh"
+    },
+    "brands/facebook-1.svg": {
+      "unicode": "E615",
+      "name": "facebook-1"
+    },
+    "brands/xbox.svg": {
+      "unicode": "E616",
+      "name": "xbox"
+    },
+    "brands/roku.svg": {
+      "unicode": "E617",
+      "name": "roku"
+    },
+    "hands/thumbs-up-2.svg": {
+      "unicode": "E618",
+      "name": "thumbs-up-2"
+    },
+    "applications/tube.svg": {
+      "unicode": "E619",
+      "name": "tube"
+    },
+    "comments/comment-2.svg": {
+      "unicode": "E61A",
+      "name": "comment-2"
+    },
+    "directionals/arrows.svg": {
+      "unicode": "E61B",
+      "name": "arrows"
+    },
+    "other/newtab-2.svg": {
+      "unicode": "E61C",
+      "name": "newtab-2"
+    },
+    "applications/share-2.svg": {
+      "unicode": "E61D",
+      "name": "share-2"
+    },
+    "applications/bell.svg": {
+      "unicode": "E61E",
+      "name": "bell"
+    },
+    "brands/filmon-social-tv.svg": {
+      "unicode": "E61F",
+      "name": "filmon-social-tv"
+    },
+    "brands/filmon-you-vids.svg": {
+      "unicode": "E620",
+      "name": "filmon-you-vids"
+    },
+    "applications/cast.svg": {
+      "unicode": "E626",
+      "name": "cast"
+    },
+    "applications/cast-connected.svg": {
+      "unicode": "E627",
+      "name": "cast-connected"
+    },
+    "brands/lg.svg": {
+      "unicode": "E629",
+      "name": "lg"
+    },
+    "brands/instagram.svg": {
+      "unicode": "E62A",
+      "name": "instagram"
     }
   }
 }
