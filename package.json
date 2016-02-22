@@ -2,7 +2,7 @@
   "name": "library-iconfont",
   "version": "1.0.0",
   "description": "Universal library to generate icon fonts across all our's projects",
-  "main": "src/js/fontGenerator.js",
+  "main": "src/js/filmonIconGenerator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "/usr/bin/node ./src/server.js"
@@ -16,7 +16,6 @@
     "express": "^4.13.3",
     "gulp": "^3.9.0",
     "gulp-browserify": "^0.5.1",
-    "gulp-concat": "^2.6.0",
     "gulp-iconfont": "^5.0.1",
     "gulp-jade": "^1.1.0",
     "gulp-rename": "^1.2.2",

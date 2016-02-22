@@ -6,13 +6,14 @@ var gulp     = require('gulp');
 var iconfont = require('gulp-iconfont');
 var path     = require('path');
 require('string.fromcodepoint');
-var src = [];
 
 function getUnicode(unicode) {
     return String.fromCodePoint(parseInt(unicode, 16));
 }
 
 module.exports = function (fontName, data){
+    var src = [];
+
     for (var key in data){
         src.push(__dirname + '/../../icons-library/' + key);
     }

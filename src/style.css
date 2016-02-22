@@ -1,17 +1,12 @@
 
-@font-face{
-    font-family:basefont;
-    src:url('fonts/basefont.eot');
-    src:url('fonts/basefont.eot?#iefix') format('embedded-opentype') ,
-    url('fonts/basefont.woff') format('woff'),
-    url('fonts/basefont.ttf') format('truetype'),
-    url('fonts/basefont.svg') format('svg');
-}
-
 p {
     font-size: 32px;
     text-align: center;
     margin-top: 14px;
+}
+
+img {
+    margin: 12px;
 }
 
 h1 {

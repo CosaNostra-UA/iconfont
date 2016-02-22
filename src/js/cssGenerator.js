@@ -2,10 +2,10 @@
  * Created by m_tsymbal on 1/14/16.
  */
 'use strict';
-var fs = require('fs');
-var path = require('path');
+
+var path   = require('path');
 var Stream = require('readable-stream');
-var gutil = require('gulp-util');
+var gutil  = require('gulp-util');
 
 function cssFileContent(config, inputData) {
     var baseFontIconPath = (config.destFontPath).substr(-1) === '/' ?
