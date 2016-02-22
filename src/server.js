@@ -43,7 +43,7 @@ app.post('/generate-font', function(req, res) {
     
     generator(config, inputData)
         .pipe(zip(config.fontFamily + '.zip'))
-        .pipe(gulp.dest(destdir))
+        .pipe(gulp.dest('public/' + destdir))
         .on('error', function(err) {
             console.log(err);
             res.sendStatus(500);

@@ -21,11 +21,12 @@ npm install --save git+ssh://git@git.111pix.com:7999/fw/library-iconfont.git
 
 ```
 gulp.task('generate-filmon-font', function() {
-	var fontName = "filmon-icon-font";
-	var selection = require('./gulp/font-config.json');
-	var generator = require('library-iconfont');
+	
+	var webFontData = require('./gulp/font-config.json');
+	var generator   = require('library-iconfont');
 
-	return generator(fontName, selection).pipe(gulp.dest('./public/build/fonts/'));
+	return generator(webFontData.config.fontFamily, webFontData.iconslist)
+	            .pipe(gulp.dest('public/' + webFontData.config.destFontPath + webFontData.config.fontFamily));
 });
 
 ```
@@ -37,12 +38,14 @@ cd .../library-iconfont
 
  - For the first time:
 ```
-gulp build
+gulp scripts
 ```
 
  - Run server:
 ```
-/usr/bin/node ./src/server.js or npm run server  
+/usr/bin/node ./src/server.js 
+or 
+npm run server  
 ```  
 
  - Open your browser at "http://localhost:3002/"
@@ -94,6 +97,4 @@ gulp basedata
 ```
 - add or remove icons in ./icons-library
 - change src/baseData.json since you need
-gulp generateHtml
-gulp html
 ```
