@@ -11,6 +11,7 @@ module.exports = function(){
     fs.readdir(__dirname + '/../../icons-library/', function(err, items){
         items.map(function(dir) {
             fs.readdir(__dirname + '/../../icons-library/' + dir, function(err, files){
+                files = files || [];
                 files.forEach(function(data){
                     content[dir + '/' + data] = {
                     unicode: (code++).toString(16).toUpperCase(),
