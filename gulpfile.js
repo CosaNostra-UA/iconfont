@@ -31,10 +31,9 @@ gulp.task('serve', ['build'] ,
     }
 );
 
-
 // compile JS scripts.
 gulp.task("scripts", function() {
-    gulp.src('src/js/*.js')
+	gulp.src('src/js/*.js')
         .pipe(browserify()) // require()
         .pipe(uglify()) //
         .pipe(gulp.dest('public/js'));
