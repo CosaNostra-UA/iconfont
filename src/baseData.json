@@ -1,1142 +1,1150 @@
 {
-	"directionals/angle-double-left-1.svg": {
-		"unicode": "EA01",
-		"name": "angle-double-left-1"
-	},
-	"directionals/angle-double-left.svg": {
-		"unicode": "EA02",
-		"name": "angle-double-left"
-	},
-	"directionals/angle-double-right-1.svg": {
-		"unicode": "EA03",
-		"name": "angle-double-right-1"
-	},
-	"directionals/angle-double-right.svg": {
-		"unicode": "EA04",
-		"name": "angle-double-right"
-	},
-	"directionals/angle-down-1.svg": {
-		"unicode": "EA05",
-		"name": "angle-down-1"
-	},
-	"directionals/angle-down-2.svg": {
-		"unicode": "EA06",
-		"name": "angle-down-2"
-	},
-	"directionals/angle-down.svg": {
-		"unicode": "EA07",
-		"name": "angle-down"
-	},
-	"directionals/angle-left-1.svg": {
-		"unicode": "EA08",
-		"name": "angle-left-1"
-	},
-	"directionals/angle-left-2.svg": {
-		"unicode": "EA09",
-		"name": "angle-left-2"
-	},
-	"directionals/angle-left-3.svg": {
-		"unicode": "EA0A",
-		"name": "angle-left-3"
-	},
-	"directionals/angle-left.svg": {
-		"unicode": "EA0B",
-		"name": "angle-left"
-	},
-	"directionals/angle-right-1.svg": {
-		"unicode": "EA0C",
-		"name": "angle-right-1"
-	},
-	"directionals/angle-right-2.svg": {
-		"unicode": "EA0D",
-		"name": "angle-right-2"
-	},
-	"directionals/angle-right-3.svg": {
-		"unicode": "EA0E",
-		"name": "angle-right-3"
-	},
-	"directionals/angle-right.svg": {
-		"unicode": "EA0F",
-		"name": "angle-right"
-	},
-	"directionals/angle-up-1.svg": {
-		"unicode": "EA10",
-		"name": "angle-up-1"
-	},
-	"directionals/angle-up-2.svg": {
-		"unicode": "EA11",
-		"name": "angle-up-2"
-	},
-	"directionals/angle-up.svg": {
-		"unicode": "EA12",
-		"name": "angle-up"
-	},
-	"directionals/arrow-down.svg": {
-		"unicode": "EA13",
-		"name": "arrow-down"
-	},
-	"directionals/arrow-left-1.svg": {
-		"unicode": "EA14",
-		"name": "arrow-left-1"
-	},
-	"directionals/arrow-left.svg": {
-		"unicode": "EA15",
-		"name": "arrow-left"
-	},
-	"directionals/arrow-up.svg": {
-		"unicode": "EA16",
-		"name": "arrow-up"
-	},
-	"directionals/arrows.svg": {
-		"unicode": "EA17",
-		"name": "arrows"
-	},
-	"directionals/back.svg": {
-		"unicode": "EA18",
-		"name": "back"
-	},
-	"directionals/caret-down.svg": {
-		"unicode": "EA19",
-		"name": "caret-down"
-	},
-	"directionals/caret-left.svg": {
-		"unicode": "EA1A",
-		"name": "caret-left"
-	},
-	"directionals/caret-right.svg": {
-		"unicode": "EA1B",
-		"name": "caret-right"
-	},
-	"directionals/caret-up.svg": {
-		"unicode": "EA1C",
-		"name": "caret-up"
-	},
-	"download/download-1.svg": {
-		"unicode": "EA1D",
-		"name": "download-1"
-	},
-	"download/download-2.svg": {
-		"unicode": "EA1E",
-		"name": "download-2"
-	},
-	"download/download-3.svg": {
-		"unicode": "EA1F",
-		"name": "download-3"
-	},
-	"download/download.svg": {
-		"unicode": "EA20",
-		"name": "download"
-	},
-	"download/upload-1.svg": {
-		"unicode": "EA21",
-		"name": "upload-1"
-	},
-	"download/upload-2.svg": {
-		"unicode": "EA22",
-		"name": "upload-2"
-	},
-	"download/upload-3.svg": {
-		"unicode": "EA23",
-		"name": "upload-3"
-	},
-	"download/upload.svg": {
-		"unicode": "EA24",
-		"name": "upload"
-	},
-	"files/attachment-picture.svg": {
-		"unicode": "EA25",
-		"name": "attachment-picture"
-	},
-	"files/document-1.svg": {
-		"unicode": "EA26",
-		"name": "document-1"
-	},
-	"files/document-2.svg": {
-		"unicode": "EA27",
-		"name": "document-2"
-	},
-	"files/document.svg": {
-		"unicode": "EA28",
-		"name": "document"
-	},
-	"files/documents-1.svg": {
-		"unicode": "EA29",
-		"name": "documents-1"
-	},
-	"files/documents.svg": {
-		"unicode": "EA2A",
-		"name": "documents"
-	},
-	"files/edit-document.svg": {
-		"unicode": "EA2B",
-		"name": "edit-document"
-	},
-	"files/edit-picture.svg": {
-		"unicode": "EA2C",
-		"name": "edit-picture"
-	},
-	"files/files.svg": {
-		"unicode": "EA2D",
-		"name": "files"
-	},
-	"files/film.svg": {
-		"unicode": "EA2E",
-		"name": "film"
-	},
-	"files/picture.svg": {
-		"unicode": "EA2F",
-		"name": "picture"
-	},
-	"files/pictures.svg": {
-		"unicode": "EA30",
-		"name": "pictures"
-	},
-	"files/remove-picture.svg": {
-		"unicode": "EA31",
-		"name": "remove-picture"
-	},
-	"files/search-document.svg": {
-		"unicode": "EA32",
-		"name": "search-document"
-	},
-	"brands/amazon-black.svg": {
-		"unicode": "EA33",
-		"name": "amazon-black"
-	},
-	"brands/android.svg": {
-		"unicode": "EA34",
-		"name": "android"
-	},
-	"brands/apple.svg": {
-		"unicode": "EA35",
-		"name": "apple"
-	},
-	"brands/battlecam.svg": {
-		"unicode": "EA36",
-		"name": "battlecam"
-	},
-	"brands/bc-antispam.svg": {
-		"unicode": "EA37",
-		"name": "bc-antispam"
-	},
-	"brands/bc-follow.svg": {
-		"unicode": "EA38",
-		"name": "bc-follow"
-	},
-	"brands/bc-hd-broadcast.svg": {
-		"unicode": "EA39",
-		"name": "bc-hd-broadcast"
-	},
-	"brands/bc-hd.svg": {
-		"unicode": "EA3A",
-		"name": "bc-hd"
-	},
-	"brands/bc-lock.svg": {
-		"unicode": "EA3B",
-		"name": "bc-lock"
-	},
-	"brands/blackberry.svg": {
-		"unicode": "EA3C",
-		"name": "blackberry"
-	},
-	"brands/chrome.svg": {
-		"unicode": "EA3D",
-		"name": "chrome"
-	},
-	"brands/e-tv.svg": {
-		"unicode": "EA3E",
-		"name": "e-tv"
-	},
-	"brands/facebook-1.svg": {
-		"unicode": "EA3F",
-		"name": "facebook-1"
-	},
-	"brands/facebook.svg": {
-		"unicode": "EA40",
-		"name": "facebook"
-	},
-	"brands/filmon-logo.svg": {
-		"unicode": "EA41",
-		"name": "filmon-logo"
-	},
-	"brands/filmon-premium.svg": {
-		"unicode": "EA42",
-		"name": "filmon-premium"
-	},
-	"brands/filmon-social-tv.svg": {
-		"unicode": "EA43",
-		"name": "filmon-social-tv"
-	},
-	"brands/filmon-you-vids.svg": {
-		"unicode": "EA44",
-		"name": "filmon-you-vids"
-	},
-	"brands/firefox.svg": {
-		"unicode": "EA45",
-		"name": "firefox"
-	},
-	"brands/google-plus-1.svg": {
-		"unicode": "EA46",
-		"name": "google-plus-1"
-	},
-	"brands/google-plus.svg": {
-		"unicode": "EA47",
-		"name": "google-plus"
-	},
-	"brands/ie.svg": {
-		"unicode": "EA48",
-		"name": "ie"
-	},
-	"brands/instagram.svg": {
-		"unicode": "EA49",
-		"name": "instagram"
-	},
-	"brands/lg.svg": {
-		"unicode": "EA4A",
-		"name": "lg"
-	},
-	"brands/linux.svg": {
-		"unicode": "EA4B",
-		"name": "linux"
-	},
-	"brands/mac.svg": {
-		"unicode": "EA4C",
-		"name": "mac"
-	},
-	"brands/opera.svg": {
-		"unicode": "EA4D",
-		"name": "opera"
-	},
-	"brands/premiumicon.svg": {
-		"unicode": "EA4E",
-		"name": "premiumicon"
-	},
-	"brands/roku.svg": {
-		"unicode": "EA4F",
-		"name": "roku"
-	},
-	"brands/safari.svg": {
-		"unicode": "EA50",
-		"name": "safari"
-	},
-	"brands/twitter-1.svg": {
-		"unicode": "EA51",
-		"name": "twitter-1"
-	},
-	"brands/twitter.svg": {
-		"unicode": "EA52",
-		"name": "twitter"
-	},
-	"brands/windows-10.svg": {
-		"unicode": "EA53",
-		"name": "windows-10"
-	},
-	"brands/windows.svg": {
-		"unicode": "EA54",
-		"name": "windows"
-	},
-	"brands/xbox.svg": {
-		"unicode": "EA55",
-		"name": "xbox"
-	},
-	"brands/youtube.svg": {
-		"unicode": "EA56",
-		"name": "youtube"
-	},
-	"hands/thumbs-down-1.svg": {
-		"unicode": "EA57",
-		"name": "thumbs-down-1"
-	},
-	"hands/thumbs-down.svg": {
-		"unicode": "EA58",
-		"name": "thumbs-down"
-	},
-	"hands/thumbs-up-1.svg": {
-		"unicode": "EA59",
-		"name": "thumbs-up-1"
-	},
-	"hands/thumbs-up.svg": {
-		"unicode": "EA5A",
-		"name": "thumbs-up"
-	},
-	"mail/mail-1.svg": {
-		"unicode": "EA5B",
-		"name": "mail-1"
-	},
-	"mail/mail-2.svg": {
-		"unicode": "EA5C",
-		"name": "mail-2"
-	},
-	"mail/mail-3.svg": {
-		"unicode": "EA5D",
-		"name": "mail-3"
-	},
-	"mail/mail.svg": {
-		"unicode": "EA5E",
-		"name": "mail"
-	},
-	"media/display-heart.svg": {
-		"unicode": "EA5F",
-		"name": "display-heart"
-	},
-	"media/display-play.svg": {
-		"unicode": "EA60",
-		"name": "display-play"
-	},
-	"media/display-star.svg": {
-		"unicode": "EA61",
-		"name": "display-star"
-	},
-	"media/television.svg": {
-		"unicode": "EA62",
-		"name": "television"
-	},
-	"media/tv-play.svg": {
-		"unicode": "EA63",
-		"name": "tv-play"
-	},
-	"payment/credit-card-1.svg": {
-		"unicode": "EA64",
-		"name": "credit-card-1"
-	},
-	"payment/credit-card-2.svg": {
-		"unicode": "EA65",
-		"name": "credit-card-2"
-	},
-	"payment/credit-card-3.svg": {
-		"unicode": "EA66",
-		"name": "credit-card-3"
-	},
-	"payment/credit-card.svg": {
-		"unicode": "EA67",
-		"name": "credit-card"
-	},
-	"other/export-1.svg": {
-		"unicode": "EA68",
-		"name": "export-1"
-	},
-	"other/export.svg": {
-		"unicode": "EA69",
-		"name": "export"
-	},
-	"other/login-1.svg": {
-		"unicode": "EA6A",
-		"name": "login-1"
-	},
-	"other/login.svg": {
-		"unicode": "EA6B",
-		"name": "login"
-	},
-	"other/logout.svg": {
-		"unicode": "EA6C",
-		"name": "logout"
-	},
-	"other/newtab-1.svg": {
-		"unicode": "EA6D",
-		"name": "newtab-1"
-	},
-	"other/newtab.svg": {
-		"unicode": "EA6E",
-		"name": "newtab"
-	},
-	"other/pop-out.svg": {
-		"unicode": "EA6F",
-		"name": "pop-out"
-	},
-	"other/reply-1.svg": {
-		"unicode": "EA70",
-		"name": "reply-1"
-	},
-	"other/reply.svg": {
-		"unicode": "EA71",
-		"name": "reply"
-	},
-	"other/weather.svg": {
-		"unicode": "EA72",
-		"name": "weather"
-	},
-	"spinners/cog.svg": {
-		"unicode": "EA73",
-		"name": "cog"
-	},
-	"spinners/refresh.svg": {
-		"unicode": "EA74",
-		"name": "refresh"
-	},
-	"spinners/spinner-1.svg": {
-		"unicode": "EA75",
-		"name": "spinner-1"
-	},
-	"spinners/spinner-2.svg": {
-		"unicode": "EA76",
-		"name": "spinner-2"
-	},
-	"spinners/spinner.svg": {
-		"unicode": "EA77",
-		"name": "spinner"
-	},
-	"texteditor/attachment.svg": {
-		"unicode": "EA78",
-		"name": "attachment"
-	},
-	"texteditor/cut-1.svg": {
-		"unicode": "EA79",
-		"name": "cut-1"
-	},
-	"texteditor/cut.svg": {
-		"unicode": "EA7A",
-		"name": "cut"
-	},
-	"texteditor/list-1.svg": {
-		"unicode": "EA7B",
-		"name": "list-1"
-	},
-	"texteditor/list-2.svg": {
-		"unicode": "EA7C",
-		"name": "list-2"
-	},
-	"texteditor/list.svg": {
-		"unicode": "EA7D",
-		"name": "list"
-	},
-	"texteditor/table.svg": {
-		"unicode": "EA7E",
-		"name": "table"
-	},
-	"users/add-user.svg": {
-		"unicode": "EA7F",
-		"name": "add-user"
-	},
-	"users/find-users.svg": {
-		"unicode": "EA80",
-		"name": "find-users"
-	},
-	"users/remove-user.svg": {
-		"unicode": "EA81",
-		"name": "remove-user"
-	},
-	"users/user-1.svg": {
-		"unicode": "EA82",
-		"name": "user-1"
-	},
-	"users/user-2.svg": {
-		"unicode": "EA83",
-		"name": "user-2"
-	},
-	"users/user-3.svg": {
-		"unicode": "EA84",
-		"name": "user-3"
-	},
-	"users/user-4.svg": {
-		"unicode": "EA85",
-		"name": "user-4"
-	},
-	"users/user-5.svg": {
-		"unicode": "EA86",
-		"name": "user-5"
-	},
-	"users/user-support-1.svg": {
-		"unicode": "EA87",
-		"name": "user-support-1"
-	},
-	"users/user-support.svg": {
-		"unicode": "EA88",
-		"name": "user-support"
-	},
-	"users/user-woman.svg": {
-		"unicode": "EA89",
-		"name": "user-woman"
-	},
-	"users/user.svg": {
-		"unicode": "EA8A",
-		"name": "user"
-	},
-	"users/users-1.svg": {
-		"unicode": "EA8B",
-		"name": "users-1"
-	},
-	"users/users-2.svg": {
-		"unicode": "EA8C",
-		"name": "users-2"
-	},
-	"users/users-3.svg": {
-		"unicode": "EA8D",
-		"name": "users-3"
-	},
-	"users/users.svg": {
-		"unicode": "EA8E",
-		"name": "users"
-	},
-	"videocontrols/backward.svg": {
-		"unicode": "EA8F",
-		"name": "backward"
-	},
-	"videocontrols/eject.svg": {
-		"unicode": "EA90",
-		"name": "eject"
-	},
-	"videocontrols/first.svg": {
-		"unicode": "EA91",
-		"name": "first"
-	},
-	"videocontrols/forward.svg": {
-		"unicode": "EA92",
-		"name": "forward"
-	},
-	"videocontrols/fullscreen-1.svg": {
-		"unicode": "EA93",
-		"name": "fullscreen-1"
-	},
-	"videocontrols/fullscreen.svg": {
-		"unicode": "EA94",
-		"name": "fullscreen"
-	},
-	"videocontrols/last.svg": {
-		"unicode": "EA95",
-		"name": "last"
-	},
-	"videocontrols/loop.svg": {
-		"unicode": "EA96",
-		"name": "loop"
-	},
-	"videocontrols/next.svg": {
-		"unicode": "EA97",
-		"name": "next"
-	},
-	"videocontrols/pause.svg": {
-		"unicode": "EA98",
-		"name": "pause"
-	},
-	"videocontrols/play-1.svg": {
-		"unicode": "EA99",
-		"name": "play-1"
-	},
-	"videocontrols/play-2.svg": {
-		"unicode": "EA9A",
-		"name": "play-2"
-	},
-	"videocontrols/play.svg": {
-		"unicode": "EA9B",
-		"name": "play"
-	},
-	"videocontrols/previous.svg": {
-		"unicode": "EA9C",
-		"name": "previous"
-	},
-	"videocontrols/shuffle.svg": {
-		"unicode": "EA9D",
-		"name": "shuffle"
-	},
-	"videocontrols/stop.svg": {
-		"unicode": "EA9E",
-		"name": "stop"
-	},
-	"volume/volume-high.svg": {
-		"unicode": "EA9F",
-		"name": "volume-high"
-	},
-	"volume/volume-low.svg": {
-		"unicode": "EAA0",
-		"name": "volume-low"
-	},
-	"volume/volume-medium.svg": {
-		"unicode": "EAA1",
-		"name": "volume-medium"
-	},
-	"volume/volume-mute-1.svg": {
-		"unicode": "EAA2",
-		"name": "volume-mute-1"
-	},
-	"volume/volume-mute.svg": {
-		"unicode": "EAA3",
-		"name": "volume-mute"
-	},
-	"applications/3d-view.svg": {
-		"unicode": "EAA4",
-		"name": "3d-view"
-	},
-	"applications/accessibility.svg": {
-		"unicode": "EAA5",
-		"name": "accessibility"
-	},
-	"applications/archive-1.svg": {
-		"unicode": "EAA6",
-		"name": "archive-1"
-	},
-	"applications/archive.svg": {
-		"unicode": "EAA7",
-		"name": "archive"
-	},
-	"applications/attention.svg": {
-		"unicode": "EAA8",
-		"name": "attention"
-	},
-	"applications/award.svg": {
-		"unicode": "EAA9",
-		"name": "award"
-	},
-	"applications/bc-room-style.svg": {
-		"unicode": "EAAA",
-		"name": "bc-room-style"
-	},
-	"applications/bell.svg": {
-		"unicode": "EAAB",
-		"name": "bell"
-	},
-	"applications/blocked.svg": {
-		"unicode": "EAAC",
-		"name": "blocked"
-	},
-	"applications/bullhorn.svg": {
-		"unicode": "EAAD",
-		"name": "bullhorn"
-	},
-	"applications/calendar.svg": {
-		"unicode": "EAAE",
-		"name": "calendar"
-	},
-	"applications/camera-blocked.svg": {
-		"unicode": "EAAF",
-		"name": "camera-blocked"
-	},
-	"applications/camera.svg": {
-		"unicode": "EAB0",
-		"name": "camera"
-	},
-	"applications/cast-connected.svg": {
-		"unicode": "EAB1",
-		"name": "cast-connected"
-	},
-	"applications/cast.svg": {
-		"unicode": "EAB2",
-		"name": "cast"
-	},
-	"applications/checkbox-off.svg": {
-		"unicode": "EAB3",
-		"name": "checkbox-off"
-	},
-	"applications/checkbox-on.svg": {
-		"unicode": "EAB4",
-		"name": "checkbox-on"
-	},
-	"applications/circle.svg": {
-		"unicode": "EAB5",
-		"name": "circle"
-	},
-	"applications/circles.svg": {
-		"unicode": "EAB6",
-		"name": "circles"
-	},
-	"applications/clock-1.svg": {
-		"unicode": "EAB7",
-		"name": "clock-1"
-	},
-	"applications/clock-2.svg": {
-		"unicode": "EAB8",
-		"name": "clock-2"
-	},
-	"applications/clock.svg": {
-		"unicode": "EAB9",
-		"name": "clock"
-	},
-	"applications/close-1.svg": {
-		"unicode": "EABA",
-		"name": "close-1"
-	},
-	"applications/close.svg": {
-		"unicode": "EABB",
-		"name": "close"
-	},
-	"applications/cogs.svg": {
-		"unicode": "EABC",
-		"name": "cogs"
-	},
-	"applications/coin-1.svg": {
-		"unicode": "EABD",
-		"name": "coin-1"
-	},
-	"applications/coin.svg": {
-		"unicode": "EABE",
-		"name": "coin"
-	},
-	"applications/currency-dollar.svg": {
-		"unicode": "EABF",
-		"name": "currency-dollar"
-	},
-	"applications/device.svg": {
-		"unicode": "EAC0",
-		"name": "device"
-	},
-	"applications/equalizer.svg": {
-		"unicode": "EAC1",
-		"name": "equalizer"
-	},
-	"applications/eye-1.svg": {
-		"unicode": "EAC2",
-		"name": "eye-1"
-	},
-	"applications/eye-2.svg": {
-		"unicode": "EAC3",
-		"name": "eye-2"
-	},
-	"applications/eye-blocked.svg": {
-		"unicode": "EAC4",
-		"name": "eye-blocked"
-	},
-	"applications/eye.svg": {
-		"unicode": "EAC5",
-		"name": "eye"
-	},
-	"applications/flag-1.svg": {
-		"unicode": "EAC6",
-		"name": "flag-1"
-	},
-	"applications/flag.svg": {
-		"unicode": "EAC7",
-		"name": "flag"
-	},
-	"applications/flame.svg": {
-		"unicode": "EAC8",
-		"name": "flame"
-	},
-	"applications/gauge.svg": {
-		"unicode": "EAC9",
-		"name": "gauge"
-	},
-	"applications/geotag-1.svg": {
-		"unicode": "EACA",
-		"name": "geotag-1"
-	},
-	"applications/geotag.svg": {
-		"unicode": "EACB",
-		"name": "geotag"
-	},
-	"applications/grid.svg": {
-		"unicode": "EACC",
-		"name": "grid"
-	},
-	"applications/heart-1.svg": {
-		"unicode": "EACD",
-		"name": "heart-1"
-	},
-	"applications/heart.svg": {
-		"unicode": "EACE",
-		"name": "heart"
-	},
-	"applications/house-2.svg": {
-		"unicode": "EACF",
-		"name": "house-2"
-	},
-	"applications/house.svg": {
-		"unicode": "EAD0",
-		"name": "house"
-	},
-	"applications/id-card.svg": {
-		"unicode": "EAD1",
-		"name": "id-card"
-	},
-	"applications/info-2.svg": {
-		"unicode": "EAD2",
-		"name": "info-2"
-	},
-	"applications/info.svg": {
-		"unicode": "EAD3",
-		"name": "info"
-	},
-	"applications/key.svg": {
-		"unicode": "EAD4",
-		"name": "key"
-	},
-	"applications/keyboard.svg": {
-		"unicode": "EAD5",
-		"name": "keyboard"
-	},
-	"applications/layout.svg": {
-		"unicode": "EAD6",
-		"name": "layout"
-	},
-	"applications/lifebuoy.svg": {
-		"unicode": "EAD7",
-		"name": "lifebuoy"
-	},
-	"applications/light-bulb.svg": {
-		"unicode": "EAD8",
-		"name": "light-bulb"
-	},
-	"applications/link.svg": {
-		"unicode": "EAD9",
-		"name": "link"
-	},
-	"applications/lock-1.svg": {
-		"unicode": "EADA",
-		"name": "lock-1"
-	},
-	"applications/lock.svg": {
-		"unicode": "EADB",
-		"name": "lock"
-	},
-	"applications/mathematical-signs.svg": {
-		"unicode": "EADC",
-		"name": "mathematical-signs"
-	},
-	"applications/megaphone.svg": {
-		"unicode": "EADD",
-		"name": "megaphone"
-	},
-	"applications/menu.svg": {
-		"unicode": "EADE",
-		"name": "menu"
-	},
-	"applications/microphone.svg": {
-		"unicode": "EADF",
-		"name": "microphone"
-	},
-	"applications/minus.svg": {
-		"unicode": "EAE0",
-		"name": "minus"
-	},
-	"applications/music.svg": {
-		"unicode": "EAE1",
-		"name": "music"
-	},
-	"applications/navicon-1.svg": {
-		"unicode": "EAE2",
-		"name": "navicon-1"
-	},
-	"applications/navicon.svg": {
-		"unicode": "EAE3",
-		"name": "navicon"
-	},
-	"applications/new.svg": {
-		"unicode": "EAE4",
-		"name": "new"
-	},
-	"applications/paperplane.svg": {
-		"unicode": "EAE5",
-		"name": "paperplane"
-	},
-	"applications/pencil.svg": {
-		"unicode": "EAE6",
-		"name": "pencil"
-	},
-	"applications/phone-1.svg": {
-		"unicode": "EAE7",
-		"name": "phone-1"
-	},
-	"applications/phone-2.svg": {
-		"unicode": "EAE8",
-		"name": "phone-2"
-	},
-	"applications/phone.svg": {
-		"unicode": "EAE9",
-		"name": "phone"
-	},
-	"applications/plus.svg": {
-		"unicode": "EAEA",
-		"name": "plus"
-	},
-	"applications/popup.svg": {
-		"unicode": "EAEB",
-		"name": "popup"
-	},
-	"applications/power-off.svg": {
-		"unicode": "EAEC",
-		"name": "power-off"
-	},
-	"applications/puzzle.svg": {
-		"unicode": "EAED",
-		"name": "puzzle"
-	},
-	"applications/question-1.svg": {
-		"unicode": "EAEE",
-		"name": "question-1"
-	},
-	"applications/question-2.svg": {
-		"unicode": "EAEF",
-		"name": "question-2"
-	},
-	"applications/question.svg": {
-		"unicode": "EAF0",
-		"name": "question"
-	},
-	"applications/rocket.svg": {
-		"unicode": "EAF1",
-		"name": "rocket"
-	},
-	"applications/rss-feed.svg": {
-		"unicode": "EAF2",
-		"name": "rss-feed"
-	},
-	"applications/satellite-antenna.svg": {
-		"unicode": "EAF3",
-		"name": "satellite-antenna"
-	},
-	"applications/screen.svg": {
-		"unicode": "EAF4",
-		"name": "screen"
-	},
-	"applications/search-2.svg": {
-		"unicode": "EAF5",
-		"name": "search-2"
-	},
-	"applications/search-minus.svg": {
-		"unicode": "EAF6",
-		"name": "search-minus"
-	},
-	"applications/search-plus.svg": {
-		"unicode": "EAF7",
-		"name": "search-plus"
-	},
-	"applications/search.svg": {
-		"unicode": "EAF8",
-		"name": "search"
-	},
-	"applications/settings-1.svg": {
-		"unicode": "EAF9",
-		"name": "settings-1"
-	},
-	"applications/settings.svg": {
-		"unicode": "EAFA",
-		"name": "settings"
-	},
-	"applications/share-1.svg": {
-		"unicode": "EAFB",
-		"name": "share-1"
-	},
-	"applications/share.svg": {
-		"unicode": "EAFC",
-		"name": "share"
-	},
-	"applications/shopping-cart-1.svg": {
-		"unicode": "EAFD",
-		"name": "shopping-cart-1"
-	},
-	"applications/shopping-cart.svg": {
-		"unicode": "EAFE",
-		"name": "shopping-cart"
-	},
-	"applications/signal.svg": {
-		"unicode": "EAFF",
-		"name": "signal"
-	},
-	"applications/stack.svg": {
-		"unicode": "EB00",
-		"name": "stack"
-	},
-	"applications/star-1.svg": {
-		"unicode": "EB01",
-		"name": "star-1"
-	},
-	"applications/star-2.svg": {
-		"unicode": "EB02",
-		"name": "star-2"
-	},
-	"applications/star.svg": {
-		"unicode": "EB03",
-		"name": "star"
-	},
-	"applications/stats.svg": {
-		"unicode": "EB04",
-		"name": "stats"
-	},
-	"applications/tablet.svg": {
-		"unicode": "EB05",
-		"name": "tablet"
-	},
-	"applications/tags.svg": {
-		"unicode": "EB06",
-		"name": "tags"
-	},
-	"applications/th.svg": {
-		"unicode": "EB07",
-		"name": "th"
-	},
-	"applications/tick.svg": {
-		"unicode": "EB08",
-		"name": "tick"
-	},
-	"applications/times-circle.svg": {
-		"unicode": "EB09",
-		"name": "times-circle"
-	},
-	"applications/tools.svg": {
-		"unicode": "EB0A",
-		"name": "tools"
-	},
-	"applications/trash-1.svg": {
-		"unicode": "EB0B",
-		"name": "trash-1"
-	},
-	"applications/trash-2.svg": {
-		"unicode": "EB0C",
-		"name": "trash-2"
-	},
-	"applications/trash.svg": {
-		"unicode": "EB0D",
-		"name": "trash"
-	},
-	"applications/tube.svg": {
-		"unicode": "EB0E",
-		"name": "tube"
-	},
-	"applications/tv.svg": {
-		"unicode": "EB0F",
-		"name": "tv"
-	},
-	"applications/unlock.svg": {
-		"unicode": "EB10",
-		"name": "unlock"
-	},
-	"applications/unlocked.svg": {
-		"unicode": "EB11",
-		"name": "unlocked"
-	},
-	"applications/video-1.svg": {
-		"unicode": "EB12",
-		"name": "video-1"
-	},
-	"applications/video-camera.svg": {
-		"unicode": "EB13",
-		"name": "video-camera"
-	},
-	"applications/video.svg": {
-		"unicode": "EB14",
-		"name": "video"
-	},
-	"applications/webcam.svg": {
-		"unicode": "EB15",
-		"name": "webcam"
-	},
-	"applications/wrench-1.svg": {
-		"unicode": "EB16",
-		"name": "wrench-1"
-	},
-	"applications/wrench.svg": {
-		"unicode": "EB17",
-		"name": "wrench"
-	},
 	"comments/comment-1.svg": {
-		"unicode": "EB18",
+		"unicode": "EA01",
 		"name": "comment-1"
 	},
 	"comments/comment.svg": {
-		"unicode": "EB19",
+		"unicode": "EA02",
 		"name": "comment"
 	},
 	"comments/comments-1.svg": {
-		"unicode": "EB1A",
+		"unicode": "EA03",
 		"name": "comments-1"
 	},
 	"comments/comments-2.svg": {
-		"unicode": "EB1B",
+		"unicode": "EA04",
 		"name": "comments-2"
 	},
 	"comments/comments-3.svg": {
-		"unicode": "EB1C",
+		"unicode": "EA05",
 		"name": "comments-3"
 	},
 	"comments/comments.svg": {
-		"unicode": "EB1D",
+		"unicode": "EA06",
 		"name": "comments"
+	},
+	"directionals/angle-double-left-1.svg": {
+		"unicode": "EA07",
+		"name": "angle-double-left-1"
+	},
+	"directionals/angle-double-left.svg": {
+		"unicode": "EA08",
+		"name": "angle-double-left"
+	},
+	"directionals/angle-double-right-1.svg": {
+		"unicode": "EA09",
+		"name": "angle-double-right-1"
+	},
+	"directionals/angle-double-right.svg": {
+		"unicode": "EA0A",
+		"name": "angle-double-right"
+	},
+	"directionals/angle-down-1.svg": {
+		"unicode": "EA0B",
+		"name": "angle-down-1"
+	},
+	"directionals/angle-down-2.svg": {
+		"unicode": "EA0C",
+		"name": "angle-down-2"
+	},
+	"directionals/angle-down.svg": {
+		"unicode": "EA0D",
+		"name": "angle-down"
+	},
+	"directionals/angle-left-1.svg": {
+		"unicode": "EA0E",
+		"name": "angle-left-1"
+	},
+	"directionals/angle-left-2.svg": {
+		"unicode": "EA0F",
+		"name": "angle-left-2"
+	},
+	"directionals/angle-left-3.svg": {
+		"unicode": "EA10",
+		"name": "angle-left-3"
+	},
+	"directionals/angle-left.svg": {
+		"unicode": "EA11",
+		"name": "angle-left"
+	},
+	"directionals/angle-right-1.svg": {
+		"unicode": "EA12",
+		"name": "angle-right-1"
+	},
+	"directionals/angle-right-2.svg": {
+		"unicode": "EA13",
+		"name": "angle-right-2"
+	},
+	"directionals/angle-right-3.svg": {
+		"unicode": "EA14",
+		"name": "angle-right-3"
+	},
+	"directionals/angle-right.svg": {
+		"unicode": "EA15",
+		"name": "angle-right"
+	},
+	"directionals/angle-up-1.svg": {
+		"unicode": "EA16",
+		"name": "angle-up-1"
+	},
+	"directionals/angle-up-2.svg": {
+		"unicode": "EA17",
+		"name": "angle-up-2"
+	},
+	"directionals/angle-up.svg": {
+		"unicode": "EA18",
+		"name": "angle-up"
+	},
+	"directionals/arrow-down.svg": {
+		"unicode": "EA19",
+		"name": "arrow-down"
+	},
+	"directionals/arrow-left-1.svg": {
+		"unicode": "EA1A",
+		"name": "arrow-left-1"
+	},
+	"directionals/arrow-left.svg": {
+		"unicode": "EA1B",
+		"name": "arrow-left"
+	},
+	"directionals/arrow-up.svg": {
+		"unicode": "EA1C",
+		"name": "arrow-up"
+	},
+	"directionals/arrows.svg": {
+		"unicode": "EA1D",
+		"name": "arrows"
+	},
+	"directionals/back.svg": {
+		"unicode": "EA1E",
+		"name": "back"
+	},
+	"directionals/caret-down.svg": {
+		"unicode": "EA1F",
+		"name": "caret-down"
+	},
+	"directionals/caret-left.svg": {
+		"unicode": "EA20",
+		"name": "caret-left"
+	},
+	"directionals/caret-right.svg": {
+		"unicode": "EA21",
+		"name": "caret-right"
+	},
+	"directionals/caret-up.svg": {
+		"unicode": "EA22",
+		"name": "caret-up"
+	},
+	"files/attachment-picture.svg": {
+		"unicode": "EA23",
+		"name": "attachment-picture"
+	},
+	"files/document-1.svg": {
+		"unicode": "EA24",
+		"name": "document-1"
+	},
+	"files/document-2.svg": {
+		"unicode": "EA25",
+		"name": "document-2"
+	},
+	"files/document.svg": {
+		"unicode": "EA26",
+		"name": "document"
+	},
+	"files/documents-1.svg": {
+		"unicode": "EA27",
+		"name": "documents-1"
+	},
+	"files/documents.svg": {
+		"unicode": "EA28",
+		"name": "documents"
+	},
+	"files/edit-document.svg": {
+		"unicode": "EA29",
+		"name": "edit-document"
+	},
+	"files/edit-picture.svg": {
+		"unicode": "EA2A",
+		"name": "edit-picture"
+	},
+	"files/files.svg": {
+		"unicode": "EA2B",
+		"name": "files"
+	},
+	"files/film.svg": {
+		"unicode": "EA2C",
+		"name": "film"
+	},
+	"files/picture.svg": {
+		"unicode": "EA2D",
+		"name": "picture"
+	},
+	"files/pictures.svg": {
+		"unicode": "EA2E",
+		"name": "pictures"
+	},
+	"files/remove-picture.svg": {
+		"unicode": "EA2F",
+		"name": "remove-picture"
+	},
+	"files/search-document.svg": {
+		"unicode": "EA30",
+		"name": "search-document"
+	},
+	"hands/thumbs-down-1.svg": {
+		"unicode": "EA31",
+		"name": "thumbs-down-1"
+	},
+	"hands/thumbs-down.svg": {
+		"unicode": "EA32",
+		"name": "thumbs-down"
+	},
+	"hands/thumbs-up-1.svg": {
+		"unicode": "EA33",
+		"name": "thumbs-up-1"
+	},
+	"hands/thumbs-up.svg": {
+		"unicode": "EA34",
+		"name": "thumbs-up"
+	},
+	"brands/amazon-black.svg": {
+		"unicode": "EA35",
+		"name": "amazon-black"
+	},
+	"brands/android.svg": {
+		"unicode": "EA36",
+		"name": "android"
+	},
+	"brands/apple.svg": {
+		"unicode": "EA37",
+		"name": "apple"
+	},
+	"brands/battlecam.svg": {
+		"unicode": "EA38",
+		"name": "battlecam"
+	},
+	"brands/bc-antispam.svg": {
+		"unicode": "EA39",
+		"name": "bc-antispam"
+	},
+	"brands/bc-follow.svg": {
+		"unicode": "EA3A",
+		"name": "bc-follow"
+	},
+	"brands/bc-hd-broadcast.svg": {
+		"unicode": "EA3B",
+		"name": "bc-hd-broadcast"
+	},
+	"brands/bc-hd.svg": {
+		"unicode": "EA3C",
+		"name": "bc-hd"
+	},
+	"brands/bc-lock.svg": {
+		"unicode": "EA3D",
+		"name": "bc-lock"
+	},
+	"brands/blackberry.svg": {
+		"unicode": "EA3E",
+		"name": "blackberry"
+	},
+	"brands/chrome.svg": {
+		"unicode": "EA3F",
+		"name": "chrome"
+	},
+	"brands/e-tv.svg": {
+		"unicode": "EA40",
+		"name": "e-tv"
+	},
+	"brands/facebook-1.svg": {
+		"unicode": "EA41",
+		"name": "facebook-1"
+	},
+	"brands/facebook.svg": {
+		"unicode": "EA42",
+		"name": "facebook"
+	},
+	"brands/filmon-logo.svg": {
+		"unicode": "EA43",
+		"name": "filmon-logo"
+	},
+	"brands/filmon-premium.svg": {
+		"unicode": "EA44",
+		"name": "filmon-premium"
+	},
+	"brands/filmon-social-tv.svg": {
+		"unicode": "EA45",
+		"name": "filmon-social-tv"
+	},
+	"brands/filmon-you-vids.svg": {
+		"unicode": "EA46",
+		"name": "filmon-you-vids"
+	},
+	"brands/firefox.svg": {
+		"unicode": "EA47",
+		"name": "firefox"
+	},
+	"brands/google-plus-1.svg": {
+		"unicode": "EA48",
+		"name": "google-plus-1"
+	},
+	"brands/google-plus.svg": {
+		"unicode": "EA49",
+		"name": "google-plus"
+	},
+	"brands/ie.svg": {
+		"unicode": "EA4A",
+		"name": "ie"
+	},
+	"brands/instagram.svg": {
+		"unicode": "EA4B",
+		"name": "instagram"
+	},
+	"brands/lg.svg": {
+		"unicode": "EA4C",
+		"name": "lg"
+	},
+	"brands/linux.svg": {
+		"unicode": "EA4D",
+		"name": "linux"
+	},
+	"brands/mac.svg": {
+		"unicode": "EA4E",
+		"name": "mac"
+	},
+	"brands/opera.svg": {
+		"unicode": "EA4F",
+		"name": "opera"
+	},
+	"brands/premiumicon.svg": {
+		"unicode": "EA50",
+		"name": "premiumicon"
+	},
+	"brands/roku.svg": {
+		"unicode": "EA51",
+		"name": "roku"
+	},
+	"brands/safari.svg": {
+		"unicode": "EA52",
+		"name": "safari"
+	},
+	"brands/twitter-1.svg": {
+		"unicode": "EA53",
+		"name": "twitter-1"
+	},
+	"brands/twitter.svg": {
+		"unicode": "EA54",
+		"name": "twitter"
+	},
+	"brands/windows-10.svg": {
+		"unicode": "EA55",
+		"name": "windows-10"
+	},
+	"brands/windows.svg": {
+		"unicode": "EA56",
+		"name": "windows"
+	},
+	"brands/xbox.svg": {
+		"unicode": "EA57",
+		"name": "xbox"
+	},
+	"brands/youtube.svg": {
+		"unicode": "EA58",
+		"name": "youtube"
+	},
+	"mail/mail-1.svg": {
+		"unicode": "EA59",
+		"name": "mail-1"
+	},
+	"mail/mail-2.svg": {
+		"unicode": "EA5A",
+		"name": "mail-2"
+	},
+	"mail/mail-3.svg": {
+		"unicode": "EA5B",
+		"name": "mail-3"
+	},
+	"mail/mail.svg": {
+		"unicode": "EA5C",
+		"name": "mail"
+	},
+	"media/display-heart.svg": {
+		"unicode": "EA5D",
+		"name": "display-heart"
+	},
+	"media/display-play.svg": {
+		"unicode": "EA5E",
+		"name": "display-play"
+	},
+	"media/display-star.svg": {
+		"unicode": "EA5F",
+		"name": "display-star"
+	},
+	"media/television.svg": {
+		"unicode": "EA60",
+		"name": "television"
+	},
+	"media/tv-play.svg": {
+		"unicode": "EA61",
+		"name": "tv-play"
+	},
+	"other/export-1.svg": {
+		"unicode": "EA62",
+		"name": "export-1"
+	},
+	"other/export.svg": {
+		"unicode": "EA63",
+		"name": "export"
+	},
+	"other/login-1.svg": {
+		"unicode": "EA64",
+		"name": "login-1"
+	},
+	"other/login.svg": {
+		"unicode": "EA65",
+		"name": "login"
+	},
+	"other/logout.svg": {
+		"unicode": "EA66",
+		"name": "logout"
+	},
+	"other/newtab-1.svg": {
+		"unicode": "EA67",
+		"name": "newtab-1"
+	},
+	"other/newtab.svg": {
+		"unicode": "EA68",
+		"name": "newtab"
+	},
+	"other/pop-out.svg": {
+		"unicode": "EA69",
+		"name": "pop-out"
+	},
+	"other/reply-1.svg": {
+		"unicode": "EA6A",
+		"name": "reply-1"
+	},
+	"other/reply.svg": {
+		"unicode": "EA6B",
+		"name": "reply"
+	},
+	"other/weather.svg": {
+		"unicode": "EA6C",
+		"name": "weather"
+	},
+	"payment/credit-card-1.svg": {
+		"unicode": "EA6D",
+		"name": "credit-card-1"
+	},
+	"payment/credit-card-2.svg": {
+		"unicode": "EA6E",
+		"name": "credit-card-2"
+	},
+	"payment/credit-card-3.svg": {
+		"unicode": "EA6F",
+		"name": "credit-card-3"
+	},
+	"payment/credit-card.svg": {
+		"unicode": "EA70",
+		"name": "credit-card"
+	},
+	"applications/3d-view.svg": {
+		"unicode": "EA71",
+		"name": "3d-view"
+	},
+	"applications/accessibility.svg": {
+		"unicode": "EA72",
+		"name": "accessibility"
+	},
+	"applications/archive-1.svg": {
+		"unicode": "EA73",
+		"name": "archive-1"
+	},
+	"applications/archive.svg": {
+		"unicode": "EA74",
+		"name": "archive"
+	},
+	"applications/attention.svg": {
+		"unicode": "EA75",
+		"name": "attention"
+	},
+	"applications/award.svg": {
+		"unicode": "EA76",
+		"name": "award"
+	},
+	"applications/bc-room-style.svg": {
+		"unicode": "EA77",
+		"name": "bc-room-style"
+	},
+	"applications/bell.svg": {
+		"unicode": "EA78",
+		"name": "bell"
+	},
+	"applications/blocked.svg": {
+		"unicode": "EA79",
+		"name": "blocked"
+	},
+	"applications/bullhorn.svg": {
+		"unicode": "EA7A",
+		"name": "bullhorn"
+	},
+	"applications/calendar.svg": {
+		"unicode": "EA7B",
+		"name": "calendar"
+	},
+	"applications/camera-blocked.svg": {
+		"unicode": "EA7C",
+		"name": "camera-blocked"
+	},
+	"applications/camera.svg": {
+		"unicode": "EA7D",
+		"name": "camera"
+	},
+	"applications/cast-connected.svg": {
+		"unicode": "EA7E",
+		"name": "cast-connected"
+	},
+	"applications/cast.svg": {
+		"unicode": "EA7F",
+		"name": "cast"
+	},
+	"applications/checkbox-off.svg": {
+		"unicode": "EA80",
+		"name": "checkbox-off"
+	},
+	"applications/checkbox-on.svg": {
+		"unicode": "EA81",
+		"name": "checkbox-on"
+	},
+	"applications/circle.svg": {
+		"unicode": "EA82",
+		"name": "circle"
+	},
+	"applications/circles.svg": {
+		"unicode": "EA83",
+		"name": "circles"
+	},
+	"applications/clock-1.svg": {
+		"unicode": "EA84",
+		"name": "clock-1"
+	},
+	"applications/clock-2.svg": {
+		"unicode": "EA85",
+		"name": "clock-2"
+	},
+	"applications/clock.svg": {
+		"unicode": "EA86",
+		"name": "clock"
+	},
+	"applications/close-1.svg": {
+		"unicode": "EA87",
+		"name": "close-1"
+	},
+	"applications/close.svg": {
+		"unicode": "EA88",
+		"name": "close"
+	},
+	"applications/cogs.svg": {
+		"unicode": "EA89",
+		"name": "cogs"
+	},
+	"applications/coin-1.svg": {
+		"unicode": "EA8A",
+		"name": "coin-1"
+	},
+	"applications/coin.svg": {
+		"unicode": "EA8B",
+		"name": "coin"
+	},
+	"applications/currency-dollar.svg": {
+		"unicode": "EA8C",
+		"name": "currency-dollar"
+	},
+	"applications/device.svg": {
+		"unicode": "EA8D",
+		"name": "device"
+	},
+	"applications/equalizer.svg": {
+		"unicode": "EA8E",
+		"name": "equalizer"
+	},
+	"applications/eye-1.svg": {
+		"unicode": "EA8F",
+		"name": "eye-1"
+	},
+	"applications/eye-2.svg": {
+		"unicode": "EA90",
+		"name": "eye-2"
+	},
+	"applications/eye-blocked.svg": {
+		"unicode": "EA91",
+		"name": "eye-blocked"
+	},
+	"applications/eye.svg": {
+		"unicode": "EA92",
+		"name": "eye"
+	},
+	"applications/flag-1.svg": {
+		"unicode": "EA93",
+		"name": "flag-1"
+	},
+	"applications/flag.svg": {
+		"unicode": "EA94",
+		"name": "flag"
+	},
+	"applications/flame.svg": {
+		"unicode": "EA95",
+		"name": "flame"
+	},
+	"applications/gauge.svg": {
+		"unicode": "EA96",
+		"name": "gauge"
+	},
+	"applications/geotag-1.svg": {
+		"unicode": "EA97",
+		"name": "geotag-1"
+	},
+	"applications/geotag.svg": {
+		"unicode": "EA98",
+		"name": "geotag"
+	},
+	"applications/grid.svg": {
+		"unicode": "EA99",
+		"name": "grid"
+	},
+	"applications/heart-1.svg": {
+		"unicode": "EA9A",
+		"name": "heart-1"
+	},
+	"applications/heart.svg": {
+		"unicode": "EA9B",
+		"name": "heart"
+	},
+	"applications/house-2.svg": {
+		"unicode": "EA9C",
+		"name": "house-2"
+	},
+	"applications/house.svg": {
+		"unicode": "EA9D",
+		"name": "house"
+	},
+	"applications/id-card.svg": {
+		"unicode": "EA9E",
+		"name": "id-card"
+	},
+	"applications/info-2.svg": {
+		"unicode": "EA9F",
+		"name": "info-2"
+	},
+	"applications/info.svg": {
+		"unicode": "EAA0",
+		"name": "info"
+	},
+	"applications/key.svg": {
+		"unicode": "EAA1",
+		"name": "key"
+	},
+	"applications/keyboard-delete-hover.svg": {
+		"unicode": "EAA2",
+		"name": "keyboard-delete-hover"
+	},
+	"applications/keyboard-delete.svg": {
+		"unicode": "EAA3",
+		"name": "keyboard-delete"
+	},
+	"applications/keyboard.svg": {
+		"unicode": "EAA4",
+		"name": "keyboard"
+	},
+	"applications/layout.svg": {
+		"unicode": "EAA5",
+		"name": "layout"
+	},
+	"applications/lifebuoy.svg": {
+		"unicode": "EAA6",
+		"name": "lifebuoy"
+	},
+	"applications/light-bulb.svg": {
+		"unicode": "EAA7",
+		"name": "light-bulb"
+	},
+	"applications/link.svg": {
+		"unicode": "EAA8",
+		"name": "link"
+	},
+	"applications/lock-1.svg": {
+		"unicode": "EAA9",
+		"name": "lock-1"
+	},
+	"applications/lock.svg": {
+		"unicode": "EAAA",
+		"name": "lock"
+	},
+	"applications/mathematical-signs.svg": {
+		"unicode": "EAAB",
+		"name": "mathematical-signs"
+	},
+	"applications/megaphone.svg": {
+		"unicode": "EAAC",
+		"name": "megaphone"
+	},
+	"applications/menu.svg": {
+		"unicode": "EAAD",
+		"name": "menu"
+	},
+	"applications/microphone.svg": {
+		"unicode": "EAAE",
+		"name": "microphone"
+	},
+	"applications/minus.svg": {
+		"unicode": "EAAF",
+		"name": "minus"
+	},
+	"applications/music.svg": {
+		"unicode": "EAB0",
+		"name": "music"
+	},
+	"applications/navicon-1.svg": {
+		"unicode": "EAB1",
+		"name": "navicon-1"
+	},
+	"applications/navicon.svg": {
+		"unicode": "EAB2",
+		"name": "navicon"
+	},
+	"applications/new.svg": {
+		"unicode": "EAB3",
+		"name": "new"
+	},
+	"applications/paperplane.svg": {
+		"unicode": "EAB4",
+		"name": "paperplane"
+	},
+	"applications/pencil.svg": {
+		"unicode": "EAB5",
+		"name": "pencil"
+	},
+	"applications/phone-1.svg": {
+		"unicode": "EAB6",
+		"name": "phone-1"
+	},
+	"applications/phone-2.svg": {
+		"unicode": "EAB7",
+		"name": "phone-2"
+	},
+	"applications/phone.svg": {
+		"unicode": "EAB8",
+		"name": "phone"
+	},
+	"applications/plus.svg": {
+		"unicode": "EAB9",
+		"name": "plus"
+	},
+	"applications/popup.svg": {
+		"unicode": "EABA",
+		"name": "popup"
+	},
+	"applications/power-off.svg": {
+		"unicode": "EABB",
+		"name": "power-off"
+	},
+	"applications/puzzle.svg": {
+		"unicode": "EABC",
+		"name": "puzzle"
+	},
+	"applications/question-1.svg": {
+		"unicode": "EABD",
+		"name": "question-1"
+	},
+	"applications/question-2.svg": {
+		"unicode": "EABE",
+		"name": "question-2"
+	},
+	"applications/question.svg": {
+		"unicode": "EABF",
+		"name": "question"
+	},
+	"applications/rocket.svg": {
+		"unicode": "EAC0",
+		"name": "rocket"
+	},
+	"applications/rss-feed.svg": {
+		"unicode": "EAC1",
+		"name": "rss-feed"
+	},
+	"applications/satellite-antenna.svg": {
+		"unicode": "EAC2",
+		"name": "satellite-antenna"
+	},
+	"applications/screen.svg": {
+		"unicode": "EAC3",
+		"name": "screen"
+	},
+	"applications/search-2.svg": {
+		"unicode": "EAC4",
+		"name": "search-2"
+	},
+	"applications/search-minus.svg": {
+		"unicode": "EAC5",
+		"name": "search-minus"
+	},
+	"applications/search-plus.svg": {
+		"unicode": "EAC6",
+		"name": "search-plus"
+	},
+	"applications/search.svg": {
+		"unicode": "EAC7",
+		"name": "search"
+	},
+	"applications/settings-1.svg": {
+		"unicode": "EAC8",
+		"name": "settings-1"
+	},
+	"applications/settings.svg": {
+		"unicode": "EAC9",
+		"name": "settings"
+	},
+	"applications/share-1.svg": {
+		"unicode": "EACA",
+		"name": "share-1"
+	},
+	"applications/share.svg": {
+		"unicode": "EACB",
+		"name": "share"
+	},
+	"applications/shopping-cart-1.svg": {
+		"unicode": "EACC",
+		"name": "shopping-cart-1"
+	},
+	"applications/shopping-cart.svg": {
+		"unicode": "EACD",
+		"name": "shopping-cart"
+	},
+	"applications/signal.svg": {
+		"unicode": "EACE",
+		"name": "signal"
+	},
+	"applications/stack.svg": {
+		"unicode": "EACF",
+		"name": "stack"
+	},
+	"applications/star-1.svg": {
+		"unicode": "EAD0",
+		"name": "star-1"
+	},
+	"applications/star-2.svg": {
+		"unicode": "EAD1",
+		"name": "star-2"
+	},
+	"applications/star.svg": {
+		"unicode": "EAD2",
+		"name": "star"
+	},
+	"applications/stats.svg": {
+		"unicode": "EAD3",
+		"name": "stats"
+	},
+	"applications/tablet.svg": {
+		"unicode": "EAD4",
+		"name": "tablet"
+	},
+	"applications/tags.svg": {
+		"unicode": "EAD5",
+		"name": "tags"
+	},
+	"applications/th.svg": {
+		"unicode": "EAD6",
+		"name": "th"
+	},
+	"applications/tick.svg": {
+		"unicode": "EAD7",
+		"name": "tick"
+	},
+	"applications/times-circle.svg": {
+		"unicode": "EAD8",
+		"name": "times-circle"
+	},
+	"applications/tools.svg": {
+		"unicode": "EAD9",
+		"name": "tools"
+	},
+	"applications/trash-1.svg": {
+		"unicode": "EADA",
+		"name": "trash-1"
+	},
+	"applications/trash-2.svg": {
+		"unicode": "EADB",
+		"name": "trash-2"
+	},
+	"applications/trash.svg": {
+		"unicode": "EADC",
+		"name": "trash"
+	},
+	"applications/tube.svg": {
+		"unicode": "EADD",
+		"name": "tube"
+	},
+	"applications/tv.svg": {
+		"unicode": "EADE",
+		"name": "tv"
+	},
+	"applications/unlock.svg": {
+		"unicode": "EADF",
+		"name": "unlock"
+	},
+	"applications/unlocked.svg": {
+		"unicode": "EAE0",
+		"name": "unlocked"
+	},
+	"applications/video-1.svg": {
+		"unicode": "EAE1",
+		"name": "video-1"
+	},
+	"applications/video-camera.svg": {
+		"unicode": "EAE2",
+		"name": "video-camera"
+	},
+	"applications/video.svg": {
+		"unicode": "EAE3",
+		"name": "video"
+	},
+	"applications/webcam.svg": {
+		"unicode": "EAE4",
+		"name": "webcam"
+	},
+	"applications/wrench-1.svg": {
+		"unicode": "EAE5",
+		"name": "wrench-1"
+	},
+	"applications/wrench.svg": {
+		"unicode": "EAE6",
+		"name": "wrench"
+	},
+	"spinners/cog.svg": {
+		"unicode": "EAE7",
+		"name": "cog"
+	},
+	"spinners/refresh.svg": {
+		"unicode": "EAE8",
+		"name": "refresh"
+	},
+	"spinners/spinner-1.svg": {
+		"unicode": "EAE9",
+		"name": "spinner-1"
+	},
+	"spinners/spinner-2.svg": {
+		"unicode": "EAEA",
+		"name": "spinner-2"
+	},
+	"spinners/spinner.svg": {
+		"unicode": "EAEB",
+		"name": "spinner"
+	},
+	"texteditor/attachment.svg": {
+		"unicode": "EAEC",
+		"name": "attachment"
+	},
+	"texteditor/cut-1.svg": {
+		"unicode": "EAED",
+		"name": "cut-1"
+	},
+	"texteditor/cut.svg": {
+		"unicode": "EAEE",
+		"name": "cut"
+	},
+	"texteditor/list-1.svg": {
+		"unicode": "EAEF",
+		"name": "list-1"
+	},
+	"texteditor/list-2.svg": {
+		"unicode": "EAF0",
+		"name": "list-2"
+	},
+	"texteditor/list.svg": {
+		"unicode": "EAF1",
+		"name": "list"
+	},
+	"texteditor/table.svg": {
+		"unicode": "EAF2",
+		"name": "table"
+	},
+	"download/download-1.svg": {
+		"unicode": "EAF3",
+		"name": "download-1"
+	},
+	"download/download-2.svg": {
+		"unicode": "EAF4",
+		"name": "download-2"
+	},
+	"download/download-3.svg": {
+		"unicode": "EAF5",
+		"name": "download-3"
+	},
+	"download/download.svg": {
+		"unicode": "EAF6",
+		"name": "download"
+	},
+	"download/upload-1.svg": {
+		"unicode": "EAF7",
+		"name": "upload-1"
+	},
+	"download/upload-2.svg": {
+		"unicode": "EAF8",
+		"name": "upload-2"
+	},
+	"download/upload-3.svg": {
+		"unicode": "EAF9",
+		"name": "upload-3"
+	},
+	"download/upload.svg": {
+		"unicode": "EAFA",
+		"name": "upload"
+	},
+	"videocontrols/backward.svg": {
+		"unicode": "EAFB",
+		"name": "backward"
+	},
+	"videocontrols/eject.svg": {
+		"unicode": "EAFC",
+		"name": "eject"
+	},
+	"videocontrols/first.svg": {
+		"unicode": "EAFD",
+		"name": "first"
+	},
+	"videocontrols/forward.svg": {
+		"unicode": "EAFE",
+		"name": "forward"
+	},
+	"videocontrols/fullscreen-1.svg": {
+		"unicode": "EAFF",
+		"name": "fullscreen-1"
+	},
+	"videocontrols/fullscreen.svg": {
+		"unicode": "EB00",
+		"name": "fullscreen"
+	},
+	"videocontrols/last.svg": {
+		"unicode": "EB01",
+		"name": "last"
+	},
+	"videocontrols/loop.svg": {
+		"unicode": "EB02",
+		"name": "loop"
+	},
+	"videocontrols/next.svg": {
+		"unicode": "EB03",
+		"name": "next"
+	},
+	"videocontrols/pause.svg": {
+		"unicode": "EB04",
+		"name": "pause"
+	},
+	"videocontrols/play-1.svg": {
+		"unicode": "EB05",
+		"name": "play-1"
+	},
+	"videocontrols/play-2.svg": {
+		"unicode": "EB06",
+		"name": "play-2"
+	},
+	"videocontrols/play.svg": {
+		"unicode": "EB07",
+		"name": "play"
+	},
+	"videocontrols/previous.svg": {
+		"unicode": "EB08",
+		"name": "previous"
+	},
+	"videocontrols/shuffle.svg": {
+		"unicode": "EB09",
+		"name": "shuffle"
+	},
+	"videocontrols/stop.svg": {
+		"unicode": "EB0A",
+		"name": "stop"
+	},
+	"users/add-user.svg": {
+		"unicode": "EB0B",
+		"name": "add-user"
+	},
+	"users/find-users.svg": {
+		"unicode": "EB0C",
+		"name": "find-users"
+	},
+	"users/remove-user.svg": {
+		"unicode": "EB0D",
+		"name": "remove-user"
+	},
+	"users/user-1.svg": {
+		"unicode": "EB0E",
+		"name": "user-1"
+	},
+	"users/user-2.svg": {
+		"unicode": "EB0F",
+		"name": "user-2"
+	},
+	"users/user-3.svg": {
+		"unicode": "EB10",
+		"name": "user-3"
+	},
+	"users/user-4.svg": {
+		"unicode": "EB11",
+		"name": "user-4"
+	},
+	"users/user-5.svg": {
+		"unicode": "EB12",
+		"name": "user-5"
+	},
+	"users/user-support-1.svg": {
+		"unicode": "EB13",
+		"name": "user-support-1"
+	},
+	"users/user-support.svg": {
+		"unicode": "EB14",
+		"name": "user-support"
+	},
+	"users/user-woman.svg": {
+		"unicode": "EB15",
+		"name": "user-woman"
+	},
+	"users/user.svg": {
+		"unicode": "EB16",
+		"name": "user"
+	},
+	"users/users-1.svg": {
+		"unicode": "EB17",
+		"name": "users-1"
+	},
+	"users/users-2.svg": {
+		"unicode": "EB18",
+		"name": "users-2"
+	},
+	"users/users-3.svg": {
+		"unicode": "EB19",
+		"name": "users-3"
+	},
+	"users/users.svg": {
+		"unicode": "EB1A",
+		"name": "users"
+	},
+	"volume/volume-high.svg": {
+		"unicode": "EB1B",
+		"name": "volume-high"
+	},
+	"volume/volume-low.svg": {
+		"unicode": "EB1C",
+		"name": "volume-low"
+	},
+	"volume/volume-medium.svg": {
+		"unicode": "EB1D",
+		"name": "volume-medium"
+	},
+	"volume/volume-mute-1.svg": {
+		"unicode": "EB1E",
+		"name": "volume-mute-1"
+	},
+	"volume/volume-mute.svg": {
+		"unicode": "EB1F",
+		"name": "volume-mute"
 	}
 }
