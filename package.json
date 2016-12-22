@@ -5,7 +5,7 @@
   "main": "src/js/filmonIconGenerator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "/usr/bin/node ./src/server.js"
+    "start": "gulp scripts && /usr/bin/node ./src/server.js"
   },
   "authors": [
       "Marina Tsymbal <marina.tsymbal@filmon.com>",
