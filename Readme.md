@@ -10,6 +10,7 @@ git clone git@github.com:CosaNostra-UA/iconfont.git
 npm install && npm run start
 ```
 
+
 ## Usage
 
 ### Integration for your project
@@ -63,8 +64,8 @@ npm run server
 {
   "config": {
     "destFontPath": "fonts/",
-    "className": "filmon",
-    "fontFamily": "filmon-icon"
+    "className": "%your-project%",
+    "fontFamily": "%your-project%-icon"
   },
   "iconslist": {
     "comment-icons/comments-3.svg": {
