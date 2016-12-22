@@ -20,20 +20,20 @@ require('gulp-task-list')(gulp);
 
 
 /// Browser-Sync task for development.
-gulp.task('serve', ['build'] ,
+gulp.task('serve', ['basefont', 'scripts'] ,
     function() {
         browserSync.init({
            server : "public/",
            open: true
         });
 
-        gulp.watch(["src/*/*.js"], ['watch:js']);
+        return gulp.watch(["src/*/*.js"], ['watch:js']);
     }
 );
 
 // compile JS scripts.
 gulp.task("scripts", function() {
-	gulp.src('src/js/*.js')
+	return gulp.src('src/js/*.js')
         .pipe(browserify()) // require()
         .pipe(uglify()) //
         .pipe(gulp.dest('public/js'));

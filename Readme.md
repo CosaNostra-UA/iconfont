@@ -1,25 +1,16 @@
-# FilmOn IconFont Library
+# CosaNostra (ex FilmOn/111pix team) IconFont Library
 
 Universal library to generate icon fonts across all our's projects
 
 ## Installation
 
-```
-git clone https://github.com/CosaNostra-UA/iconfont.git
-```
-
-or
 
 ```
 git clone git@github.com:CosaNostra-UA/iconfont.git
+npm install && npm run start
 ```
 
-then
 
-```
-cd {%destination%}/iconfont 
-npm install
-```
 ## Usage
 
 ### Integration for your project
