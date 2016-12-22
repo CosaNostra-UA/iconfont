@@ -5,16 +5,27 @@ Universal library to generate icon fonts across all our's projects
 ## Installation
 
 ```
-git clone ssh://git@git.111pix.com:7999/fw/library-iconfont.git
-npm install
+git clone https://github.com/CosaNostra-UA/iconfont.git
 ```
 
+or
+
+```
+git clone git@github.com:CosaNostra-UA/iconfont.git
+```
+
+then
+
+```
+cd {%destination%}/iconfont 
+npm install
+```
 ## Usage
 
 ### Integration for your project
 
 ```
-npm install --save git+ssh://git@git.111pix.com:7999/fw/library-iconfont.git
+npm install --save git+ssh://git@github.com:CosaNostra-UA/iconfont.git
 ```
 
  - Create selection config somewhere (gulp/font-config.json) using your favorite editor or iconfont webinterface
@@ -62,8 +73,8 @@ npm run server
 {
   "config": {
     "destFontPath": "fonts/",
-    "className": "filmon",
-    "fontFamily": "filmon-icon"
+    "className": "%your-project%",
+    "fontFamily": "%your-project%-icon"
   },
   "iconslist": {
     "comment-icons/comments-3.svg": {
