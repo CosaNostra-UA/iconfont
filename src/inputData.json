@@ -1,8 +1,8 @@
 {
   "config": {
     "destFontPath": "fonts/",
-    "className": "filmon",
-    "fontFamily": "filmon-icon"
+    "className": "your-project",
+    "fontFamily": "your-project-icon"
   },
   "iconslist": {
     "brands/filmon-logo.svg": {
