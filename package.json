@@ -7,7 +7,11 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "/usr/bin/node ./src/server.js"
   },
-  "author": "Marina Tsymbal <marina.tsymbal@filmon.com>",
+  "authors": [
+      "Marina Tsymbal <marina.tsymbal@filmon.com>",
+      "Nickolay (mbikola) Kharchevin <kharchevyn@gmail.com>",
+      "Mikhail Drakus <mikhail.drakus@filmon.com>"
+  ],
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.14.2",
@@ -30,11 +34,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "ssh://git@git.111pix.com:7999/fw/library-iconfont.git"
+    "url": "git@github.com:CosaNostra-UA/iconfont.git"
   },
-  "homepage": "http://www.filmon.com/",
+  "homepage": "https://github.com/CosaNostra-UA/iconfont",
   "bugs": {
-    "url": "http://pm.filmon.com:8080/browse/FILMONCOM"
+    "url": "https://github.com/CosaNostra-UA/iconfont/issues"
   },
   "engines": {
     "node": ">=0.12.0"
