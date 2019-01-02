@@ -8,29 +8,26 @@
     "start": "gulp scripts && /usr/bin/node ./src/server.js"
   },
   "authors": [
-      "Marina Tsymbal <marina.tsymbal@filmon.com>",
-      "Nickolay (mbikola) Kharchevin <kharchevyn@gmail.com>",
-      "Mikhail Drakus <mikhail.drakus@filmon.com>"
+    "Marina Tsymbal <marina.tsymbal@filmon.com>",
+    "Nickolay (mbikola) Kharchevin <kharchevyn@gmail.com>",
+    "Mikhail Drakus <mikhail.drakus@filmon.com>"
   ],
   "license": "ISC",
   "dependencies": {
-    "body-parser": "^1.14.2",
-    "browser-sync": "^2.10.1",
-    "browserify": "^12.0.1",
-    "express": "^4.13.3",
-    "gulp": "^3.9.0",
+    "body-parser": "^1.18.3",
+    "browser-sync": "^2.26.3",
+    "browserify": "^16.2.3",
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
     "gulp-browserify": "^0.5.1",
-    "gulp-iconfont": "^5.0.1",
-    "gulp-jade": "^1.1.0",
-    "gulp-rename": "^1.2.2",
-    "gulp-stats": "0.0.3",
-    "gulp-task-list": "0.0.1",
-    "gulp-uglify": "^1.5.1",
-    "gulp-util": "^3.0.7",
-    "gulp-zip": "^3.0.2",
-    "readable-stream": "^2.0.5",
-    "string.fromcodepoint": "^0.2.1",
-    "jquery": "^2.1.4"
+    "gulp-iconfont": "^10.0.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-stats": "0.0.4",
+    "gulp-task-list": "0.0.2",
+    "gulp-uglify": "^3.0.1",
+    "gulp-util": "^3.0.8",
+    "readable-stream": "^3.1.1",
+    "string.fromcodepoint": "^0.2.1"
   },
   "repository": {
     "type": "git",
@@ -45,7 +42,7 @@
   },
   "devDependencies": {
     "gulp-jade": "^1.1.0",
-    "gulp-zip": "^3.1.0",
-    "jquery": "^2.1.4"
+    "gulp-zip": "^4.2.0",
+    "jquery": "^3.3.1"
   }
 }
